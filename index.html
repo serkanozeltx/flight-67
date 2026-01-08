@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day of AI: Flight 67 - Passenger Manifest</title>
+    <style>
+      :root {
+        --primary-color: #0d2c54;
+        --accent-color: #00a8e8;
+        --you-color: #1e40af;
+        --alex-color: #4f46e5;
+        --bg-color: #f0f4f8;
+        --seat-available: #cbd5e1;
+        --seat-hover: #00a8e8;
+        --seat-selected: #10b981;
+        --seat-you: #1e40af;
+        --fuselage-color: #ffffff;
+        --text-main: #334155;
+        --text-light: #64748b;
+      }
+
+      body {
+        font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 0.6rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        z-index: 50;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+      }
+      .badge {
+        background: #ef4444;
+        color: white;
+        padding: 2px 8px;
+        border-radius: 4px;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      /* Toggle Toolbar */
+      .toggle-toolbar {
+        background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+        padding: 12px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        border-bottom: 2px solid #0d2c54;
+      }
+      .toolbar-label {
+        color: #94a3b8;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-right: 10px;
+        font-weight: 600;
+      }
+      .toggle-group {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(255, 255, 255, 0.05);
+        padding: 6px 12px;
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .toggle-group-label {
+        color: #e2e8f0;
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin-right: 8px;
+      }
+      .toggle-btn {
+        padding: 6px 12px;
+        border: none;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        cursor: pointer;
+        transition: all 0.2s;
+        font-weight: 500;
+      }
+      .toggle-btn.inactive {
+        background: #475569;
+        color: #94a3b8;
+      }
+      .toggle-btn.active {
+        background: #10b981;
+        color: white;
+        box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+      }
+      .toggle-btn:hover {
+        transform: translateY(-1px);
+      }
+      .divider {
+        width: 1px;
+        height: 30px;
+        background: rgba(255, 255, 255, 0.2);
+        margin: 0 8px;
+      }
+
+      /* Main Layout */
+      .main-container {
+        display: flex;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .sidebar {
+        width: 340px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        z-index: 40;
+        flex-shrink: 0;
+      }
+
+      .left-sidebar {
+        border-right: 1px solid #cbd5e1;
+        background-color: #f8fafc;
+      }
+
+      .right-sidebar {
+        border-left: 1px solid #cbd5e1;
+        box-shadow: -5px 0 25px rgba(0, 0, 0, 0.05);
+      }
+
+      .sidebar-header {
+        padding: 15px;
+        border-bottom: 1px solid #e2e8f0;
+        background: #fff;
+      }
+
+      .left-sidebar .sidebar-header {
+        background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+        border-bottom: 2px solid var(--alex-color);
+      }
+
+      .sidebar-scroll {
+        padding: 15px;
+        overflow-y: auto;
+        flex: 1;
+      }
+
+      /* Plane Area */
+      .plane-area {
+        flex: 1;
+        padding: 16px 20px;
+        overflow-y: auto;
+        background-color: #e2e8f0;
+        display: flex;
+        justify-content: center;
+        /* Important: keep start-aligned so when plane > viewport, you can scroll to the true top */
+        align-items: flex-start;
+        background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+        background-size: 20px 20px;
+      }
+
+      .plane-wrapper {
+        position: relative;
+        margin: 0 auto;
+        /* Fit the available vertical space inside plane-area padding when possible */
+        height: calc(100% - 32px);
+        /* Logical minimum: if the viewport is smaller than this, we scroll */
+        min-height: 600px;
+        max-height: 1000px;
+        display: flex;
+        align-items: center;
+      }
+
+      .wing {
+        position: absolute;
+        width: 260px;
+        background-color: #cbd5e1;
+        border: 2px solid #94a3b8;
+        z-index: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+      /* Responsive wing height - scales with plane */
+      .wing {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        height: clamp(240px, 40%, 400px);
+      }
+
+      .wing.left {
+        left: -230px;
+        transform: skewY(-15deg);
+        border-radius: 20px 0 0 80px;
+        border-right: none;
+      }
+      .wing.right {
+        right: -230px;
+        transform: skewY(15deg);
+        border-radius: 0 20px 80px 0;
+        border-left: none;
+      }
+
+      /* Wing logo styling */
+      .wing-logo {
+        width: 44%;
+        height: auto;
+        opacity: 0.45;
+        pointer-events: none;
+      }
+      .wing.left .wing-logo {
+        transform: skewY(15deg);
+      }
+      .wing.right .wing-logo {
+        transform: skewY(-15deg);
+      }
+
+      .fuselage {
+        background-color: var(--fuselage-color);
+        border-radius: 140px 140px 50px 50px;
+        padding: clamp(50px, 8vh, 70px) 20px clamp(40px, 6vh, 60px) 20px;
+        width: 240px;
+        position: relative;
+        border: 3px solid #94a3b8;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        /* Comfortable height that fits on screen with margin */
+        height: clamp(600px, 75vh, 900px);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .fuselage::before {
+        content: '';
+        position: absolute;
+        top: 22px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 32px;
+        background: #1e293b;
+        border-radius: 16px 16px 8px 8px;
+        border: 2px solid #475569;
+      }
+
+      .cabin-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 32px repeat(2, 1fr);
+        column-gap: 8px;
+        row-gap: 0px;
+        flex: 1;
+        align-content: space-evenly;
+      }
+
+      @media (max-width: 1100px) {
+        .wing {
+          width: 220px;
+        }
+        .wing.left {
+          left: -190px;
+        }
+        .wing.right {
+          right: -190px;
+        }
+        .wing-logo {
+          width: 45%;
+        }
+      }
+
+      .seat {
+        height: clamp(35px, 5vh, 40px);
+        background-color: var(--seat-available);
+        border-radius: 6px 6px 10px 10px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 0.7rem;
+        color: var(--primary-color);
+        position: relative;
+        transition: all 0.2s;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      .seat::after {
+        content: '';
+        position: absolute;
+        top: -4px;
+        width: 55%;
+        height: 4px;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 3px 3px 0 0;
+      }
+      .seat:hover:not(.you-seat) {
+        background-color: var(--seat-hover);
+        color: white;
+        transform: translateY(-2px);
+      }
+      .seat.selected {
+        background-color: var(--seat-selected);
+        color: white;
+        box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--seat-selected);
+        z-index: 20;
+        transform: scale(1.05);
+      }
+      .seat.you-seat {
+        background-color: var(--seat-you);
+        color: white;
+        cursor: default;
+        font-weight: 800;
+      }
+      .seat.alex-seat {
+        border: 2px solid var(--alex-color);
+      }
+      .aisle-spacer {
+        grid-column: 3;
+      }
+
+      /* Profile Styles */
+      .placeholder {
+        text-align: center;
+        color: var(--text-light);
+        margin-top: 50%;
+        transform: translateY(-50%);
+      }
+      .placeholder h3 {
+        margin-bottom: 10px;
+        color: var(--primary-color);
+      }
+
+      .profile-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 15px;
+      }
+
+      .avatar {
+        width: 70px;
+        height: 70px;
+        background: var(--primary-color);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        overflow: hidden;
+        border: 3px solid #e2e8f0;
+        flex-shrink: 0;
+      }
+      .avatar img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .avatar.male img {
+        object-position: center top;
+      }
+      .avatar.female img {
+        object-fit: cover;
+        object-position: center 20%;
+      }
+
+      .left-sidebar .avatar {
+        border-color: var(--alex-color);
+      }
+
+      .profile-name h2 {
+        margin: 0;
+        font-size: 1.2rem;
+        color: var(--primary-color);
+      }
+      .profile-name span {
+        color: var(--text-light);
+        font-size: 0.85rem;
+      }
+      .friend-badge {
+        font-size: 0.65rem;
+        color: var(--alex-color);
+        text-transform: uppercase;
+        font-weight: 900;
+        letter-spacing: 1px;
+        background: #eef2ff;
+        padding: 2px 6px;
+        border-radius: 4px;
+      }
+
+      .data-section {
+        margin-bottom: 18px;
+      }
+      .data-section.hidden {
+        display: none;
+      }
+      .section-title {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--text-light);
+        border-bottom: 2px solid #e2e8f0;
+        padding-bottom: 4px;
+        margin-bottom: 8px;
+        font-weight: 700;
+      }
+
+      .grid-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+      }
+      .info-item label {
+        display: block;
+        font-size: 0.65rem;
+        color: var(--text-light);
+        text-transform: uppercase;
+      }
+      .info-item div {
+        font-weight: 500;
+        font-size: 0.85rem;
+        word-break: break-word;
+      }
+
+      .tag {
+        display: inline-block;
+        padding: 3px 6px;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        margin-right: 4px;
+        margin-bottom: 4px;
+        background: #f1f5f9;
+        color: #475569;
+      }
+      .tag.insta {
+        background: #fce7f3;
+        color: #be185d;
+      }
+      .tag.snap {
+        background: #fef3c7;
+        color: #b45309;
+      }
+      .tag.tiktok {
+        background: #000;
+        color: #fff;
+      }
+      .tag.youtube {
+        background: #ef4444;
+        color: #fff;
+      }
+
+      .list-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .list-item {
+        background: #f8fafc;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #e2e8f0;
+        font-size: 0.8rem;
+      }
+      .list-item.text-msg {
+        border-left: 3px solid var(--accent-color);
+      }
+      .list-item.website {
+        border-left: 3px solid #6366f1;
+        color: #4f46e5;
+        font-family: monospace;
+        font-size: 0.75rem;
+      }
+      .list-item.purchase {
+        border-left: 3px solid var(--seat-selected);
+      }
+      .purchase-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .purchase-item {
+        font-size: 0.7rem;
+        color: #64748b;
+        margin-top: 2px;
+      }
+
+      .meta {
+        font-size: 0.7rem;
+        color: #94a3b8;
+        margin-bottom: 3px;
+        display: block;
+      }
+      .amount {
+        font-weight: bold;
+        font-family: monospace;
+      }
+      .email-link {
+        color: var(--accent-color);
+        text-decoration: none;
+        font-size: 0.8rem;
+        display: block;
+      }
+
+      .ai-score-box {
+        background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+        border: 2px solid #f59e0b;
+        border-radius: 8px;
+        padding: 12px;
+        margin-top: 10px;
+        text-align: center;
+      }
+      .ai-score-box.high-risk {
+        background: linear-gradient(135deg, #fee2e2 0%, #fecaca 100%);
+        border-color: #ef4444;
+      }
+      .ai-score-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        color: #92400e;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      .ai-score-box.high-risk .ai-score-label {
+        color: #b91c1c;
+      }
+      .ai-score-value {
+        font-size: 2rem;
+        font-weight: 900;
+        color: #b45309;
+        line-height: 1;
+        margin-top: 4px;
+      }
+      .ai-score-box.high-risk .ai-score-value {
+        color: #dc2626;
+      }
+
+      .confidence-box {
+        background: #f0fdf4;
+        border: 1px solid #86efac;
+        border-radius: 6px;
+        padding: 8px;
+        margin-top: 10px;
+      }
+      .confidence-label {
+        font-size: 0.65rem;
+        text-transform: uppercase;
+        color: #166534;
+        font-weight: 600;
+      }
+      .confidence-value {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #15803d;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>✈️ DAY OF AI: FLIGHT 67 PASSENGER MANIFEST</h1>
+      <span class="badge">CONFIDENTIAL</span>
+    </header>
+
+    <div class="toggle-toolbar">
+      <span class="toolbar-label">Data Access:</span>
+
+      <div class="toggle-group">
+        <span class="toggle-group-label">Biometrics</span>
+        <button class="toggle-btn active" data-toggle="biometrics">ON</button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="toggle-group">
+        <span class="toggle-group-label">Cell Phone Data</span>
+        <button class="toggle-btn inactive" data-toggle="digital">
+          Digital Profile
+        </button>
+        <button class="toggle-btn inactive" data-toggle="websites">
+          Websites
+        </button>
+        <button class="toggle-btn inactive" data-toggle="texts">Texts</button>
+        <button class="toggle-btn inactive" data-toggle="purchases">
+          Purchases
+        </button>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="toggle-group">
+        <span class="toggle-group-label">AI Analysis</span>
+        <button class="toggle-btn inactive" data-toggle="facial">
+          Facial Rec
+        </button>
+        <button class="toggle-btn inactive" data-toggle="suspect">
+          Suspect Score
+        </button>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="sidebar left-sidebar">
+        <div
+          id="alex-profile-content"
+          style="height: 100%; display: flex; flex-direction: column"
+        ></div>
+      </div>
+
+      <div class="plane-area" id="click-zone">
+        <div class="plane-wrapper">
+          <div class="wing left">
+            <img src="doai-blue-text.png" alt="Day of AI" class="wing-logo" />
+          </div>
+          <div class="wing right">
+            <img src="doai-blue-text.png" alt="Day of AI" class="wing-logo" />
+          </div>
+          <div class="fuselage">
+            <div class="cabin-grid" id="seat-map"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar right-sidebar">
+        <div id="sidebar-placeholder" class="placeholder">
+          <h3>Select a Passenger</h3>
+          <p>Click a seat to view<br />available data.</p>
+        </div>
+        <div
+          id="sidebar-content"
+          style="display: none; height: 100%; flex-direction: column"
+        ></div>
+      </div>
+    </div>
+
+    <script src="passengers.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
