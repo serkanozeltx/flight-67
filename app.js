@@ -39,34 +39,37 @@ function calculateSuspectScore(passenger) {
   let percentage = Math.min(97, Math.floor((score / maxPossible) * 100));
   
   // Special scoring for key characters based on what data is enabled
-  // Alex Mercer: High text score, low purchase score (suspicious texts)
-  // Marcus Webb: High purchase score, low text score (suspicious purchases)
+  // Alex Mercer: High text score, low purchase score (suspicious texts) - FALSE POSITIVE when facial rec is on
+  // Marcus Webb: High purchase score, low text score (suspicious purchases) - ACTUAL CULPRIT
   
   if (passenger.isAlex) {
-    // Alex should be highest when texts are enabled
-    if (toggleState.texts && !toggleState.purchases) {
-      percentage = Math.max(percentage, 92); // High when texts only
+    // Alex becomes the false positive ONLY when facial recognition is enabled
+    // Facial recognition "confirms" a mistaken identity, making him look like the top suspect
+    if (toggleState.facial) {
+      if (toggleState.purchases && toggleState.texts) {
+        percentage = 99; // Highest score - false positive triggered by facial rec
+      } else if (toggleState.texts) {
+        percentage = Math.max(percentage, 94); // High with facial + texts
+      } else {
+        percentage = Math.max(percentage, 85); // Moderate with just facial
+      }
     }
-    if (toggleState.texts && toggleState.purchases) {
-      percentage = Math.max(percentage, 95); // Very high with both
-    }
-    // When ALL data enabled, Alex is the top suspect (false positive!)
-    if (toggleState.purchases && toggleState.texts && toggleState.facial) {
-      percentage = 99;
-    }
+    // Without facial recognition, Alex's score stays lower (based on raw calculation)
+    // His texts are suspicious but not enough to make him top suspect
   }
   
   if (passenger.name === "Marcus Webb") {
-    // Marcus should be highest when purchases are enabled but NOT texts
-    if (toggleState.purchases && !toggleState.texts) {
-      percentage = Math.max(percentage, 94); // Highest when purchases only
+    // Marcus is the actual culprit - his purchases are truly suspicious
+    // He should be top suspect when facial recognition is OFF
+    if (toggleState.purchases && !toggleState.facial) {
+      percentage = Math.max(percentage, 94); // Highest when purchases enabled, no facial
     }
-    if (toggleState.texts && toggleState.purchases) {
-      percentage = Math.max(percentage, 90); // Lower when texts added (Alex's texts are more suspicious)
+    if (toggleState.purchases && toggleState.texts && !toggleState.facial) {
+      percentage = Math.max(percentage, 92); // Still high with texts added, no facial
     }
-    // When ALL data enabled, Marcus is second highest
+    // When facial recognition is ON, Marcus drops to second (Alex becomes false positive)
     if (toggleState.purchases && toggleState.texts && toggleState.facial) {
-      percentage = 98;
+      percentage = 98; // Second highest - actual culprit overshadowed by false positive
     }
   }
   
