@@ -4,32 +4,19 @@ const path = require('path');
 const filePath = path.join(__dirname, 'passengers.js');
 let fileContent = fs.readFileSync(filePath, 'utf-8');
 
-// We evaluate the file to get the objects
 const scriptToEval = fileContent + '\nmodule.exports = { passengerData, config };';
 const tempPath = path.join(__dirname, 'temp_passengers.js');
 fs.writeFileSync(tempPath, scriptToEval);
 
 const { passengerData, config } = require('./temp_passengers');
 
+const fakeDomains = ['tmail.com', 'coldmail.com', 'ymail.net', 'zposta.com', 'iletinet.com', 'hizlimail.com', 'postakutum.tr'];
+
 const trMaleNames = ['Emre', 'Can', 'Burak', 'Ahmet', 'Mehmet', 'Ali', 'Ozan', 'Cem', 'Kaan', 'Mert', 'Kerem', 'Deniz', 'Barış', 'Ege', 'Arda', 'Berke', 'Tolga'];
 const trFemaleNames = ['Ayşe', 'Zeynep', 'Elif', 'Defne', 'Nehir', 'Selin', 'Aslı', 'Ceren', 'Derya', 'İrem', 'Eda', 'Merve', 'Büşra', 'Melis', 'Buse', 'İnci'];
 const trSurnames = ['Yılmaz', 'Kaya', 'Demir', 'Çelik', 'Şahin', 'Yıldız', 'Öztürk', 'Aydın', 'Özdemir', 'Arslan', 'Doğan', 'Kılıç', 'Aslan', 'Çetin', 'Kara'];
 const trCities = ['İstanbul', 'Ankara', 'İzmir', 'Antalya', 'Bursa', 'Adana', 'Konya', 'Mersin', 'Gaziantep', 'Eskişehir', 'Samsun', 'Trabzon', 'Denizli'];
 
-const purchaseVendors = ['YapıMarket', 'SüperMarket', 'Kahvecim', 'KitapDünyası', 'GiyimMağazası', 'ModaTrend', 'KozmetikDünyası', 'TeknoMerkez'];
-const purchaseItems = [
-  { name: 'Kahve', min: 120, max: 180 },
-  { name: 'Sandviç', min: 150, max: 300 },
-  { name: 'Kitap', min: 300, max: 600 },
-  { name: 'Şarj Kablosu', min: 300, max: 800 },
-  { name: 'Kulaklık', min: 2000, max: 8000 },
-  { name: 'Güneş Gözlüğü', min: 3000, max: 15000 },
-  { name: 'Parfüm', min: 3000, max: 10000 },
-  { name: 'Tişört', min: 600, max: 1500 },
-  { name: 'Çikolata', min: 100, max: 300 },
-  { name: 'Su', min: 25, max: 50 },
-  { name: 'Dergi', min: 150, max: 300 }
-];
 const texts = [
   "Uçağa biniyorum!", "Biraz gecikebilirim.", "Pasaport kontrolündeyim.", 
   "Gelince haber ver.", "Seni bekliyorum.", "Yolculuk başlıyor!", 
@@ -39,21 +26,21 @@ const texts = [
 ];
 const websites = ['www.ornek-sosyal.com', 'www.video-izle.com', 'www.alisveris-yap.com', 'www.trend-market.com', 'www.kisa-mesaj.com', 'www.film-dizim.com', 'www.ilan-bul.com', 'www.yemek-iste.com', 'www.muzik-dinle.com'];
 
-const fakeDomains = ['tmail.com', 'coldmail.com', 'ymail.net', 'zposta.com', 'iletinet.com', 'hizlimail.com', 'postakutum.tr'];
-
 function getRandomItem(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
 function getRandomRecentDate() {
-  const start = new Date(2026, 3, 15); // April 15, 2026
-  const end = new Date(2026, 4, 10); // May 10, 2026
+  const start = new Date(2026, 3, 15);
+  const end = new Date(2026, 4, 10);
   const date = new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
-  return date.toISOString().split('T')[0];
+  const d = String(date.getDate()).padStart(2, '0');
+  const m = String(date.getMonth() + 1).padStart(2, '0');
+  const y = date.getFullYear();
+  return `${d}-${m}-${y}`;
 }
 
 function parseHeight(h) {
-  // 5'4" -> 5 * 30.48 + 4 * 2.54
   const match = h.match(/(\d+)'(\d+)"/);
   if (match) {
     const ft = parseInt(match[1]);
@@ -63,30 +50,82 @@ function parseHeight(h) {
   return h;
 }
 
+const itemCategories = [
+  { regex: /Water|Bottle/i, type: 'Şişe Su', min: 25, max: 50 },
+  { regex: /Coffee|Americano|Cappuccino|Latte|Cold Brew|Espresso|Mocha|Red Eye|Flat White|Pour Over|Drip/i, type: 'Kahve', min: 120, max: 180 },
+  { regex: /Book|Journal|Novel|Guide|Manual|Studies|Textbook|Review/i, type: 'Kitap', min: 300, max: 600 },
+  { regex: /Charger|Cable|USB/i, type: 'Şarj Aksesuarı', min: 300, max: 800 },
+  { regex: /Headphones|Earbuds/i, type: 'Kulaklık', min: 2000, max: 8000 },
+  { regex: /Sunglasses|Glasses|Goggles|Mask/i, type: 'Gözlük / Maske', min: 1000, max: 5000 },
+  { regex: /Perfume|Makeup|Lipstick/i, type: 'Kozmetik Ürünü', min: 1000, max: 5000 },
+  { regex: /T-Shirt|Dress|Blazer|Blouse|Cardigan|Leggings|Scarf|Tie|Jersey|Shoes|Boots|Hat|Briefcase|Backpack|Luggage|Bag|Clothes|Wear|Shirt/i, type: 'Giyim / Çanta', min: 600, max: 2500 },
+  { regex: /Chocolate|Gum|Treats|Macarons|Snack|Mix|Bar|Seeds|Scone/i, type: 'Atıştırmalık', min: 50, max: 300 },
+  { regex: /Magazine/i, type: 'Dergi', min: 150, max: 300 },
+  { regex: /Sandwich|Burger|Salad|Pizza|Breakfast|Meal|Burrito|Steak|Seafood|Wrap|Bowl|Chicken|Pork|Crawfish|Pierogi|Cake|Mignon|Ribeye|Food|Bites/i, type: 'Yemek Menüsü', min: 250, max: 600 },
+  { regex: /Tea|Juice|Smoothie|Shake|Drink/i, type: 'İçecek', min: 100, max: 250 },
+  { regex: /Watch/i, type: 'Saat', min: 2000, max: 10000 },
+  { regex: /Pillow|Blanket|Travel/i, type: 'Seyahat Aksesuarı', min: 400, max: 900 },
+  { regex: /Album|Record|Game|Toys|Guitar|Harmonica|Pick/i, type: 'Hobi / Müzik Eşyası', min: 500, max: 2000 }
+];
+
+function translateItemPrice(itemStr) {
+  for (let cat of itemCategories) {
+    if (cat.regex.test(itemStr)) {
+      return { item: cat.type, amount: Math.floor(Math.random() * (cat.max - cat.min + 1) + cat.min).toString() };
+    }
+  }
+  return { item: 'Hediyelik Eşya', amount: Math.floor(Math.random() * 800 + 200).toString() };
+}
+
+const vendorCategories = [
+  { regex: /AirportMart|TravelEase|SkyMall/i, type: 'Havalimanı Büfe' },
+  { regex: /Cafe|Brew|Coffee/i, type: 'Kahvecim' },
+  { regex: /Book|News|Journal/i, type: 'KitapDünyası' },
+  { regex: /Burger|Pizza|Grill|Bite|Food|Shack|Diner|Restaurant/i, type: 'Restoran' },
+  { regex: /Tech|Gear|Electronics|Store/i, type: 'TeknoMerkez' },
+  { regex: /Fashion|Style|Boutique/i, type: 'GiyimMağazası' },
+  { regex: /Market|Store|Shop/i, type: 'SüperMarket' },
+  { regex: /Sport|Athletics/i, type: 'SporMağazası' },
+  { regex: /Med|Supply/i, type: 'Eczane' },
+];
+
+function translateVendor(vendorStr) {
+  for (let cat of vendorCategories) {
+    if (cat.regex.test(vendorStr)) {
+      return cat.type;
+    }
+  }
+  return 'Yerel Mağaza';
+}
+
 Object.keys(passengerData).forEach(seat => {
   const p = passengerData[seat];
   
-  // Specific Overrides
-  if (p.name === 'Marcus Webb') {
+  if (seat === '1D') { // Marcus Webb -> Murat Yılmaz
     p.name = 'Murat Yılmaz';
     p.emails = [`murat.y@${getRandomItem(fakeDomains)}`];
     p.socials = [{ platform: 'insta', handle: '@muratyilmaz' }];
     p.texts = ['Kapıya geç kaldım', 'Bana yer tut', 'Bu havaalanı dev gibi'];
     p.purchases = [
-      { vendor: 'TeknoMerkez', item: 'Taşınabilir Şarj', amount: '2500', date: getRandomRecentDate() },
-      { vendor: 'KitapDünyası', item: 'Karanlık Sırlar Kitabı', amount: '550', date: getRandomRecentDate() },
-      { vendor: 'Burgercim', item: 'Menü', amount: '350', date: getRandomRecentDate() }
+      { vendor: 'SeyahatEşyaları', item: 'Battaniye', amount: '850', date: getRandomRecentDate() },
+      { vendor: 'Havalimanı Büfe', item: 'Şişe Su', amount: '35', date: getRandomRecentDate() }
     ];
-  } else if (seat === config.alexSeat) {
+  } else if (seat === config.alexSeat) { // Alex Mercer -> Can Demir
     p.name = 'Can Demir';
     p.emails = [`can.demir@${getRandomItem(fakeDomains)}`];
     p.socials = [{ platform: 'insta', handle: '@candemir' }];
-    p.texts = ['Planı unutma', 'Her şey hazır mı?', 'Kimseye söyleme'];
-    p.purchases = [
-      { vendor: 'Kahvecim', item: 'Filtre Kahve', amount: '145', date: getRandomRecentDate() },
-      { vendor: 'SüperMarket', item: 'Su', amount: '35', date: getRandomRecentDate() }
-    ];
-    p.isAlex = true; // ensure this flag is set if app.js needs it
+    p.texts = ['Paketi aldın mı?', 'Çılgın bir uçuş. Dostum, acilen tuvalete gitmem lazım!', 'Planı unutma'];
+    // Preserve original vendor types but translate them
+    p.purchases = p.purchases.map(oldP => {
+      const translated = translateItemPrice(oldP.item);
+      return {
+        vendor: translateVendor(oldP.vendor),
+        item: translated.item,
+        amount: translated.amount,
+        date: getRandomRecentDate()
+      };
+    });
+    p.isAlex = true;
   } else {
     // Generic Turkish Generation
     const isMale = p.sex === 'M';
@@ -96,13 +135,13 @@ Object.keys(passengerData).forEach(seat => {
     p.emails = [`${first.toLowerCase()}.${last.toLowerCase()}@${getRandomItem(fakeDomains)}`];
     p.socials = [{ platform: getRandomItem(['insta', 'tiktok']), handle: `@${first.toLowerCase()}${last.toLowerCase().substring(0,3)}` }];
     
-    // Purchases
+    // Purchases (translate existing purchases)
     p.purchases = p.purchases.map(oldP => {
-      const selectedItem = getRandomItem(purchaseItems);
+      const translated = translateItemPrice(oldP.item);
       return {
-        vendor: getRandomItem(purchaseVendors),
-        item: selectedItem.name,
-        amount: Math.floor(Math.random() * (selectedItem.max - selectedItem.min + 1) + selectedItem.min).toString(),
+        vendor: translateVendor(oldP.vendor),
+        item: translated.item,
+        amount: translated.amount,
         date: getRandomRecentDate()
       };
     });
@@ -135,7 +174,6 @@ Object.keys(passengerData).forEach(seat => {
   p.hair = colors[p.hair] || p.hair;
 });
 
-// Construct new file content
 const newFileContent = `// Eğitim amaçlı, Türkiye'ye uyarlanmış Uçuş 67 Yolcu Verileri
 // ${config.alexSeat} = Can Demir (arkadaş, şüpheli mesajlar)
 // 1D = Murat Yılmaz (gerçek suçlu, şüpheli alışverişler)
@@ -147,4 +185,4 @@ const config = ${JSON.stringify(config, null, 2)};
 
 fs.writeFileSync(filePath, newFileContent);
 fs.unlinkSync(tempPath);
-console.log('Passengers localized successfully.');
+console.log('Passengers localized successfully with matched original categories and dates.');
