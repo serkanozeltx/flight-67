@@ -1,2320 +1,2985 @@
-// Hardcoded Passenger Data for Flight 67
-// 18M = Marcus Webb (actual culprit) - suspicious purchases
-// 23M = Alex Mercer (friend, false positive) - suspicious texts
+// Eğitim amaçlı, Türkiye'ye uyarlanmış Uçuş 67 Yolcu Verileri
+// 13B = Can Demir (arkadaş, şüpheli mesajlar)
+// 1D = Murat Yılmaz (gerçek suçlu, şüpheli alışverişler)
 
 const passengerData = {
-  // Row 1
-  '1A': {
-    name: 'Sophia Chen',
-    age: 16,
-    sex: 'F',
-    image: 'sophia-chen-16-F.jpg',
-    height: '5\'4"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'San Francisco, CA',
-    passport: 'United States',
-    emails: ['sophia.chen@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@sophiac_16' }],
-    purchases: [
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Iced Latte',
-        amount: '5.75',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Study Guide',
-        amount: '24.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TechZone',
-        item: 'Phone Charger',
-        amount: '12.99',
-        date: '2024-03-13',
-      },
+  "1A": {
+    "name": "Derya Arslan",
+    "age": 16,
+    "sex": "F",
+    "image": "sophia-chen-16-F.jpg",
+    "height": "163 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "derya.arslan@postakutum.tr"
     ],
-    texts: [
-      "Can't wait for spring break!",
-      'Did you finish the homework?',
-      'Mom says hi',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@deryaars"
+      }
     ],
-    websites: ['www.instagram.com', 'www.spotify.com', 'www.quizlet.com'],
-    baseScore: 12,
-    purchaseScore: 5,
-    textScore: 8,
-    facialScore: 15,
+    "purchases": [
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Su",
+        "amount": "31",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Sandviç",
+        "amount": "250",
+        "date": "2026-04-28"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Şarj Kablosu",
+        "amount": "409",
+        "date": "2026-04-25"
+      }
+    ],
+    "texts": [
+      "Havaalanı çok kalabalık.",
+      "Seni bekliyorum.",
+      "Görüşürüz!"
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.alisveris-yap.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 12,
+    "purchaseScore": 5,
+    "textScore": 8,
+    "facialScore": 15
   },
-  '1B': {
-    name: 'Emma Rodriguez',
-    age: 17,
-    sex: 'F',
-    image: 'emma-rodriguez-17-F.jpg',
-    height: '5\'5"',
-    eyes: 'Brown',
-    hair: 'Brown',
-    hometown: 'Miami, FL',
-    passport: 'United States',
-    emails: ['emma.rod@gmail.com'],
-    socials: [
-      { platform: 'insta', handle: '@emmarod' },
-      { platform: 'tiktok', handle: '@emmadances' },
+  "1B": {
+    "name": "Derya Şahin",
+    "age": 17,
+    "sex": "F",
+    "image": "emma-rodriguez-17-F.jpg",
+    "height": "165 cm",
+    "eyes": "Kahverengi",
+    "hair": "Kahverengi",
+    "hometown": "Trabzon",
+    "passport": "Türkiye",
+    "emails": [
+      "derya.şahin@iletinet.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'SunStyle Boutique',
-        item: 'Sunglasses',
-        amount: '45.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'JetFuel Coffee',
-        item: 'Mocha',
-        amount: '6.25',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'AirportMart',
-        item: 'Magazine',
-        amount: '8.99',
-        date: '2024-03-13',
-      },
+        "platform": "insta",
+        "handle": "@deryaşah"
+      }
     ],
-    texts: ["Flight's on time!", 'See you at baggage claim', 'Love you mom'],
-    websites: ['www.tiktok.com', 'www.pinterest.com', 'www.netflix.com'],
-    baseScore: 8,
-    purchaseScore: 3,
-    textScore: 5,
-    facialScore: 10,
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Kitap",
+        "amount": "386",
+        "date": "2026-04-28"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "494",
+        "date": "2026-05-01"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Şarj Kablosu",
+        "amount": "640",
+        "date": "2026-05-01"
+      }
+    ],
+    "texts": [
+      "Görüşürüz!",
+      "Havaalanı çok kalabalık.",
+      "Biraz gecikebilirim."
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.muzik-dinle.com",
+      "www.film-dizim.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 3,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '1C': {
-    name: 'Olivia Martinez',
-    age: 18,
-    sex: 'F',
-    image: 'olivia-martinez-18-F.jpg',
-    height: '5\'6"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Austin, TX',
-    passport: 'United States',
-    emails: ['olivia.m@gmail.com', 'omartinez@university.edu'],
-    socials: [{ platform: 'insta', handle: '@livmartinez' }],
-    purchases: [
-      {
-        vendor: 'UniBooks Plus',
-        item: 'Textbook',
-        amount: '89.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'BeanThere Cafe',
-        item: 'Cappuccino',
-        amount: '4.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TravelEase',
-        item: 'Neck Pillow',
-        amount: '19.99',
-        date: '2024-03-13',
-      },
+  "1C": {
+    "name": "Aslı Doğan",
+    "age": 18,
+    "sex": "F",
+    "image": "olivia-martinez-18-F.jpg",
+    "height": "168 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Samsun",
+    "passport": "Türkiye",
+    "emails": [
+      "aslı.doğan@iletinet.com"
     ],
-    texts: ['Dorm room is ready', 'Orientation is Monday', 'Miss you already!'],
-    websites: [
-      'www.ratemyprofessors.com',
-      'www.university.edu',
-      'www.youtube.com',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@aslıdoğ"
+      }
     ],
-    baseScore: 10,
-    purchaseScore: 4,
-    textScore: 6,
-    facialScore: 12,
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Tişört",
+        "amount": "1214",
+        "date": "2026-05-08"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Güneş Gözlüğü",
+        "amount": "9037",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kitap",
+        "amount": "495",
+        "date": "2026-04-18"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Umarım türbülans olmaz.",
+      "Havaalanı çok kalabalık."
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.ilan-bul.com",
+      "www.ornek-sosyal.com"
+    ],
+    "baseScore": 10,
+    "purchaseScore": 4,
+    "textScore": 6,
+    "facialScore": 12
   },
-  '1D': {
-    name: 'Marcus Webb',
-    age: 18,
-    sex: 'M',
-    image: 'marcus-webb-18-M.jpg',
-    height: '5\'10"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Atlanta, GA',
-    passport: 'United States',
-    emails: ['marcus.webb@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@marcuswebb18' }],
-    purchases: [
-      {
-        vendor: 'ComfortZone Depot',
-        item: 'Travel Blanket',
-        amount: '34.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'HydroSport Athletics',
-        item: '32oz Water Bottle',
-        amount: '18.50',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'QuickBite Terminal',
-        item: 'Sandwich',
-        amount: '9.75',
-        date: '2024-03-14',
-      },
+  "1D": {
+    "name": "Murat Yılmaz",
+    "age": 18,
+    "sex": "M",
+    "image": "marcus-webb-18-M.jpg",
+    "height": "178 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Adana",
+    "passport": "Türkiye",
+    "emails": [
+      "murat.y@zposta.com"
     ],
-    texts: ['Running late to gate', 'Save me a seat', 'This airport is huge'],
-    websites: ['www.espn.com', 'www.reddit.com', 'www.twitch.tv'],
-    baseScore: 35,
-    purchaseScore: 55,
-    textScore: 10,
-    facialScore: 45,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@muratyilmaz"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Taşınabilir Şarj",
+        "amount": "2500",
+        "date": "2026-04-29"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Karanlık Sırlar Kitabı",
+        "amount": "550",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "Burgercim",
+        "item": "Menü",
+        "amount": "350",
+        "date": "2026-04-16"
+      }
+    ],
+    "texts": [
+      "Kapıya geç kaldım",
+      "Bana yer tut",
+      "Bu havaalanı dev gibi"
+    ],
+    "websites": [
+      "www.alisveris-yap.com",
+      "www.film-dizim.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 35,
+    "purchaseScore": 55,
+    "textScore": 10,
+    "facialScore": 45
   },
-
-  // Row 2
-  '2A': {
-    name: 'Isabella Kim',
-    age: 19,
-    sex: 'F',
-    image: 'isabella-kim-19-F.jpg',
-    height: '5\'3"',
-    eyes: 'Brown',
-    hair: 'Dyed Pink',
-    hometown: 'Seattle, WA',
-    passport: 'United States',
-    emails: ['bella.kim@gmail.com'],
-    socials: [
-      { platform: 'insta', handle: '@bellak' },
-      { platform: 'youtube', handle: "Bella's Corner" },
+  "2A": {
+    "name": "Eda Çelik",
+    "age": 19,
+    "sex": "F",
+    "image": "isabella-kim-19-F.jpg",
+    "height": "160 cm",
+    "eyes": "Kahverengi",
+    "hair": "Pembe (Boyalı)",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "eda.çelik@hizlimail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'SkyMall Express',
-        item: 'Earbuds',
-        amount: '29.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'PageTurner Books',
-        item: 'Novel',
-        amount: '16.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BrewHouse',
-        item: 'Green Tea',
-        amount: '3.75',
-        date: '2024-03-13',
-      },
+        "platform": "insta",
+        "handle": "@edaçel"
+      }
     ],
-    texts: ['Almost there!', 'Did you pack snacks?', 'Gate B12 right?'],
-    websites: ['www.youtube.com', 'www.goodreads.com', 'www.spotify.com'],
-    baseScore: 11,
-    purchaseScore: 6,
-    textScore: 7,
-    facialScore: 14,
+    "purchases": [
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Güneş Gözlüğü",
+        "amount": "13597",
+        "date": "2026-04-29"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Dergi",
+        "amount": "285",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Kahve",
+        "amount": "141",
+        "date": "2026-04-19"
+      }
+    ],
+    "texts": [
+      "Görüşürüz!",
+      "Seni bekliyorum.",
+      "Dışarıda hava çok güzel."
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.muzik-dinle.com",
+      "www.muzik-dinle.com"
+    ],
+    "baseScore": 11,
+    "purchaseScore": 6,
+    "textScore": 7,
+    "facialScore": 14
   },
-  '2B': {
-    name: 'Ethan Brooks',
-    age: 19,
-    sex: 'M',
-    image: 'ethan-brooks-19-M.jpg',
-    height: '5\'11"',
-    eyes: 'Blue',
-    hair: 'Brown',
-    hometown: 'Denver, CO',
-    passport: 'United States',
-    emails: ['ethan.brooks@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@ethanb' }],
-    purchases: [
-      {
-        vendor: 'MountainGear Co',
-        item: 'Backpack',
-        amount: '65.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'JetFuel Coffee',
-        item: 'Americano',
-        amount: '4.25',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'SnackShack',
-        item: 'Trail Mix',
-        amount: '7.99',
-        date: '2024-03-13',
-      },
+  "2B": {
+    "name": "Ali Kaya",
+    "age": 19,
+    "sex": "M",
+    "image": "ethan-brooks-19-M.jpg",
+    "height": "180 cm",
+    "eyes": "Mavi",
+    "hair": "Kahverengi",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "ali.kaya@postakutum.tr"
     ],
-    texts: [
-      'Snowboard trip next month?',
-      'Flight delayed 30 min',
-      'Grabbing coffee',
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@alikay"
+      }
     ],
-    websites: ['www.rei.com', 'www.weather.com', 'www.instagram.com'],
-    baseScore: 14,
-    purchaseScore: 8,
-    textScore: 9,
-    facialScore: 16,
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Su",
+        "amount": "35",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Sandviç",
+        "amount": "242",
+        "date": "2026-05-07"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Parfüm",
+        "amount": "4456",
+        "date": "2026-04-25"
+      }
+    ],
+    "texts": [
+      "Dışarıda hava çok güzel.",
+      "Gelince haber ver.",
+      "Valizi teslim ettim."
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.kisa-mesaj.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 14,
+    "purchaseScore": 8,
+    "textScore": 9,
+    "facialScore": 16
   },
-  '2C': {
-    name: 'Mia Thompson',
-    age: 20,
-    sex: 'F',
-    image: 'mia-thompson-20-F.jpg',
-    height: '5\'5"',
-    eyes: 'Blue',
-    hair: 'Dyed Teal',
-    hometown: 'Portland, OR',
-    passport: 'United States',
-    emails: ['mia.t@gmail.com', 'mthompson@work.com'],
-    socials: [
-      { platform: 'insta', handle: '@miathompson' },
-      { platform: 'tiktok', handle: '@miacooks' },
+  "2C": {
+    "name": "Ceren Şahin",
+    "age": 20,
+    "sex": "F",
+    "image": "mia-thompson-20-F.jpg",
+    "height": "165 cm",
+    "eyes": "Mavi",
+    "hair": "Turkuaz (Boyalı)",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "ceren.şahin@coldmail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'ArtisanCraft',
-        item: 'Journal',
-        amount: '22.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'GreenLeaf Cafe',
-        item: 'Smoothie',
-        amount: '8.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TravelEase',
-        item: 'Eye Mask',
-        amount: '12.99',
-        date: '2024-03-13',
-      },
+        "platform": "insta",
+        "handle": "@cerenşah"
+      }
     ],
-    texts: ['Work stuff is done', 'Finally on vacation!', 'See you soon!'],
-    websites: ['www.pinterest.com', 'www.allrecipes.com', 'www.etsy.com'],
-    baseScore: 9,
-    purchaseScore: 5,
-    textScore: 4,
-    facialScore: 11,
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Parfüm",
+        "amount": "3573",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Kulaklık",
+        "amount": "6397",
+        "date": "2026-05-09"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kulaklık",
+        "amount": "4447",
+        "date": "2026-05-01"
+      }
+    ],
+    "texts": [
+      "Uçağa biniyorum!",
+      "Çok sıra var.",
+      "Biraz gecikebilirim."
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.muzik-dinle.com",
+      "www.ilan-bul.com"
+    ],
+    "baseScore": 9,
+    "purchaseScore": 5,
+    "textScore": 4,
+    "facialScore": 11
   },
-  '2D': {
-    name: 'Noah Garcia',
-    age: 20,
-    sex: 'M',
-    image: 'noah-garcia-20-M.jpg',
-    height: '6\'0"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Phoenix, AZ',
-    passport: 'United States',
-    emails: ['noah.garcia@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@noahg20' }],
-    purchases: [
-      {
-        vendor: 'GameStation',
-        item: 'Switch Game',
-        amount: '49.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'QuickBite Terminal',
-        item: 'Pizza Slice',
-        amount: '6.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TechZone',
-        item: 'USB Cable',
-        amount: '9.99',
-        date: '2024-03-13',
-      },
+  "2D": {
+    "name": "Ozan Arslan",
+    "age": 20,
+    "sex": "M",
+    "image": "noah-garcia-20-M.jpg",
+    "height": "183 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Bursa",
+    "passport": "Türkiye",
+    "emails": [
+      "ozan.arslan@ymail.net"
     ],
-    texts: [
-      'Bored at the airport',
-      'Download that game?',
-      '2 hour layover ugh',
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@ozanars"
+      }
     ],
-    websites: ['www.twitch.tv', 'www.reddit.com/r/gaming', 'www.ign.com'],
-    baseScore: 13,
-    purchaseScore: 7,
-    textScore: 8,
-    facialScore: 15,
+    "purchases": [
+      {
+        "vendor": "KitapDünyası",
+        "item": "Çikolata",
+        "amount": "182",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kitap",
+        "amount": "576",
+        "date": "2026-04-24"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Şarj Kablosu",
+        "amount": "761",
+        "date": "2026-04-16"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Havaalanı çok kalabalık.",
+      "Umarım türbülans olmaz."
+    ],
+    "websites": [
+      "www.film-dizim.com",
+      "www.kisa-mesaj.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 13,
+    "purchaseScore": 7,
+    "textScore": 8,
+    "facialScore": 15
   },
-
-  // Row 3
-  '3A': {
-    name: 'Ava Wilson',
-    age: 21,
-    sex: 'F',
-    image: 'ava-wilson-21-F.jpg',
-    height: '5\'7"',
-    eyes: 'Blue',
-    hair: 'Brown',
-    hometown: 'Boston, MA',
-    passport: 'United States',
-    emails: ['ava.wilson@gmail.com', 'awilson@lawfirm.com'],
-    socials: [{ platform: 'insta', handle: '@avawilson' }],
-    purchases: [
-      {
-        vendor: 'LegalEagle Books',
-        item: 'Law Review',
-        amount: '35.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Double Espresso',
-        amount: '4.75',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ClassicStyle',
-        item: 'Scarf',
-        amount: '28.00',
-        date: '2024-03-13',
-      },
+  "3A": {
+    "name": "Elif Özdemir",
+    "age": 21,
+    "sex": "F",
+    "image": "ava-wilson-21-F.jpg",
+    "height": "170 cm",
+    "eyes": "Mavi",
+    "hair": "Kahverengi",
+    "hometown": "Gaziantep",
+    "passport": "Türkiye",
+    "emails": [
+      "elif.özdemir@iletinet.com"
     ],
-    texts: ['Brief is filed', 'Interview went great', 'Celebrating tonight!'],
-    websites: ['www.lexisnexis.com', 'www.nytimes.com', 'www.linkedin.com'],
-    baseScore: 7,
-    purchaseScore: 4,
-    textScore: 3,
-    facialScore: 9,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@elifözd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Güneş Gözlüğü",
+        "amount": "3793",
+        "date": "2026-04-26"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Su",
+        "amount": "44",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "378",
+        "date": "2026-05-01"
+      }
+    ],
+    "texts": [
+      "Pasaport kontrolündeyim.",
+      "Umarım türbülans olmaz.",
+      "Dışarıda hava çok güzel."
+    ],
+    "websites": [
+      "www.kisa-mesaj.com",
+      "www.alisveris-yap.com",
+      "www.video-izle.com"
+    ],
+    "baseScore": 7,
+    "purchaseScore": 4,
+    "textScore": 3,
+    "facialScore": 9
   },
-  '3B': {
-    name: 'Liam Anderson',
-    age: 21,
-    sex: 'M',
-    image: 'liam-anderson-21-M.jpg',
-    height: '6\'1"',
-    eyes: 'Green',
-    hair: 'Brown',
-    hometown: 'Chicago, IL',
-    passport: 'United States',
-    emails: ['liam.a@gmail.com'],
-    socials: [
-      { platform: 'insta', handle: '@liamand' },
-      { platform: 'tiktok', handle: '@liamcomedy' },
+  "3B": {
+    "name": "Tolga Doğan",
+    "age": 21,
+    "sex": "M",
+    "image": "liam-anderson-21-M.jpg",
+    "height": "185 cm",
+    "eyes": "Yeşil",
+    "hair": "Kahverengi",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "tolga.doğan@coldmail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'SportsWorld',
-        item: 'Basketball',
-        amount: '29.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'BurgerBarn',
-        item: 'Combo Meal',
-        amount: '14.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'AirportMart',
-        item: 'Gum',
-        amount: '2.99',
-        date: '2024-03-13',
-      },
+        "platform": "tiktok",
+        "handle": "@tolgadoğ"
+      }
     ],
-    texts: ['Game tonight at 8', 'Pick me up?', "Let's ball tomorrow"],
-    websites: ['www.espn.com', 'www.nba.com', 'www.youtube.com'],
-    baseScore: 16,
-    purchaseScore: 9,
-    textScore: 11,
-    facialScore: 18,
+    "purchases": [
+      {
+        "vendor": "ModaTrend",
+        "item": "Çikolata",
+        "amount": "125",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Kahve",
+        "amount": "154",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Kulaklık",
+        "amount": "2939",
+        "date": "2026-05-02"
+      }
+    ],
+    "texts": [
+      "Uçağa biniyorum!",
+      "Havaalanı çok kalabalık.",
+      "Görüşürüz!"
+    ],
+    "websites": [
+      "www.video-izle.com",
+      "www.kisa-mesaj.com",
+      "www.film-dizim.com"
+    ],
+    "baseScore": 16,
+    "purchaseScore": 9,
+    "textScore": 11,
+    "facialScore": 18
   },
-  '3C': {
-    name: 'Charlotte Davis',
-    age: 22,
-    sex: 'F',
-    image: 'charlotte-davis-22-F.jpg',
-    height: '5\'4"',
-    eyes: 'Brown',
-    hair: 'Red',
-    hometown: 'Nashville, TN',
-    passport: 'United States',
-    emails: ['charlotte.d@gmail.com', 'cdavis@music.com'],
-    socials: [
-      { platform: 'insta', handle: '@charlottemusic' },
-      { platform: 'youtube', handle: 'Charlotte Sings' },
+  "3C": {
+    "name": "İrem Arslan",
+    "age": 22,
+    "sex": "F",
+    "image": "charlotte-davis-22-F.jpg",
+    "height": "163 cm",
+    "eyes": "Kahverengi",
+    "hair": "Kızıl",
+    "hometown": "Trabzon",
+    "passport": "Türkiye",
+    "emails": [
+      "i̇rem.arslan@iletinet.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'MelodyMakers',
-        item: 'Guitar Strings',
-        amount: '18.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'VinylVault',
-        item: 'Record',
-        amount: '32.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'JetFuel Coffee',
-        item: 'Chai Latte',
-        amount: '5.50',
-        date: '2024-03-13',
-      },
+        "platform": "tiktok",
+        "handle": "@i̇remars"
+      }
     ],
-    texts: ['Gig was amazing!', 'New song dropping soon', 'Studio time booked'],
-    websites: ['www.soundcloud.com', 'www.spotify.com', 'www.bandcamp.com'],
-    baseScore: 8,
-    purchaseScore: 3,
-    textScore: 5,
-    facialScore: 10,
+    "purchases": [
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "562",
+        "date": "2026-05-05"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Sandviç",
+        "amount": "278",
+        "date": "2026-04-29"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Güneş Gözlüğü",
+        "amount": "8668",
+        "date": "2026-04-22"
+      }
+    ],
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Umarım türbülans olmaz.",
+      "Çok sıra var."
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.muzik-dinle.com",
+      "www.ilan-bul.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 3,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '3D': {
-    name: 'James Miller',
-    age: 22,
-    sex: 'M',
-    image: 'james-miller-22-M.jpg',
-    height: '5\'9"',
-    eyes: 'Blue',
-    hair: 'Red',
-    hometown: 'San Diego, CA',
-    passport: 'United States',
-    emails: ['james.miller@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@jamesmiller22' }],
-    purchases: [
-      { vendor: 'SurfShack', item: 'Wax', amount: '8.99', date: '2024-03-15' },
-      {
-        vendor: 'TacoTown',
-        item: 'Burrito',
-        amount: '11.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'SunStyle Boutique',
-        item: 'Flip Flops',
-        amount: '24.99',
-        date: '2024-03-13',
-      },
+  "3D": {
+    "name": "Burak Aydın",
+    "age": 22,
+    "sex": "M",
+    "image": "james-miller-22-M.jpg",
+    "height": "175 cm",
+    "eyes": "Mavi",
+    "hair": "Kızıl",
+    "hometown": "Gaziantep",
+    "passport": "Türkiye",
+    "emails": [
+      "burak.aydın@hizlimail.com"
     ],
-    texts: ['Waves are sick today', 'Beach at 6?', 'Surf comp next week'],
-    websites: ['www.surfline.com', 'www.weather.com', 'www.instagram.com'],
-    baseScore: 12,
-    purchaseScore: 6,
-    textScore: 7,
-    facialScore: 14,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@burakayd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Dergi",
+        "amount": "189",
+        "date": "2026-05-06"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Dergi",
+        "amount": "220",
+        "date": "2026-04-27"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Sandviç",
+        "amount": "272",
+        "date": "2026-04-19"
+      }
+    ],
+    "texts": [
+      "Dışarıda hava çok güzel.",
+      "Pasaport kontrolündeyim.",
+      "Yolculuk başlıyor!"
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.kisa-mesaj.com",
+      "www.ilan-bul.com"
+    ],
+    "baseScore": 12,
+    "purchaseScore": 6,
+    "textScore": 7,
+    "facialScore": 14
   },
-
-  // Row 4
-  '4A': {
-    name: 'Amelia Brown',
-    age: 23,
-    sex: 'F',
-    image: 'amelia-brown-23-F.jpg',
-    height: '5\'6"',
-    eyes: 'Green',
-    hair: 'Brown',
-    hometown: 'Philadelphia, PA',
-    passport: 'United States',
-    emails: ['amelia.brown@gmail.com', 'abrown@hospital.org'],
-    socials: [{ platform: 'insta', handle: '@ameliab' }],
-    purchases: [
-      {
-        vendor: 'MedSupply Plus',
-        item: 'Scrubs',
-        amount: '45.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'HealthyBites',
-        item: 'Salad',
-        amount: '12.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Medical Journal',
-        amount: '28.00',
-        date: '2024-03-13',
-      },
+  "4A": {
+    "name": "Nehir Kaya",
+    "age": 23,
+    "sex": "F",
+    "image": "amelia-brown-23-F.jpg",
+    "height": "168 cm",
+    "eyes": "Yeşil",
+    "hair": "Kahverengi",
+    "hometown": "Konya",
+    "passport": "Türkiye",
+    "emails": [
+      "nehir.kaya@zposta.com"
     ],
-    texts: ['Shift starts at 7', 'Patient doing better', 'Finally a day off!'],
-    websites: ['www.webmd.com', 'www.ncbi.nlm.nih.gov', 'www.netflix.com'],
-    baseScore: 6,
-    purchaseScore: 2,
-    textScore: 3,
-    facialScore: 8,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@nehirkay"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Şarj Kablosu",
+        "amount": "794",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Çikolata",
+        "amount": "235",
+        "date": "2026-04-25"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Parfüm",
+        "amount": "5039",
+        "date": "2026-04-16"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Yolculuk başlıyor!",
+      "Yolculuk başlıyor!"
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.yemek-iste.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 6,
+    "purchaseScore": 2,
+    "textScore": 3,
+    "facialScore": 8
   },
-  '4B': {
-    name: 'Benjamin Lee',
-    age: 24,
-    sex: 'M',
-    image: 'benjamin-lee-24-M.jpg',
-    height: '5\'10"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Houston, TX',
-    passport: 'United States',
-    emails: ['ben.lee@gmail.com', 'blee@techcorp.com'],
-    socials: [
-      { platform: 'insta', handle: '@benlee' },
-      { platform: 'tiktok', handle: '@bentechtalks' },
+  "4B": {
+    "name": "Kaan Yıldız",
+    "age": 24,
+    "sex": "M",
+    "image": "benjamin-lee-24-M.jpg",
+    "height": "178 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "kaan.yıldız@hizlimail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'TechZone',
-        item: 'Laptop Stand',
-        amount: '49.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Cold Brew',
-        amount: '5.25',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'QuickBite Terminal',
-        item: 'Protein Bar',
-        amount: '4.99',
-        date: '2024-03-13',
-      },
+        "platform": "tiktok",
+        "handle": "@kaanyıl"
+      }
     ],
-    texts: ['Code deployed', 'Meeting at 3', 'Working remote today'],
-    websites: ['www.github.com', 'www.stackoverflow.com', 'www.hackernews.com'],
-    baseScore: 11,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 13,
+    "purchases": [
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Su",
+        "amount": "42",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Tişört",
+        "amount": "768",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Kahve",
+        "amount": "173",
+        "date": "2026-04-17"
+      }
+    ],
+    "texts": [
+      "Uçağa biniyorum!",
+      "Görüşürüz!",
+      "Bileti bulamıyorum..."
+    ],
+    "websites": [
+      "www.film-dizim.com",
+      "www.alisveris-yap.com",
+      "www.ilan-bul.com"
+    ],
+    "baseScore": 11,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 13
   },
-  '4C': {
-    name: 'Harper Johnson',
-    age: 24,
-    sex: 'F',
-    image: 'harper-johnson-24-F.jpg',
-    height: '5\'8"',
-    eyes: 'Hazel',
-    hair: 'Blonde',
-    hometown: 'Dallas, TX',
-    passport: 'United States',
-    emails: ['harper.j@gmail.com'],
-    socials: [
-      { platform: 'insta', handle: '@harperjohnson' },
-      { platform: 'youtube', handle: "Harper's Life" },
+  "4C": {
+    "name": "Ceren Kaya",
+    "age": 24,
+    "sex": "F",
+    "image": "harper-johnson-24-F.jpg",
+    "height": "173 cm",
+    "eyes": "Ela",
+    "hair": "Sarı",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "ceren.kaya@iletinet.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'GlamourBox',
-        item: 'Makeup Kit',
-        amount: '68.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SweetTreats',
-        item: 'Cupcake',
-        amount: '4.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'FashionForward',
-        item: 'Dress',
-        amount: '85.00',
-        date: '2024-03-13',
-      },
+        "platform": "insta",
+        "handle": "@cerenkay"
+      }
     ],
-    texts: ['Content is ready', 'Collab tomorrow!', 'Love the new filter'],
-    websites: ['www.instagram.com', 'www.youtube.com', 'www.sephora.com'],
-    baseScore: 9,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 11,
+    "purchases": [
+      {
+        "vendor": "KitapDünyası",
+        "item": "Çikolata",
+        "amount": "287",
+        "date": "2026-04-26"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Güneş Gözlüğü",
+        "amount": "11933",
+        "date": "2026-04-21"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Güneş Gözlüğü",
+        "amount": "4151",
+        "date": "2026-05-01"
+      }
+    ],
+    "texts": [
+      "Pasaport kontrolündeyim.",
+      "Umarım türbülans olmaz.",
+      "Umarım türbülans olmaz."
+    ],
+    "websites": [
+      "www.alisveris-yap.com",
+      "www.trend-market.com",
+      "www.muzik-dinle.com"
+    ],
+    "baseScore": 9,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 11
   },
-  '4D': {
-    name: 'Daniel Martinez',
-    age: 25,
-    sex: 'M',
-    image: 'daniel-martinez-25-M.jpg',
-    height: '6\'2"',
-    eyes: 'Brown',
-    hair: 'Red',
-    hometown: 'Los Angeles, CA',
-    passport: 'United States',
-    emails: ['daniel.m@gmail.com', 'dmartinez@filmstudio.com'],
-    socials: [{ platform: 'insta', handle: '@danielmartinez' }],
-    purchases: [
-      {
-        vendor: 'CinemaGear',
-        item: 'Lens Filter',
-        amount: '125.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'JetFuel Coffee',
-        item: 'Red Eye',
-        amount: '5.75',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ArtisanCraft',
-        item: 'Sketchbook',
-        amount: '18.00',
-        date: '2024-03-13',
-      },
+  "4D": {
+    "name": "Kerem Aydın",
+    "age": 25,
+    "sex": "M",
+    "image": "daniel-martinez-25-M.jpg",
+    "height": "188 cm",
+    "eyes": "Kahverengi",
+    "hair": "Kızıl",
+    "hometown": "Trabzon",
+    "passport": "Türkiye",
+    "emails": [
+      "kerem.aydın@hizlimail.com"
     ],
-    texts: ['Wrap party tonight', 'Script looks good', 'Call time is 5am'],
-    websites: ['www.imdb.com', 'www.vimeo.com', 'www.variety.com'],
-    baseScore: 10,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 12,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@keremayd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "KitapDünyası",
+        "item": "Kulaklık",
+        "amount": "5551",
+        "date": "2026-04-16"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Şarj Kablosu",
+        "amount": "374",
+        "date": "2026-04-21"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Parfüm",
+        "amount": "5010",
+        "date": "2026-04-22"
+      }
+    ],
+    "texts": [
+      "Valizi teslim ettim.",
+      "Yolculuk başlıyor!",
+      "Görüşürüz!"
+    ],
+    "websites": [
+      "www.kisa-mesaj.com",
+      "www.kisa-mesaj.com",
+      "www.film-dizim.com"
+    ],
+    "baseScore": 10,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 12
   },
-
-  // Row 5
-  '5A': {
-    name: 'Evelyn Taylor',
-    age: 26,
-    sex: 'F',
-    image: 'evelyn-taylor-26-F.jpg',
-    height: '5\'5"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Minneapolis, MN',
-    passport: 'United States',
-    emails: ['evelyn.t@gmail.com', 'etaylor@marketing.com'],
-    socials: [{ platform: 'insta', handle: '@evelyntaylor' }],
-    purchases: [
-      {
-        vendor: 'OfficeMax Pro',
-        item: 'Planner',
-        amount: '24.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'GreenLeaf Cafe',
-        item: 'Acai Bowl',
-        amount: '11.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TravelEase',
-        item: 'Luggage Tag',
-        amount: '8.99',
-        date: '2024-03-13',
-      },
+  "5A": {
+    "name": "Buse Yılmaz",
+    "age": 26,
+    "sex": "F",
+    "image": "evelyn-taylor-26-F.jpg",
+    "height": "165 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Trabzon",
+    "passport": "Türkiye",
+    "emails": [
+      "buse.yılmaz@coldmail.com"
     ],
-    texts: ['Campaign launched!', 'Numbers look great', 'Client loved it'],
-    websites: ['www.linkedin.com', 'www.hubspot.com', 'www.canva.com'],
-    baseScore: 7,
-    purchaseScore: 3,
-    textScore: 4,
-    facialScore: 9,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@buseyıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Şarj Kablosu",
+        "amount": "538",
+        "date": "2026-05-06"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Güneş Gözlüğü",
+        "amount": "8492",
+        "date": "2026-05-02"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Parfüm",
+        "amount": "7294",
+        "date": "2026-04-21"
+      }
+    ],
+    "texts": [
+      "Bileti bulamıyorum...",
+      "Valizi teslim ettim.",
+      "Bileti bulamıyorum..."
+    ],
+    "websites": [
+      "www.kisa-mesaj.com",
+      "www.ilan-bul.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 7,
+    "purchaseScore": 3,
+    "textScore": 4,
+    "facialScore": 9
   },
-  '5B': {
-    name: 'William Thomas',
-    age: 26,
-    sex: 'M',
-    image: 'william-thomas-26-M.jpg',
-    height: '5\'11"',
-    eyes: 'Green',
-    hair: 'Black',
-    hometown: 'Atlanta, GA',
-    passport: 'United States',
-    emails: ['will.thomas@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@willthomas26' }],
-    purchases: [
-      {
-        vendor: 'FitLife Gym',
-        item: 'Membership',
-        amount: '49.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'ProteinPalace',
-        item: 'Shake',
-        amount: '8.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'SportsWorld',
-        item: 'Running Shoes',
-        amount: '120.00',
-        date: '2024-03-13',
-      },
+  "5B": {
+    "name": "Kerem Aydın",
+    "age": 26,
+    "sex": "M",
+    "image": "william-thomas-26-M.jpg",
+    "height": "180 cm",
+    "eyes": "Yeşil",
+    "hair": "Siyah",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "kerem.aydın@postakutum.tr"
     ],
-    texts: ['PR on deadlift!', 'Leg day tomorrow', 'Diet starts Monday'],
-    websites: [
-      'www.bodybuilding.com',
-      'www.myfitnesspal.com',
-      'www.youtube.com',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@keremayd"
+      }
     ],
-    baseScore: 15,
-    purchaseScore: 8,
-    textScore: 10,
-    facialScore: 17,
+    "purchases": [
+      {
+        "vendor": "SüperMarket",
+        "item": "Kulaklık",
+        "amount": "2344",
+        "date": "2026-05-07"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Dergi",
+        "amount": "203",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Su",
+        "amount": "35",
+        "date": "2026-04-23"
+      }
+    ],
+    "texts": [
+      "Dışarıda hava çok güzel.",
+      "Uçağa biniyorum!",
+      "Gelince haber ver."
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.ornek-sosyal.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 15,
+    "purchaseScore": 8,
+    "textScore": 10,
+    "facialScore": 17
   },
-  '5C': {
-    name: 'Abigail Jackson',
-    age: 27,
-    sex: 'F',
-    image: 'abigail-jackson-27-F.jpg',
-    height: '5\'7"',
-    eyes: 'Blue',
-    hair: 'Red',
-    hometown: 'Detroit, MI',
-    passport: 'United States',
-    emails: ['abigail.j@gmail.com', 'ajackson@auto.com'],
-    socials: [{ platform: 'insta', handle: '@abigailj' }],
-    purchases: [
-      {
-        vendor: 'AutoParts Plus',
-        item: 'Car Manual',
-        amount: '35.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'DinerDeluxe',
-        item: 'Breakfast',
-        amount: '15.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ClassicStyle',
-        item: 'Watch',
-        amount: '75.00',
-        date: '2024-03-13',
-      },
+  "5C": {
+    "name": "Selin Arslan",
+    "age": 27,
+    "sex": "F",
+    "image": "abigail-jackson-27-F.jpg",
+    "height": "170 cm",
+    "eyes": "Mavi",
+    "hair": "Kızıl",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "selin.arslan@zposta.com"
     ],
-    texts: ["Car's fixed!", 'Meeting the team', 'Detroit pride!'],
-    websites: [
-      'www.caranddriver.com',
-      'www.autotrader.com',
-      'www.linkedin.com',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@selinars"
+      }
     ],
-    baseScore: 8,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 10,
+    "purchases": [
+      {
+        "vendor": "SüperMarket",
+        "item": "Kulaklık",
+        "amount": "7144",
+        "date": "2026-04-25"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Sandviç",
+        "amount": "229",
+        "date": "2026-04-17"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Çikolata",
+        "amount": "130",
+        "date": "2026-04-25"
+      }
+    ],
+    "texts": [
+      "Biraz gecikebilirim.",
+      "Havaalanı çok kalabalık.",
+      "Seni bekliyorum."
+    ],
+    "websites": [
+      "www.ilan-bul.com",
+      "www.alisveris-yap.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '5D': {
-    name: 'Alexander White',
-    age: 27,
-    sex: 'M',
-    image: 'alexander-white-27-M.jpg',
-    height: '6\'0"',
-    eyes: 'Blue',
-    hair: 'Brown',
-    hometown: 'New York, NY',
-    passport: 'United States',
-    emails: ['alex.white@gmail.com', 'awhite@finance.com'],
-    socials: [{ platform: 'insta', handle: '@alexwhite' }],
-    purchases: [
-      {
-        vendor: 'WallStreet Books',
-        item: 'Investment Guide',
-        amount: '29.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Flat White',
-        amount: '5.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ClassicStyle',
-        item: 'Tie',
-        amount: '45.00',
-        date: '2024-03-13',
-      },
+  "5D": {
+    "name": "Can Özdemir",
+    "age": 27,
+    "sex": "M",
+    "image": "alexander-white-27-M.jpg",
+    "height": "183 cm",
+    "eyes": "Mavi",
+    "hair": "Kahverengi",
+    "hometown": "Samsun",
+    "passport": "Türkiye",
+    "emails": [
+      "can.özdemir@postakutum.tr"
     ],
-    texts: ['Markets are up', 'Deal closed!', 'Bonus incoming'],
-    websites: ['www.bloomberg.com', 'www.wsj.com', 'www.cnbc.com'],
-    baseScore: 12,
-    purchaseScore: 6,
-    textScore: 7,
-    facialScore: 14,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@canözd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Kulaklık",
+        "amount": "3040",
+        "date": "2026-04-26"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Kitap",
+        "amount": "411",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Tişört",
+        "amount": "891",
+        "date": "2026-04-19"
+      }
+    ],
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Bileti bulamıyorum...",
+      "Görüşürüz!"
+    ],
+    "websites": [
+      "www.alisveris-yap.com",
+      "www.yemek-iste.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 12,
+    "purchaseScore": 6,
+    "textScore": 7,
+    "facialScore": 14
   },
-
-  // Row 6
-  '6A': {
-    name: 'Emily Harris',
-    age: 28,
-    sex: 'F',
-    image: 'emily-harris-28-F.jpg',
-    height: '5\'4"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Portland, ME',
-    passport: 'United States',
-    emails: ['emily.h@gmail.com', 'eharris@nonprofit.org'],
-    socials: [{ platform: 'insta', handle: '@emilyharris' }],
-    purchases: [
-      {
-        vendor: 'EcoGoods',
-        item: 'Reusable Bags',
-        amount: '15.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'OrganicBites',
-        item: 'Vegan Wrap',
-        amount: '10.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Sustainability Book',
-        amount: '22.00',
-        date: '2024-03-13',
-      },
+  "6A": {
+    "name": "Eda Kaya",
+    "age": 28,
+    "sex": "F",
+    "image": "emily-harris-28-F.jpg",
+    "height": "163 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Gaziantep",
+    "passport": "Türkiye",
+    "emails": [
+      "eda.kaya@coldmail.com"
     ],
-    texts: ['Fundraiser success!', 'Beach cleanup Sat', 'Saving the planet'],
-    websites: ['www.nature.org', 'www.greenpeace.org', 'www.instagram.com'],
-    baseScore: 6,
-    purchaseScore: 2,
-    textScore: 3,
-    facialScore: 8,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@edakay"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "SüperMarket",
+        "item": "Sandviç",
+        "amount": "159",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Kitap",
+        "amount": "457",
+        "date": "2026-04-29"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "695",
+        "date": "2026-04-20"
+      }
+    ],
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Biraz gecikebilirim.",
+      "Umarım türbülans olmaz."
+    ],
+    "websites": [
+      "www.video-izle.com",
+      "www.kisa-mesaj.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 6,
+    "purchaseScore": 2,
+    "textScore": 3,
+    "facialScore": 8
   },
-  '6B': {
-    name: 'Michael Clark',
-    age: 28,
-    sex: 'M',
-    image: 'michael-clark-28-M.jpg',
-    height: '5\'10"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Cleveland, OH',
-    passport: 'United States',
-    emails: ['michael.clark@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@mikeclark28' }],
-    purchases: [
-      {
-        vendor: 'ToolTime Hardware',
-        item: 'Drill Bits',
-        amount: '34.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'PizzaPalace',
-        item: 'Large Pizza',
-        amount: '18.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'HomeDepot Plus',
-        item: 'Paint',
-        amount: '42.00',
-        date: '2024-03-13',
-      },
+  "6B": {
+    "name": "Mehmet Kılıç",
+    "age": 28,
+    "sex": "M",
+    "image": "michael-clark-28-M.jpg",
+    "height": "178 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Eskişehir",
+    "passport": "Türkiye",
+    "emails": [
+      "mehmet.kılıç@tmail.com"
     ],
-    texts: ['Project done!', 'Need more nails', 'House looks great'],
-    websites: ['www.homedepot.com', 'www.youtube.com/diy', 'www.espn.com'],
-    baseScore: 13,
-    purchaseScore: 7,
-    textScore: 8,
-    facialScore: 15,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@mehmetkıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Kulaklık",
+        "amount": "4203",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Parfüm",
+        "amount": "6795",
+        "date": "2026-04-21"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Kahve",
+        "amount": "154",
+        "date": "2026-05-01"
+      }
+    ],
+    "texts": [
+      "Bileti bulamıyorum...",
+      "Havaalanı çok kalabalık.",
+      "Valizi teslim ettim."
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.muzik-dinle.com",
+      "www.video-izle.com"
+    ],
+    "baseScore": 13,
+    "purchaseScore": 7,
+    "textScore": 8,
+    "facialScore": 15
   },
-  '6C': {
-    name: 'Elizabeth Lewis',
-    age: 29,
-    sex: 'F',
-    image: 'elizabeth-lewis-29-F.jpg',
-    height: '5\'6"',
-    eyes: 'Green',
-    hair: 'Blonde',
-    hometown: 'Tampa, FL',
-    passport: 'United States',
-    emails: ['elizabeth.l@gmail.com', 'elewis@realestate.com'],
-    socials: [{ platform: 'insta', handle: '@lizlewis' }],
-    purchases: [
-      {
-        vendor: 'HomeStager Pro',
-        item: 'Decor Set',
-        amount: '89.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SunStyle Boutique',
-        item: 'Blazer',
-        amount: '120.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'JetFuel Coffee',
-        item: 'Iced Coffee',
-        amount: '4.75',
-        date: '2024-03-13',
-      },
+  "6C": {
+    "name": "Nehir Kara",
+    "age": 29,
+    "sex": "F",
+    "image": "elizabeth-lewis-29-F.jpg",
+    "height": "168 cm",
+    "eyes": "Yeşil",
+    "hair": "Sarı",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "nehir.kara@tmail.com"
     ],
-    texts: ['House sold!', 'Showing at 2pm', 'Commission coming'],
-    websites: ['www.zillow.com', 'www.realtor.com', 'www.houzz.com'],
-    baseScore: 9,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 11,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@nehirkar"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Sandviç",
+        "amount": "271",
+        "date": "2026-04-23"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Parfüm",
+        "amount": "4380",
+        "date": "2026-05-08"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Su",
+        "amount": "32",
+        "date": "2026-05-03"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Havaalanı çok kalabalık.",
+      "Seni bekliyorum."
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.film-dizim.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 9,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 11
   },
-  '6D': {
-    name: 'David Robinson',
-    age: 29,
-    sex: 'M',
-    image: 'david-robinson-29-M.jpg',
-    height: '6\'1"',
-    eyes: 'Blue',
-    hair: 'Brown',
-    hometown: 'Kansas City, MO',
-    passport: 'Argentina',
-    emails: ['david.r@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@davidr29' }],
-    purchases: [
-      {
-        vendor: 'BBQBoss',
-        item: 'Sauce Set',
-        amount: '24.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SteakHouse Grill',
-        item: 'Ribeye Dinner',
-        amount: '45.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'SportsWorld',
-        item: 'Chiefs Jersey',
-        amount: '110.00',
-        date: '2024-03-13',
-      },
+  "6D": {
+    "name": "Tolga Kılıç",
+    "age": 29,
+    "sex": "M",
+    "image": "david-robinson-29-M.jpg",
+    "height": "185 cm",
+    "eyes": "Mavi",
+    "hair": "Kahverengi",
+    "hometown": "Samsun",
+    "passport": "Türkiye",
+    "emails": [
+      "tolga.kılıç@postakutum.tr"
     ],
-    texts: ['Chiefs kingdom!', 'BBQ this weekend?', 'Game day ready'],
-    websites: ['www.chiefs.com', 'www.espn.com', 'www.bbqrecipes.com'],
-    baseScore: 14,
-    purchaseScore: 8,
-    textScore: 9,
-    facialScore: 16,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@tolgakıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Sandviç",
+        "amount": "297",
+        "date": "2026-05-04"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Parfüm",
+        "amount": "9368",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kitap",
+        "amount": "470",
+        "date": "2026-04-28"
+      }
+    ],
+    "texts": [
+      "Çok sıra var.",
+      "Seni bekliyorum.",
+      "Görüşürüz!"
+    ],
+    "websites": [
+      "www.ilan-bul.com",
+      "www.trend-market.com",
+      "www.video-izle.com"
+    ],
+    "baseScore": 14,
+    "purchaseScore": 8,
+    "textScore": 9,
+    "facialScore": 16
   },
-
-  // Row 7
-  '7A': {
-    name: 'Sofia Walker',
-    age: 30,
-    sex: 'F',
-    image: 'sofia-walker-30-F.jpg',
-    height: '5\'5"',
-    eyes: 'Brown',
-    hair: 'Brown',
-    hometown: 'Sacramento, CA',
-    passport: 'United States',
-    emails: ['sofia.walker@gmail.com', 'swalker@school.edu'],
-    socials: [{ platform: 'insta', handle: '@sofiawalker' }],
-    purchases: [
+  "7A": {
+    "name": "Selin Şahin",
+    "age": 30,
+    "sex": "F",
+    "image": "sofia-walker-30-F.jpg",
+    "height": "165 cm",
+    "eyes": "Kahverengi",
+    "hair": "Kahverengi",
+    "hometown": "Eskişehir",
+    "passport": "Türkiye",
+    "emails": [
+      "selin.şahin@postakutum.tr"
+    ],
+    "socials": [
       {
-        vendor: 'TeacherSupply',
-        item: 'Classroom Decor',
-        amount: '56.99',
-        date: '2024-03-15',
+        "platform": "tiktok",
+        "handle": "@selinşah"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Çikolata",
+        "amount": "182",
+        "date": "2026-04-28"
       },
       {
-        vendor: 'CloudNine Cafe',
-        item: 'Herbal Tea',
-        amount: '3.75',
-        date: '2024-03-14',
+        "vendor": "TeknoMerkez",
+        "item": "Su",
+        "amount": "38",
+        "date": "2026-04-20"
       },
       {
-        vendor: 'BookHaven',
-        item: "Children's Books",
-        amount: '32.00',
-        date: '2024-03-13',
-      },
+        "vendor": "GiyimMağazası",
+        "item": "Kahve",
+        "amount": "167",
+        "date": "2026-04-15"
+      }
     ],
-    texts: [
-      'Kids loved the lesson',
-      'Parent conf tomorrow',
-      'Summer break soon!',
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Gelince haber ver.",
+      "Valizi teslim ettim."
     ],
-    websites: [
-      'www.teachers-pay-teachers.com',
-      'www.pinterest.com/education',
-      'www.scholastic.com',
+    "websites": [
+      "www.muzik-dinle.com",
+      "www.film-dizim.com",
+      "www.trend-market.com"
     ],
-    baseScore: 5,
-    purchaseScore: 2,
-    textScore: 2,
-    facialScore: 7,
+    "baseScore": 5,
+    "purchaseScore": 2,
+    "textScore": 2,
+    "facialScore": 7
   },
-  '7B': {
-    name: 'Matthew Hall',
-    age: 30,
-    sex: 'M',
-    image: 'matthew-hall-30-M.jpg',
-    height: '5\'9"',
-    eyes: 'Green',
-    hair: 'Black',
-    hometown: 'Baltimore, MD',
-    passport: 'United States',
-    emails: ['matt.hall@gmail.com', 'mhall@hospital.org'],
-    socials: [{ platform: 'insta', handle: '@matthall30' }],
-    purchases: [
-      {
-        vendor: 'MedSupply Plus',
-        item: 'Stethoscope',
-        amount: '85.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'HealthyBites',
-        item: 'Protein Bowl',
-        amount: '13.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Medical Text',
-        amount: '95.00',
-        date: '2024-03-13',
-      },
+  "7B": {
+    "name": "Ahmet Öztürk",
+    "age": 30,
+    "sex": "M",
+    "image": "matthew-hall-30-M.jpg",
+    "height": "175 cm",
+    "eyes": "Yeşil",
+    "hair": "Siyah",
+    "hometown": "Gaziantep",
+    "passport": "Türkiye",
+    "emails": [
+      "ahmet.öztürk@postakutum.tr"
     ],
-    texts: ['12 hour shift done', 'Save a life today', 'Need coffee badly'],
-    websites: [
-      'www.pubmed.gov',
-      'www.uptodate.com',
-      'www.reddit.com/r/medicine',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@ahmetözt"
+      }
     ],
-    baseScore: 7,
-    purchaseScore: 3,
-    textScore: 4,
-    facialScore: 9,
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Çikolata",
+        "amount": "254",
+        "date": "2026-04-28"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Kahve",
+        "amount": "151",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Şarj Kablosu",
+        "amount": "494",
+        "date": "2026-04-29"
+      }
+    ],
+    "texts": [
+      "Havaalanı çok kalabalık.",
+      "Dışarıda hava çok güzel.",
+      "Gelince haber ver."
+    ],
+    "websites": [
+      "www.ilan-bul.com",
+      "www.film-dizim.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 7,
+    "purchaseScore": 3,
+    "textScore": 4,
+    "facialScore": 9
   },
-  '7C': {
-    name: 'Chloe Allen',
-    age: 31,
-    sex: 'F',
-    image: 'chloe-allen-31-F.jpg',
-    height: '5\'8"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Scottsdale, AZ',
-    passport: 'United States',
-    emails: ['chloe.allen@gmail.com'],
-    socials: [
-      { platform: 'insta', handle: '@chloeallen' },
-      { platform: 'tiktok', handle: '@chloefitness' },
+  "7C": {
+    "name": "Derya Yıldız",
+    "age": 31,
+    "sex": "F",
+    "image": "chloe-allen-31-F.jpg",
+    "height": "173 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "derya.yıldız@hizlimail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'YogaZen Studio',
-        item: 'Mat',
-        amount: '48.00',
-        date: '2024-03-15',
+        "platform": "tiktok",
+        "handle": "@deryayıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "SüperMarket",
+        "item": "Çikolata",
+        "amount": "157",
+        "date": "2026-04-30"
       },
       {
-        vendor: 'JuiceBar Fresh',
-        item: 'Green Juice',
-        amount: '9.50',
-        date: '2024-03-14',
+        "vendor": "ModaTrend",
+        "item": "Tişört",
+        "amount": "1212",
+        "date": "2026-04-18"
       },
       {
-        vendor: 'LuluActive',
-        item: 'Leggings',
-        amount: '98.00',
-        date: '2024-03-13',
-      },
+        "vendor": "KitapDünyası",
+        "item": "Tişört",
+        "amount": "1415",
+        "date": "2026-04-26"
+      }
     ],
-    texts: ['Namaste everyone!', 'Class at 6am', 'Feeling zen today'],
-    websites: [
-      'www.yogajournal.com',
-      'www.mindbodygreen.com',
-      'www.instagram.com',
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Gelince haber ver.",
+      "Pasaport kontrolündeyim."
     ],
-    baseScore: 8,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 10,
+    "websites": [
+      "www.trend-market.com",
+      "www.ilan-bul.com",
+      "www.film-dizim.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '7D': {
-    name: 'Christopher Young',
-    age: 31,
-    sex: 'M',
-    image: 'christopher-young-31-M.jpg',
-    height: '6\'0"',
-    eyes: 'Brown',
-    hair: 'Brown',
-    hometown: 'Indianapolis, IN',
-    passport: 'United States',
-    emails: ['chris.young@gmail.com', 'cyoung@racing.com'],
-    socials: [{ platform: 'insta', handle: '@chrisyoung31' }],
-    purchases: [
-      {
-        vendor: 'RaceDay Gear',
-        item: 'Gloves',
-        amount: '65.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SpeedStop Gas',
-        item: 'Fuel',
-        amount: '52.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'QuickBite Terminal',
-        item: 'Energy Drink',
-        amount: '4.99',
-        date: '2024-03-13',
-      },
+  "7D": {
+    "name": "Arda Çelik",
+    "age": 31,
+    "sex": "M",
+    "image": "christopher-young-31-M.jpg",
+    "height": "183 cm",
+    "eyes": "Kahverengi",
+    "hair": "Kahverengi",
+    "hometown": "Mersin",
+    "passport": "Türkiye",
+    "emails": [
+      "arda.çelik@ymail.net"
     ],
-    texts: ['Track time tomorrow', 'New lap record!', 'Race day ready'],
-    websites: [
-      'www.indycar.com',
-      'www.racing-reference.info',
-      'www.motortrend.com',
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@ardaçel"
+      }
     ],
-    baseScore: 11,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 13,
+    "purchases": [
+      {
+        "vendor": "ModaTrend",
+        "item": "Parfüm",
+        "amount": "4181",
+        "date": "2026-04-17"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Su",
+        "amount": "41",
+        "date": "2026-04-17"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Kulaklık",
+        "amount": "7524",
+        "date": "2026-04-15"
+      }
+    ],
+    "texts": [
+      "Valizi teslim ettim.",
+      "Görüşürüz!",
+      "Seni bekliyorum."
+    ],
+    "websites": [
+      "www.ilan-bul.com",
+      "www.ornek-sosyal.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 11,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 13
   },
-
-  // Row 8
-  '8A': {
-    name: 'Grace King',
-    age: 32,
-    sex: 'F',
-    image: 'grace-king-32-F.jpg',
-    height: '5\'4"',
-    eyes: 'Hazel',
-    hair: 'Brown',
-    hometown: 'Savannah, GA',
-    passport: 'United States',
-    emails: ['grace.king@gmail.com', 'gking@design.com'],
-    socials: [{ platform: 'insta', handle: '@graceking' }],
-    purchases: [
-      {
-        vendor: 'ArtisanCraft',
-        item: 'Fabric Samples',
-        amount: '45.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SweetTreats',
-        item: 'Macarons',
-        amount: '12.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ClassicStyle',
-        item: 'Vintage Pin',
-        amount: '28.00',
-        date: '2024-03-13',
-      },
+  "8A": {
+    "name": "İrem Arslan",
+    "age": 32,
+    "sex": "F",
+    "image": "grace-king-32-F.jpg",
+    "height": "163 cm",
+    "eyes": "Ela",
+    "hair": "Kahverengi",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "i̇rem.arslan@tmail.com"
     ],
-    texts: [
-      'Design approved!',
-      'Client meeting went great',
-      'Love this aesthetic',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@i̇remars"
+      }
     ],
-    websites: ['www.dribbble.com', 'www.behance.net', 'www.pinterest.com'],
-    baseScore: 6,
-    purchaseScore: 2,
-    textScore: 3,
-    facialScore: 8,
+    "purchases": [
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Güneş Gözlüğü",
+        "amount": "5762",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Kulaklık",
+        "amount": "7147",
+        "date": "2026-05-07"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Su",
+        "amount": "50",
+        "date": "2026-05-02"
+      }
+    ],
+    "texts": [
+      "Pasaport kontrolündeyim.",
+      "Havaalanı çok kalabalık.",
+      "Gelince haber ver."
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.ornek-sosyal.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 6,
+    "purchaseScore": 2,
+    "textScore": 3,
+    "facialScore": 8
   },
-  '8B': {
-    name: 'Andrew Scott',
-    age: 32,
-    sex: 'M',
-    image: 'andrew-scott-32-M.jpg',
-    height: '5\'11"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Salt Lake City, UT',
-    passport: 'Colombia',
-    emails: ['andrew.scott@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@andrewscott32' }],
-    purchases: [
-      {
-        vendor: 'MountainGear Co',
-        item: 'Hiking Boots',
-        amount: '145.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'TrailMix Stop',
-        item: 'Supplies',
-        amount: '28.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'CampersWorld',
-        item: 'Tent Stakes',
-        amount: '15.00',
-        date: '2024-03-13',
-      },
+  "8B": {
+    "name": "Berke Şahin",
+    "age": 32,
+    "sex": "M",
+    "image": "andrew-scott-32-M.jpg",
+    "height": "180 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Antalya",
+    "passport": "Türkiye",
+    "emails": [
+      "berke.şahin@postakutum.tr"
     ],
-    texts: ['Summit reached!', 'Trail was beautiful', 'Next mountain: Rainier'],
-    websites: ['www.alltrails.com', 'www.rei.com', 'www.weather.gov'],
-    baseScore: 10,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 12,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@berkeşah"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Güneş Gözlüğü",
+        "amount": "7270",
+        "date": "2026-04-16"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Güneş Gözlüğü",
+        "amount": "5084",
+        "date": "2026-04-30"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Kahve",
+        "amount": "141",
+        "date": "2026-04-26"
+      }
+    ],
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Seni bekliyorum.",
+      "Bileti bulamıyorum..."
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.alisveris-yap.com",
+      "www.ornek-sosyal.com"
+    ],
+    "baseScore": 10,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 12
   },
-  '8C': {
-    name: 'Lily Green',
-    age: 33,
-    sex: 'F',
-    image: 'lily-green-33-F.jpg',
-    height: '5\'6"',
-    eyes: 'Green',
-    hair: 'Red',
-    hometown: 'Asheville, NC',
-    passport: 'United States',
-    emails: ['lily.green@gmail.com', 'lgreen@brewery.com'],
-    socials: [{ platform: 'insta', handle: '@lilygreen' }],
-    purchases: [
-      {
-        vendor: 'BrewSupply Co',
-        item: 'Hops',
-        amount: '34.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'FarmersMarket',
-        item: 'Local Honey',
-        amount: '12.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ArtisanCraft',
-        item: 'Mason Jars',
-        amount: '18.00',
-        date: '2024-03-13',
-      },
+  "8C": {
+    "name": "İrem Çelik",
+    "age": 33,
+    "sex": "F",
+    "image": "lily-green-33-F.jpg",
+    "height": "168 cm",
+    "eyes": "Yeşil",
+    "hair": "Kızıl",
+    "hometown": "İzmir",
+    "passport": "Türkiye",
+    "emails": [
+      "i̇rem.çelik@postakutum.tr"
     ],
-    texts: ['New IPA ready!', 'Tasting room packed', 'Cheers everyone!'],
-    websites: [
-      'www.homebrewersassociation.org',
-      'www.craftbeer.com',
-      'www.untappd.com',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@i̇remçel"
+      }
     ],
-    baseScore: 7,
-    purchaseScore: 3,
-    textScore: 4,
-    facialScore: 9,
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Çikolata",
+        "amount": "160",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Sandviç",
+        "amount": "227",
+        "date": "2026-05-04"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Şarj Kablosu",
+        "amount": "700",
+        "date": "2026-04-25"
+      }
+    ],
+    "texts": [
+      "Valizi teslim ettim.",
+      "Seni bekliyorum.",
+      "Görüşürüz!"
+    ],
+    "websites": [
+      "www.ilan-bul.com",
+      "www.ornek-sosyal.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 7,
+    "purchaseScore": 3,
+    "textScore": 4,
+    "facialScore": 9
   },
-  '8D': {
-    name: 'Joshua Adams',
-    age: 33,
-    sex: 'M',
-    image: 'joshua-adams-33-M.jpg',
-    height: '6\'2"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Memphis, TN',
-    passport: 'United States',
-    emails: ['josh.adams@gmail.com', 'jadams@music.com'],
-    socials: [
-      { platform: 'insta', handle: '@joshadams' },
-      { platform: 'youtube', handle: 'Josh Plays Blues' },
+  "8D": {
+    "name": "Ozan Arslan",
+    "age": 33,
+    "sex": "M",
+    "image": "joshua-adams-33-M.jpg",
+    "height": "188 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "ozan.arslan@iletinet.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'MelodyMakers',
-        item: 'Guitar Pick Set',
-        amount: '12.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'BBQBoss',
-        item: 'Pulled Pork',
-        amount: '16.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'VinylVault',
-        item: 'BB King Album',
-        amount: '25.00',
-        date: '2024-03-13',
-      },
+        "platform": "tiktok",
+        "handle": "@ozanars"
+      }
     ],
-    texts: ['Beale Street tonight', 'Blues jam at 9', 'Music is life'],
-    websites: ['www.blues.org', 'www.youtube.com', 'www.spotify.com'],
-    baseScore: 9,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 11,
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Sandviç",
+        "amount": "247",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Kitap",
+        "amount": "445",
+        "date": "2026-05-07"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Parfüm",
+        "amount": "3283",
+        "date": "2026-04-19"
+      }
+    ],
+    "texts": [
+      "Pasaport kontrolündeyim.",
+      "Havaalanı çok kalabalık.",
+      "Valizi teslim ettim."
+    ],
+    "websites": [
+      "www.kisa-mesaj.com",
+      "www.kisa-mesaj.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 9,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 11
   },
-
-  // Row 9
-  '9A': {
-    name: 'Zoe Baker',
-    age: 34,
-    sex: 'F',
-    image: 'zoe-baker-34-F.jpg',
-    height: '5\'5"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'New Orleans, LA',
-    passport: 'United States',
-    emails: ['zoe.baker@gmail.com', 'zbaker@restaurant.com'],
-    socials: [
-      { platform: 'insta', handle: '@zoebaker' },
-      { platform: 'tiktok', handle: '@zoecooks' },
+  "9A": {
+    "name": "İrem Çetin",
+    "age": 34,
+    "sex": "F",
+    "image": "zoe-baker-34-F.jpg",
+    "height": "165 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "i̇rem.çetin@coldmail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'ChefSupply Pro',
-        item: 'Knife Set',
-        amount: '189.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SpiceWorld',
-        item: 'Cajun Blend',
-        amount: '14.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'FarmersMarket',
-        item: 'Fresh Crawfish',
-        amount: '45.00',
-        date: '2024-03-13',
-      },
+        "platform": "tiktok",
+        "handle": "@i̇remçet"
+      }
     ],
-    texts: ['Kitchen is ready!', 'New menu dropping', 'Laissez les bon temps!'],
-    websites: ['www.foodnetwork.com', 'www.bonappetit.com', 'www.eater.com'],
-    baseScore: 8,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 10,
+    "purchases": [
+      {
+        "vendor": "ModaTrend",
+        "item": "Tişört",
+        "amount": "671",
+        "date": "2026-04-26"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Dergi",
+        "amount": "297",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Dergi",
+        "amount": "288",
+        "date": "2026-04-24"
+      }
+    ],
+    "texts": [
+      "Görüşürüz!",
+      "Valizi teslim ettim.",
+      "Dışarıda hava çok güzel."
+    ],
+    "websites": [
+      "www.muzik-dinle.com",
+      "www.trend-market.com",
+      "www.ornek-sosyal.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '9B': {
-    name: 'Ryan Nelson',
-    age: 34,
-    sex: 'M',
-    image: 'ryan-nelson-34-M.jpg',
-    height: '5\'10"',
-    eyes: 'Blue',
-    hair: 'Brown',
-    hometown: 'Portland, OR',
-    passport: 'United States',
-    emails: ['ryan.nelson@gmail.com', 'rnelson@startup.com'],
-    socials: [{ platform: 'insta', handle: '@ryannelson' }],
-    purchases: [
-      {
-        vendor: 'TechZone',
-        item: 'Portable Monitor',
-        amount: '199.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Pour Over',
-        amount: '6.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'CoWork Space',
-        item: 'Day Pass',
-        amount: '25.00',
-        date: '2024-03-13',
-      },
+  "9B": {
+    "name": "Mehmet Aydın",
+    "age": 34,
+    "sex": "M",
+    "image": "ryan-nelson-34-M.jpg",
+    "height": "178 cm",
+    "eyes": "Mavi",
+    "hair": "Kahverengi",
+    "hometown": "İzmir",
+    "passport": "Türkiye",
+    "emails": [
+      "mehmet.aydın@postakutum.tr"
     ],
-    texts: ['Funding secured!', 'Pitch went great', 'Startup life'],
-    websites: [
-      'www.techcrunch.com',
-      'www.ycombinator.com',
-      'www.producthunt.com',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@mehmetayd"
+      }
     ],
-    baseScore: 12,
-    purchaseScore: 6,
-    textScore: 7,
-    facialScore: 14,
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Parfüm",
+        "amount": "5164",
+        "date": "2026-04-30"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kitap",
+        "amount": "332",
+        "date": "2026-04-17"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Kahve",
+        "amount": "140",
+        "date": "2026-05-04"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Pasaport kontrolündeyim.",
+      "Bileti bulamıyorum..."
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.kisa-mesaj.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 12,
+    "purchaseScore": 6,
+    "textScore": 7,
+    "facialScore": 14
   },
-  '9C': {
-    name: 'Natalie Carter',
-    age: 35,
-    sex: 'F',
-    image: 'natalie-carter-35-F.jpg',
-    height: '5\'7"',
-    eyes: 'Hazel',
-    hair: 'Blonde',
-    hometown: 'Charlotte, NC',
-    passport: 'United States',
-    emails: ['natalie.c@gmail.com', 'ncarter@bank.com'],
-    socials: [{ platform: 'insta', handle: '@nataliecarter' }],
-    purchases: [
-      {
-        vendor: 'ClassicStyle',
-        item: 'Briefcase',
-        amount: '175.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'HealthyBites',
-        item: 'Grain Bowl',
-        amount: '14.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Finance Book',
-        amount: '28.00',
-        date: '2024-03-13',
-      },
+  "9C": {
+    "name": "Defne Kara",
+    "age": 35,
+    "sex": "F",
+    "image": "natalie-carter-35-F.jpg",
+    "height": "170 cm",
+    "eyes": "Ela",
+    "hair": "Sarı",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "defne.kara@ymail.net"
     ],
-    texts: [
-      'Portfolio up 12%',
-      'Client dinner tonight',
-      'Quarterly review done',
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@defnekar"
+      }
     ],
-    websites: ['www.morningstar.com', 'www.bloomberg.com', 'www.linkedin.com'],
-    baseScore: 7,
-    purchaseScore: 3,
-    textScore: 4,
-    facialScore: 9,
+    "purchases": [
+      {
+        "vendor": "ModaTrend",
+        "item": "Sandviç",
+        "amount": "211",
+        "date": "2026-05-01"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Güneş Gözlüğü",
+        "amount": "14364",
+        "date": "2026-05-01"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Kitap",
+        "amount": "435",
+        "date": "2026-04-22"
+      }
+    ],
+    "texts": [
+      "Seni bekliyorum.",
+      "Çok sıra var.",
+      "Seni bekliyorum."
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.video-izle.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 7,
+    "purchaseScore": 3,
+    "textScore": 4,
+    "facialScore": 9
   },
-  '9D': {
-    name: 'Kevin Mitchell',
-    age: 36,
-    sex: 'M',
-    image: 'kevin-mitchell-36-M.jpg',
-    height: '6\'1"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Denver, CO',
-    passport: 'United States',
-    emails: ['kevin.m@gmail.com', 'kmitchell@outdoors.com'],
-    socials: [{ platform: 'insta', handle: '@kevinmitchell' }],
-    purchases: [
-      {
-        vendor: 'SkiResort Pro',
-        item: 'Lift Ticket',
-        amount: '159.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'MountainGear Co',
-        item: 'Goggles',
-        amount: '120.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TrailMix Stop',
-        item: 'Hand Warmers',
-        amount: '8.99',
-        date: '2024-03-13',
-      },
+  "9D": {
+    "name": "Deniz Yıldız",
+    "age": 36,
+    "sex": "M",
+    "image": "kevin-mitchell-36-M.jpg",
+    "height": "185 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Konya",
+    "passport": "Türkiye",
+    "emails": [
+      "deniz.yıldız@coldmail.com"
     ],
-    texts: ['Powder day!', 'Black diamond run', 'Living the dream'],
-    websites: ['www.opensnow.com', 'www.onthesnow.com', 'www.skimag.com'],
-    baseScore: 11,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 13,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@denizyıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Tişört",
+        "amount": "1445",
+        "date": "2026-04-28"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "740",
+        "date": "2026-05-06"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Tişört",
+        "amount": "831",
+        "date": "2026-05-08"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Havaalanı çok kalabalık.",
+      "Yolculuk başlıyor!"
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.muzik-dinle.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 11,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 13
   },
-
-  // Row 10
-  '10A': {
-    name: 'Hannah Phillips',
-    age: 36,
-    sex: 'F',
-    image: 'hannah-phillips-36-F.jpg',
-    height: '5\'4"',
-    eyes: 'Blue',
-    hair: 'Brown',
-    hometown: 'Raleigh, NC',
-    passport: 'United States',
-    emails: ['hannah.p@gmail.com', 'hphillips@tech.com'],
-    socials: [{ platform: 'insta', handle: '@hannahphillips' }],
-    purchases: [
-      {
-        vendor: 'BabyWorld',
-        item: 'Diapers',
-        amount: '42.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'OrganicBites',
-        item: 'Baby Food',
-        amount: '18.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ToyChest',
-        item: 'Stuffed Animal',
-        amount: '24.00',
-        date: '2024-03-13',
-      },
+  "10A": {
+    "name": "Zeynep Yıldız",
+    "age": 36,
+    "sex": "F",
+    "image": "hannah-phillips-36-F.jpg",
+    "height": "163 cm",
+    "eyes": "Mavi",
+    "hair": "Kahverengi",
+    "hometown": "Eskişehir",
+    "passport": "Türkiye",
+    "emails": [
+      "zeynep.yıldız@zposta.com"
     ],
-    texts: [
-      "Baby's first flight!",
-      'Pack the diaper bag',
-      'Almost there grandma!',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@zeynepyıl"
+      }
     ],
-    websites: ['www.whattoexpect.com', 'www.babycenter.com', 'www.target.com'],
-    baseScore: 5,
-    purchaseScore: 2,
-    textScore: 2,
-    facialScore: 7,
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Dergi",
+        "amount": "267",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Tişört",
+        "amount": "1138",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Kahve",
+        "amount": "120",
+        "date": "2026-04-25"
+      }
+    ],
+    "texts": [
+      "Biraz gecikebilirim.",
+      "Havaalanı çok kalabalık.",
+      "Uçağa biniyorum!"
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.trend-market.com",
+      "www.ilan-bul.com"
+    ],
+    "baseScore": 5,
+    "purchaseScore": 2,
+    "textScore": 2,
+    "facialScore": 7
   },
-  '10B': {
-    name: 'Brandon Evans',
-    age: 37,
-    sex: 'M',
-    image: 'brandon-evans-37-M.jpg',
-    height: '5\'9"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Las Vegas, NV',
-    passport: 'Nicaragua',
-    emails: ['brandon.e@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@brandonevans' }],
-    purchases: [
-      {
-        vendor: 'CasinoGift Shop',
-        item: 'Poker Chips',
-        amount: '50.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SteakHouse Grill',
-        item: 'Filet Mignon',
-        amount: '65.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'SunStyle Boutique',
-        item: 'Sunglasses',
-        amount: '180.00',
-        date: '2024-03-13',
-      },
+  "10B": {
+    "name": "Ali Çelik",
+    "age": 37,
+    "sex": "M",
+    "image": "brandon-evans-37-M.jpg",
+    "height": "175 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "Samsun",
+    "passport": "Türkiye",
+    "emails": [
+      "ali.çelik@tmail.com"
     ],
-    texts: [
-      'Hit the jackpot!',
-      'Pool party at Encore',
-      'What happens in Vegas...',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@aliçel"
+      }
     ],
-    websites: ['www.vegas.com', 'www.tripadvisor.com', 'www.yelp.com'],
-    baseScore: 16,
-    purchaseScore: 9,
-    textScore: 11,
-    facialScore: 18,
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Şarj Kablosu",
+        "amount": "700",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Dergi",
+        "amount": "214",
+        "date": "2026-05-09"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Dergi",
+        "amount": "258",
+        "date": "2026-05-08"
+      }
+    ],
+    "texts": [
+      "Görüşürüz!",
+      "Bileti bulamıyorum...",
+      "Umarım türbülans olmaz."
+    ],
+    "websites": [
+      "www.video-izle.com",
+      "www.trend-market.com",
+      "www.alisveris-yap.com"
+    ],
+    "baseScore": 16,
+    "purchaseScore": 9,
+    "textScore": 11,
+    "facialScore": 18
   },
-  '10C': {
-    name: 'Victoria Campbell',
-    age: 38,
-    sex: 'F',
-    image: 'victoria-campbell-38-F.jpg',
-    height: '5\'6"',
-    eyes: 'Blue',
-    hair: 'Red',
-    hometown: 'Charleston, SC',
-    passport: 'United States',
-    emails: ['victoria.c@gmail.com', 'vcampbell@law.com'],
-    socials: [{ platform: 'insta', handle: '@victoriacampbell' }],
-    purchases: [
-      {
-        vendor: 'LegalEagle Books',
-        item: 'Case Studies',
-        amount: '75.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'TeaTime Cafe',
-        item: 'Earl Grey',
-        amount: '4.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ClassicStyle',
-        item: 'Pearl Earrings',
-        amount: '95.00',
-        date: '2024-03-13',
-      },
+  "10C": {
+    "name": "Melis Özdemir",
+    "age": 38,
+    "sex": "F",
+    "image": "victoria-campbell-38-F.jpg",
+    "height": "168 cm",
+    "eyes": "Mavi",
+    "hair": "Kızıl",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "melis.özdemir@zposta.com"
     ],
-    texts: ['Case dismissed!', 'Deposition tomorrow', 'Justice served'],
-    websites: ['www.westlaw.com', 'www.law.com', 'www.scotusblog.com'],
-    baseScore: 8,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 10,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@melisözd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Çikolata",
+        "amount": "279",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Kulaklık",
+        "amount": "6632",
+        "date": "2026-04-28"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Su",
+        "amount": "33",
+        "date": "2026-04-20"
+      }
+    ],
+    "texts": [
+      "Çok sıra var.",
+      "Umarım türbülans olmaz.",
+      "Uçağa biniyorum!"
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.yemek-iste.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '10D': {
-    name: 'Tyler Parker',
-    age: 40,
-    sex: 'M',
-    image: 'tyler-parker-40-M.jpg',
-    height: '6\'0"',
-    eyes: 'Blue',
-    hair: 'Grey',
-    hometown: 'San Jose, CA',
-    passport: 'United States',
-    emails: ['tyler.parker@gmail.com', 'tparker@silicon.com'],
-    socials: [{ platform: 'insta', handle: '@tylerparker' }],
-    purchases: [
-      {
-        vendor: 'TechZone',
-        item: 'Smart Watch',
-        amount: '399.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Nitro Cold Brew',
-        amount: '6.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'AI Book',
-        amount: '32.00',
-        date: '2024-03-13',
-      },
+  "10D": {
+    "name": "Ozan Kaya",
+    "age": 40,
+    "sex": "M",
+    "image": "tyler-parker-40-M.jpg",
+    "height": "183 cm",
+    "eyes": "Mavi",
+    "hair": "Gri",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "ozan.kaya@hizlimail.com"
     ],
-    texts: ['IPO next quarter', 'Board meeting at 4', 'Acquisition talks'],
-    websites: ['www.techcrunch.com', 'www.wired.com', 'www.hbr.org'],
-    baseScore: 13,
-    purchaseScore: 7,
-    textScore: 8,
-    facialScore: 15,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@ozankay"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Parfüm",
+        "amount": "7507",
+        "date": "2026-04-27"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Kulaklık",
+        "amount": "4888",
+        "date": "2026-04-15"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Çikolata",
+        "amount": "198",
+        "date": "2026-04-24"
+      }
+    ],
+    "texts": [
+      "Çok sıra var.",
+      "Pasaport kontrolündeyim.",
+      "Yolculuk başlıyor!"
+    ],
+    "websites": [
+      "www.kisa-mesaj.com",
+      "www.film-dizim.com",
+      "www.film-dizim.com"
+    ],
+    "baseScore": 13,
+    "purchaseScore": 7,
+    "textScore": 8,
+    "facialScore": 15
   },
-
-  // Row 11
-  '11A': {
-    name: 'Madison Murphy',
-    age: 39,
-    sex: 'F',
-    image: 'madison-murphy-39-F.jpg',
-    height: '5\'5"',
-    eyes: 'Hazel',
-    hair: 'Blonde',
-    hometown: 'St. Louis, MO',
-    passport: 'United States',
-    emails: ['madison.m@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@madisonmurphy' }],
-    purchases: [
-      {
-        vendor: 'PetPalace',
-        item: 'Dog Treats',
-        amount: '18.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'GreenLeaf Cafe',
-        item: 'Avocado Toast',
-        amount: '12.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'FashionForward',
-        item: 'Cardigan',
-        amount: '65.00',
-        date: '2024-03-13',
-      },
+  "11A": {
+    "name": "Defne Aslan",
+    "age": 39,
+    "sex": "F",
+    "image": "madison-murphy-39-F.jpg",
+    "height": "165 cm",
+    "eyes": "Ela",
+    "hair": "Sarı",
+    "hometown": "Antalya",
+    "passport": "Türkiye",
+    "emails": [
+      "defne.aslan@ymail.net"
     ],
-    texts: ['Miss my pup already', 'House sitter is great', 'Vacation mode ON'],
-    websites: ['www.barkbox.com', 'www.instagram.com', 'www.pinterest.com'],
-    baseScore: 6,
-    purchaseScore: 2,
-    textScore: 3,
-    facialScore: 8,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@defneasl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "SüperMarket",
+        "item": "Tişört",
+        "amount": "613",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Dergi",
+        "amount": "203",
+        "date": "2026-04-22"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Sandviç",
+        "amount": "188",
+        "date": "2026-05-08"
+      }
+    ],
+    "texts": [
+      "Umarım türbülans olmaz.",
+      "Gelince haber ver.",
+      "Uçağa biniyorum!"
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.trend-market.com",
+      "www.film-dizim.com"
+    ],
+    "baseScore": 6,
+    "purchaseScore": 2,
+    "textScore": 3,
+    "facialScore": 8
   },
-  '11B': {
-    name: 'Jessica Rivera',
-    age: 41,
-    sex: 'F',
-    image: 'jessica-rivera-41-F.jpg',
-    height: '5\'7"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'San Antonio, TX',
-    passport: 'United States',
-    emails: ['jessica.r@gmail.com', 'jrivera@healthcare.com'],
-    socials: [{ platform: 'insta', handle: '@jessicarivera' }],
-    purchases: [
-      {
-        vendor: 'MedSupply Plus',
-        item: 'Blood Pressure Kit',
-        amount: '45.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'HealthyBites',
-        item: 'Chicken Salad',
-        amount: '13.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Wellness Guide',
-        amount: '19.99',
-        date: '2024-03-13',
-      },
+  "11B": {
+    "name": "Elif Kılıç",
+    "age": 41,
+    "sex": "F",
+    "image": "jessica-rivera-41-F.jpg",
+    "height": "170 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "elif.kılıç@coldmail.com"
     ],
-    texts: ['Patient recovered!', 'Clinic opening soon', 'Health is wealth'],
-    websites: ['www.mayoclinic.org', 'www.healthline.com', 'www.medscape.com'],
-    baseScore: 7,
-    purchaseScore: 3,
-    textScore: 4,
-    facialScore: 9,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@elifkıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Çikolata",
+        "amount": "285",
+        "date": "2026-04-24"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Güneş Gözlüğü",
+        "amount": "10293",
+        "date": "2026-04-24"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Kulaklık",
+        "amount": "4473",
+        "date": "2026-04-20"
+      }
+    ],
+    "texts": [
+      "Biraz gecikebilirim.",
+      "Umarım türbülans olmaz.",
+      "Bileti bulamıyorum..."
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.muzik-dinle.com",
+      "www.video-izle.com"
+    ],
+    "baseScore": 7,
+    "purchaseScore": 3,
+    "textScore": 4,
+    "facialScore": 9
   },
-  '11C': {
-    name: 'Jason Wright',
-    age: 41,
-    sex: 'M',
-    image: 'jason-wright-41-M.jpg',
-    height: '5\'11"',
-    eyes: 'Green',
-    hair: 'Brown',
-    hometown: 'Milwaukee, WI',
-    passport: 'United States',
-    emails: ['jason.wright@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@jasonwright41' }],
-    purchases: [
-      {
-        vendor: 'BrewSupply Co',
-        item: 'Beer Kit',
-        amount: '65.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CheeseShop',
-        item: 'Aged Cheddar',
-        amount: '22.00',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'SportsWorld',
-        item: 'Packers Hat',
-        amount: '32.00',
-        date: '2024-03-13',
-      },
+  "11C": {
+    "name": "Cem Kılıç",
+    "age": 41,
+    "sex": "M",
+    "image": "jason-wright-41-M.jpg",
+    "height": "180 cm",
+    "eyes": "Yeşil",
+    "hair": "Kahverengi",
+    "hometown": "Trabzon",
+    "passport": "Türkiye",
+    "emails": [
+      "cem.kılıç@iletinet.com"
     ],
-    texts: ['Go Pack Go!', 'Brewery tour Saturday', 'Cheese curds are life'],
-    websites: ['www.packers.com', 'www.brewersassociation.org', 'www.espn.com'],
-    baseScore: 10,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 12,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@cemkıl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Güneş Gözlüğü",
+        "amount": "6945",
+        "date": "2026-04-25"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Kulaklık",
+        "amount": "2581",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kulaklık",
+        "amount": "4394",
+        "date": "2026-05-02"
+      }
+    ],
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Bileti bulamıyorum...",
+      "Yolculuk başlıyor!"
+    ],
+    "websites": [
+      "www.ornek-sosyal.com",
+      "www.yemek-iste.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 10,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 12
   },
-  '11D': {
-    name: 'Robert Torres',
-    age: 42,
-    sex: 'M',
-    image: 'robert-torres-42-M.jpg',
-    height: '6\'0"',
-    eyes: 'Brown',
-    hair: 'Black',
-    hometown: 'Albuquerque, NM',
-    passport: 'United States',
-    emails: ['robert.t@gmail.com', 'rtorres@engineering.com'],
-    socials: [{ platform: 'insta', handle: '@roberttorres' }],
-    purchases: [
-      {
-        vendor: 'TechZone',
-        item: 'Calculator',
-        amount: '89.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SouthwestGrill',
-        item: 'Green Chile Burger',
-        amount: '14.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Engineering Manual',
-        amount: '78.00',
-        date: '2024-03-13',
-      },
+  "11D": {
+    "name": "Tolga Özdemir",
+    "age": 42,
+    "sex": "M",
+    "image": "robert-torres-42-M.jpg",
+    "height": "183 cm",
+    "eyes": "Kahverengi",
+    "hair": "Siyah",
+    "hometown": "İstanbul",
+    "passport": "Türkiye",
+    "emails": [
+      "tolga.özdemir@iletinet.com"
     ],
-    texts: [
-      'Bridge design approved',
-      'Site inspection done',
-      'Project on schedule',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@tolgaözd"
+      }
     ],
-    websites: ['www.asce.org', 'www.engineeringnews.com', 'www.autodesk.com'],
-    baseScore: 9,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 11,
+    "purchases": [
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Tişört",
+        "amount": "1259",
+        "date": "2026-05-03"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Dergi",
+        "amount": "177",
+        "date": "2026-05-05"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Parfüm",
+        "amount": "6132",
+        "date": "2026-04-27"
+      }
+    ],
+    "texts": [
+      "Seni bekliyorum.",
+      "Bileti bulamıyorum...",
+      "Valizi teslim ettim."
+    ],
+    "websites": [
+      "www.video-izle.com",
+      "www.muzik-dinle.com",
+      "www.ornek-sosyal.com"
+    ],
+    "baseScore": 9,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 11
   },
-
-  // Row 12
-  '12A': {
-    name: 'Nicole Stewart',
-    age: 44,
-    sex: 'F',
-    image: 'nicole-stewart-44-F.jpg',
-    height: '5\'6"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Omaha, NE',
-    passport: 'United States',
-    emails: ['nicole.s@gmail.com', 'nstewart@insurance.com'],
-    socials: [{ platform: 'insta', handle: '@nicolestewart' }],
-    purchases: [
-      {
-        vendor: 'OfficeMax Pro',
-        item: 'Folders',
-        amount: '15.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'DinerDeluxe',
-        item: 'Club Sandwich',
-        amount: '11.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ClassicStyle',
-        item: 'Blouse',
-        amount: '55.00',
-        date: '2024-03-13',
-      },
+  "12A": {
+    "name": "İrem Kaya",
+    "age": 44,
+    "sex": "F",
+    "image": "nicole-stewart-44-F.jpg",
+    "height": "168 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Konya",
+    "passport": "Türkiye",
+    "emails": [
+      "i̇rem.kaya@tmail.com"
     ],
-    texts: ['Policy renewed', 'Meeting moved to 3', 'Great quarter!'],
-    websites: ['www.investopedia.com', 'www.naic.org', 'www.linkedin.com'],
-    baseScore: 6,
-    purchaseScore: 2,
-    textScore: 3,
-    facialScore: 8,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@i̇remkay"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Tişört",
+        "amount": "834",
+        "date": "2026-04-17"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Sandviç",
+        "amount": "252",
+        "date": "2026-04-18"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Sandviç",
+        "amount": "290",
+        "date": "2026-04-27"
+      }
+    ],
+    "texts": [
+      "Valizi teslim ettim.",
+      "Gelince haber ver.",
+      "Havaalanı çok kalabalık."
+    ],
+    "websites": [
+      "www.ilan-bul.com",
+      "www.alisveris-yap.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 6,
+    "purchaseScore": 2,
+    "textScore": 3,
+    "facialScore": 8
   },
-  '12B': {
-    name: 'Jennifer Collins',
-    age: 45,
-    sex: 'F',
-    image: 'jennifer-collins-45-F.jpg',
-    height: '5\'4"',
-    eyes: 'Hazel',
-    hair: 'Brown',
-    hometown: 'Richmond, VA',
-    passport: 'United States',
-    emails: ['jennifer.c@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@jennifercollins' }],
-    purchases: [
-      {
-        vendor: 'AntiqueMall',
-        item: 'Vintage Vase',
-        amount: '125.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'TeaTime Cafe',
-        item: 'Scone Set',
-        amount: '8.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'History Book',
-        amount: '24.00',
-        date: '2024-03-13',
-      },
+  "12B": {
+    "name": "Buse Şahin",
+    "age": 45,
+    "sex": "F",
+    "image": "jennifer-collins-45-F.jpg",
+    "height": "163 cm",
+    "eyes": "Ela",
+    "hair": "Kahverengi",
+    "hometown": "Ankara",
+    "passport": "Türkiye",
+    "emails": [
+      "buse.şahin@ymail.net"
     ],
-    texts: ['Found a treasure!', 'Estate sale tomorrow', 'Love this antique'],
-    websites: ['www.rubylane.com', 'www.1stdibs.com', 'www.ebay.com/antiques'],
-    baseScore: 5,
-    purchaseScore: 2,
-    textScore: 2,
-    facialScore: 7,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@buseşah"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Dergi",
+        "amount": "222",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Kahve",
+        "amount": "129",
+        "date": "2026-05-04"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Su",
+        "amount": "46",
+        "date": "2026-04-15"
+      }
+    ],
+    "texts": [
+      "Bileti bulamıyorum...",
+      "Bileti bulamıyorum...",
+      "Yolculuk başlıyor!"
+    ],
+    "websites": [
+      "www.alisveris-yap.com",
+      "www.kisa-mesaj.com",
+      "www.muzik-dinle.com"
+    ],
+    "baseScore": 5,
+    "purchaseScore": 2,
+    "textScore": 2,
+    "facialScore": 7
   },
-  '12C': {
-    name: 'Steven Sanchez',
-    age: 45,
-    sex: 'M',
-    image: 'steven-sanchez-45-M.jpg',
-    height: '5\'10"',
-    eyes: 'Blue',
-    hair: 'Black',
-    hometown: 'Tucson, AZ',
-    passport: 'United States',
-    emails: ['steven.s@gmail.com', 'ssanchez@mining.com'],
-    socials: [{ platform: 'insta', handle: '@stevensanchez' }],
-    purchases: [
-      {
-        vendor: 'OutdoorGear Pro',
-        item: 'Work Boots',
-        amount: '165.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'QuickBite Terminal',
-        item: 'Breakfast Burrito',
-        amount: '8.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ToolTime Hardware',
-        item: 'Flashlight',
-        amount: '45.00',
-        date: '2024-03-13',
-      },
+  "12C": {
+    "name": "Ahmet Kara",
+    "age": 45,
+    "sex": "M",
+    "image": "steven-sanchez-45-M.jpg",
+    "height": "178 cm",
+    "eyes": "Mavi",
+    "hair": "Siyah",
+    "hometown": "Adana",
+    "passport": "Türkiye",
+    "emails": [
+      "ahmet.kara@zposta.com"
     ],
-    texts: ['Shift ends at 6', 'New vein discovered', 'Safety first always'],
-    websites: ['www.mining.com', 'www.osha.gov', 'www.geology.com'],
-    baseScore: 8,
-    purchaseScore: 4,
-    textScore: 5,
-    facialScore: 10,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@ahmetkar"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "590",
+        "date": "2026-04-24"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Kitap",
+        "amount": "385",
+        "date": "2026-05-08"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Kitap",
+        "amount": "410",
+        "date": "2026-04-21"
+      }
+    ],
+    "texts": [
+      "Çok sıra var.",
+      "Biraz gecikebilirim.",
+      "Biraz gecikebilirim."
+    ],
+    "websites": [
+      "www.film-dizim.com",
+      "www.trend-market.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 8,
+    "purchaseScore": 4,
+    "textScore": 5,
+    "facialScore": 10
   },
-  '12D': {
-    name: 'George Patterson',
-    age: 58,
-    sex: 'M',
-    image: 'george-patterson-58-M.jpg',
-    height: '6\'1"',
-    eyes: 'Brown',
-    hair: 'White',
-    hometown: 'Pittsburgh, PA',
-    passport: 'United Arab Emirates',
-    emails: ['george.p@gmail.com', 'gpatterson@steel.com'],
-    socials: [{ platform: 'insta', handle: '@georgepatterson' }],
-    purchases: [
-      {
-        vendor: 'SportsWorld',
-        item: 'Steelers Jersey',
-        amount: '120.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'IronCity Grill',
-        item: 'Pierogi Platter',
-        amount: '16.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ToolTime Hardware',
-        item: 'Welding Mask',
-        amount: '89.00',
-        date: '2024-03-13',
-      },
+  "12D": {
+    "name": "Cem Çetin",
+    "age": 58,
+    "sex": "M",
+    "image": "george-patterson-58-M.jpg",
+    "height": "185 cm",
+    "eyes": "Kahverengi",
+    "hair": "White",
+    "hometown": "Bursa",
+    "passport": "Türkiye",
+    "emails": [
+      "cem.çetin@hizlimail.com"
     ],
-    texts: [
-      'Here we go Steelers!',
-      'Plant running smooth',
-      'Family dinner Sunday',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@cemçet"
+      }
     ],
-    websites: ['www.steelers.com', 'www.espn.com', 'www.steelworkers.org'],
-    baseScore: 11,
-    purchaseScore: 5,
-    textScore: 6,
-    facialScore: 13,
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Güneş Gözlüğü",
+        "amount": "7237",
+        "date": "2026-05-06"
+      },
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Tişört",
+        "amount": "664",
+        "date": "2026-04-15"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Tişört",
+        "amount": "961",
+        "date": "2026-05-02"
+      }
+    ],
+    "texts": [
+      "Görüşürüz!",
+      "Gelince haber ver.",
+      "Uçağa biniyorum!"
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.kisa-mesaj.com",
+      "www.video-izle.com"
+    ],
+    "baseScore": 11,
+    "purchaseScore": 5,
+    "textScore": 6,
+    "facialScore": 13
   },
-
-  // Row 13 - Special row with YOU and Alex Mercer
-  // 13A is "YOU" - no passenger data
-  '13B': {
-    name: 'Alex Mercer',
-    age: 23,
-    sex: 'M',
-    image: 'alex-mercer-23-M.jpg',
-    height: '5\'11"',
-    eyes: 'Blue',
-    hair: 'Blonde',
-    hometown: 'Chicago, IL',
-    passport: 'United States',
-    emails: ['alex.mercer@gmail.com', 'amercer@newsoutlet.com'],
-    socials: [
-      { platform: 'insta', handle: '@alexmercer' },
-      { platform: 'tiktok', handle: '@alexinvestigates' },
+  "13B": {
+    "name": "Can Demir",
+    "age": 23,
+    "sex": "M",
+    "image": "alex-mercer-23-M.jpg",
+    "height": "180 cm",
+    "eyes": "Mavi",
+    "hair": "Sarı",
+    "hometown": "Gaziantep",
+    "passport": "Türkiye",
+    "emails": [
+      "can.demir@tmail.com"
     ],
-    purchases: [
+    "socials": [
       {
-        vendor: 'CloudNine Cafe',
-        item: 'Black Coffee',
-        amount: '3.50',
-        date: '2024-03-15',
+        "platform": "insta",
+        "handle": "@candemir"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "Kahvecim",
+        "item": "Filtre Kahve",
+        "amount": "145",
+        "date": "2026-04-16"
       },
       {
-        vendor: 'BookHaven',
-        item: 'Mystery Novel',
-        amount: '18.99',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'TechZone',
-        item: 'Portable Charger',
-        amount: '24.99',
-        date: '2024-03-13',
-      },
+        "vendor": "SüperMarket",
+        "item": "Su",
+        "amount": "35",
+        "date": "2026-04-28"
+      }
     ],
-    texts: [
-      'Want some water?',
-      'Crazy flight. Man, I really gotta use the bathroom!',
-      'Story deadline is tomorrow',
+    "texts": [
+      "Planı unutma",
+      "Her şey hazır mı?",
+      "Kimseye söyleme"
     ],
-    websites: [
-      'www.investigativenews.com',
-      'www.publicrecords.gov',
-      'www.nytimes.com',
+    "websites": [
+      "www.trend-market.com",
+      "www.muzik-dinle.com",
+      "www.kisa-mesaj.com"
     ],
-    baseScore: 42,
-    purchaseScore: 8,
-    textScore: 55,
-    facialScore: 52,
-    isAlex: true,
+    "baseScore": 42,
+    "purchaseScore": 8,
+    "textScore": 55,
+    "facialScore": 52,
+    "isAlex": true
   },
-  '13C': {
-    name: 'Karen Price',
-    age: 47,
-    sex: 'F',
-    image: 'karen-price-47-F.jpg',
-    height: '5\'5"',
-    eyes: 'Green',
-    hair: 'Blonde',
-    hometown: 'Orlando, FL',
-    passport: 'United States',
-    emails: ['karen.price@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@karenprice' }],
-    purchases: [
-      {
-        vendor: 'DisneyStore',
-        item: 'Mickey Ears',
-        amount: '29.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'ThemePark Cafe',
-        item: 'Turkey Leg',
-        amount: '14.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'PhotoShop Pro',
-        item: 'Photo Album',
-        amount: '35.00',
-        date: '2024-03-13',
-      },
+  "13C": {
+    "name": "İnci Doğan",
+    "age": 47,
+    "sex": "F",
+    "image": "karen-price-47-F.jpg",
+    "height": "165 cm",
+    "eyes": "Yeşil",
+    "hair": "Sarı",
+    "hometown": "Antalya",
+    "passport": "Türkiye",
+    "emails": [
+      "i̇nci.doğan@ymail.net"
     ],
-    texts: ['Kids had a blast!', 'Magical vacation', 'Home sweet home soon'],
-    websites: [
-      'www.disneyworld.com',
-      'www.universalorlando.com',
-      'www.tripadvisor.com',
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@i̇ncidoğ"
+      }
     ],
-    baseScore: 4,
-    purchaseScore: 1,
-    textScore: 2,
-    facialScore: 6,
+    "purchases": [
+      {
+        "vendor": "YapıMarket",
+        "item": "Çikolata",
+        "amount": "241",
+        "date": "2026-05-07"
+      },
+      {
+        "vendor": "KitapDünyası",
+        "item": "Tişört",
+        "amount": "1485",
+        "date": "2026-04-29"
+      },
+      {
+        "vendor": "SüperMarket",
+        "item": "Sandviç",
+        "amount": "194",
+        "date": "2026-04-24"
+      }
+    ],
+    "texts": [
+      "Gelince haber ver.",
+      "Havaalanı çok kalabalık.",
+      "Valizi teslim ettim."
+    ],
+    "websites": [
+      "www.muzik-dinle.com",
+      "www.ilan-bul.com",
+      "www.ornek-sosyal.com"
+    ],
+    "baseScore": 4,
+    "purchaseScore": 1,
+    "textScore": 2,
+    "facialScore": 6
   },
-  '13D': {
-    name: 'Mark Foster',
-    age: 48,
-    sex: 'M',
-    image: 'mark-foster-48-M.jpg',
-    height: '5\'9"',
-    eyes: 'Green',
-    hair: 'Grey',
-    hometown: 'Columbus, OH',
-    passport: 'United States',
-    emails: ['mark.foster@gmail.com', 'mfoster@accounting.com'],
-    socials: [{ platform: 'insta', handle: '@markfoster' }],
-    purchases: [
-      {
-        vendor: 'OfficeMax Pro',
-        item: 'Calculator',
-        amount: '35.00',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CloudNine Cafe',
-        item: 'Drip Coffee',
-        amount: '2.75',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Tax Guide',
-        amount: '45.00',
-        date: '2024-03-13',
-      },
+  "13D": {
+    "name": "Ali Aydın",
+    "age": 48,
+    "sex": "M",
+    "image": "mark-foster-48-M.jpg",
+    "height": "175 cm",
+    "eyes": "Yeşil",
+    "hair": "Gri",
+    "hometown": "Denizli",
+    "passport": "Türkiye",
+    "emails": [
+      "ali.aydın@postakutum.tr"
     ],
-    texts: ['Tax season crunch', 'Returns filed!', 'Audit complete'],
-    websites: ['www.irs.gov', 'www.turbotax.com', 'www.accountingtoday.com'],
-    baseScore: 5,
-    purchaseScore: 2,
-    textScore: 2,
-    facialScore: 7,
+    "socials": [
+      {
+        "platform": "tiktok",
+        "handle": "@aliayd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "TeknoMerkez",
+        "item": "Dergi",
+        "amount": "172",
+        "date": "2026-04-24"
+      },
+      {
+        "vendor": "Kahvecim",
+        "item": "Sandviç",
+        "amount": "245",
+        "date": "2026-04-24"
+      },
+      {
+        "vendor": "GiyimMağazası",
+        "item": "Sandviç",
+        "amount": "274",
+        "date": "2026-04-16"
+      }
+    ],
+    "texts": [
+      "Uçağa biniyorum!",
+      "Biraz gecikebilirim.",
+      "Dışarıda hava çok güzel."
+    ],
+    "websites": [
+      "www.alisveris-yap.com",
+      "www.kisa-mesaj.com",
+      "www.yemek-iste.com"
+    ],
+    "baseScore": 5,
+    "purchaseScore": 2,
+    "textScore": 2,
+    "facialScore": 7
   },
-
-  // Row 14
-  '14A': {
-    name: 'Patricia Morgan',
-    age: 50,
-    sex: 'F',
-    image: 'patricia-morgan-50-F.jpg',
-    height: '5\'4"',
-    eyes: 'Blue',
-    hair: 'Grey',
-    hometown: 'Boise, ID',
-    passport: 'United States',
-    emails: ['patricia.m@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@patriciamorgan' }],
-    purchases: [
-      {
-        vendor: 'GardenCenter',
-        item: 'Flower Seeds',
-        amount: '22.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'TeaTime Cafe',
-        item: 'Chamomile Tea',
-        amount: '3.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'ArtisanCraft',
-        item: 'Knitting Needles',
-        amount: '28.00',
-        date: '2024-03-13',
-      },
+  "14A": {
+    "name": "Eda Aslan",
+    "age": 50,
+    "sex": "F",
+    "image": "patricia-morgan-50-F.jpg",
+    "height": "163 cm",
+    "eyes": "Mavi",
+    "hair": "Gri",
+    "hometown": "Eskişehir",
+    "passport": "Türkiye",
+    "emails": [
+      "eda.aslan@zposta.com"
     ],
-    texts: ['Garden is blooming!', 'Grandkids visiting', 'Made fresh cookies'],
-    websites: ['www.gardenweb.com', 'www.ravelry.com', 'www.allrecipes.com'],
-    baseScore: 3,
-    purchaseScore: 1,
-    textScore: 1,
-    facialScore: 5,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@edaasl"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "ModaTrend",
+        "item": "Kitap",
+        "amount": "519",
+        "date": "2026-04-17"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Su",
+        "amount": "29",
+        "date": "2026-04-23"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Kulaklık",
+        "amount": "5284",
+        "date": "2026-04-21"
+      }
+    ],
+    "texts": [
+      "Yolculuk başlıyor!",
+      "Seni bekliyorum.",
+      "Havaalanı çok kalabalık."
+    ],
+    "websites": [
+      "www.yemek-iste.com",
+      "www.trend-market.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 3,
+    "purchaseScore": 1,
+    "textScore": 1,
+    "facialScore": 5
   },
-  '14B': {
-    name: 'Richard Hayes',
-    age: 50,
-    sex: 'M',
-    image: 'richard-hayes-50-M.jpg',
-    height: '6\'0"',
-    eyes: 'Brown',
-    hair: 'Grey',
-    hometown: 'Nashville, TN',
-    passport: 'United States',
-    emails: ['richard.h@gmail.com', 'rhayes@music.com'],
-    socials: [{ platform: 'insta', handle: '@richardhayes' }],
-    purchases: [
+  "14B": {
+    "name": "Ahmet Aydın",
+    "age": 50,
+    "sex": "M",
+    "image": "richard-hayes-50-M.jpg",
+    "height": "183 cm",
+    "eyes": "Kahverengi",
+    "hair": "Gri",
+    "hometown": "Adana",
+    "passport": "Türkiye",
+    "emails": [
+      "ahmet.aydın@iletinet.com"
+    ],
+    "socials": [
       {
-        vendor: 'MelodyMakers',
-        item: 'Harmonica',
-        amount: '45.00',
-        date: '2024-03-15',
+        "platform": "tiktok",
+        "handle": "@ahmetayd"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "KitapDünyası",
+        "item": "Tişört",
+        "amount": "1377",
+        "date": "2026-05-02"
       },
       {
-        vendor: 'BBQBoss',
-        item: 'Brisket Plate',
-        amount: '24.50',
-        date: '2024-03-14',
+        "vendor": "TeknoMerkez",
+        "item": "Şarj Kablosu",
+        "amount": "675",
+        "date": "2026-04-30"
       },
       {
-        vendor: 'VinylVault',
-        item: 'Johnny Cash Album',
-        amount: '28.00',
-        date: '2024-03-13',
-      },
+        "vendor": "Kahvecim",
+        "item": "Güneş Gözlüğü",
+        "amount": "3186",
+        "date": "2026-05-05"
+      }
     ],
-    texts: [
-      'Opry was amazing!',
-      'Recording next week',
-      'Country music forever',
+    "texts": [
+      "Çok sıra var.",
+      "Gelince haber ver.",
+      "Bileti bulamıyorum..."
     ],
-    websites: [
-      'www.opry.com',
-      'www.countrymusichalloffame.org',
-      'www.spotify.com',
+    "websites": [
+      "www.trend-market.com",
+      "www.ilan-bul.com",
+      "www.yemek-iste.com"
     ],
-    baseScore: 7,
-    purchaseScore: 3,
-    textScore: 4,
-    facialScore: 9,
+    "baseScore": 7,
+    "purchaseScore": 3,
+    "textScore": 4,
+    "facialScore": 9
   },
-  '14C': {
-    name: 'Linda Russell',
-    age: 52,
-    sex: 'F',
-    image: 'linda-russell-52-F.jpg',
-    height: '5\'5"',
-    eyes: 'Hazel',
-    hair: 'Brown',
-    hometown: 'Lexington, KY',
-    passport: 'United States',
-    emails: ['linda.r@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@lindarussell' }],
-    purchases: [
-      {
-        vendor: 'EquineSupply',
-        item: 'Horse Treats',
-        amount: '18.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'CountryDiner',
-        item: 'Hot Brown',
-        amount: '16.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'BookHaven',
-        item: 'Horse Care Guide',
-        amount: '32.00',
-        date: '2024-03-13',
-      },
+  "14C": {
+    "name": "Nehir Çelik",
+    "age": 52,
+    "sex": "F",
+    "image": "linda-russell-52-F.jpg",
+    "height": "165 cm",
+    "eyes": "Ela",
+    "hair": "Kahverengi",
+    "hometown": "Konya",
+    "passport": "Türkiye",
+    "emails": [
+      "nehir.çelik@coldmail.com"
     ],
-    texts: ['Derby season!', 'Horse won today!', 'Bluegrass is home'],
-    websites: ['www.kentuckyderby.com', 'www.equibase.com', 'www.thehorse.com'],
-    baseScore: 4,
-    purchaseScore: 2,
-    textScore: 2,
-    facialScore: 6,
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@nehirçel"
+      }
+    ],
+    "purchases": [
+      {
+        "vendor": "SüperMarket",
+        "item": "Şarj Kablosu",
+        "amount": "601",
+        "date": "2026-04-20"
+      },
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Şarj Kablosu",
+        "amount": "497",
+        "date": "2026-04-22"
+      },
+      {
+        "vendor": "ModaTrend",
+        "item": "Kahve",
+        "amount": "149",
+        "date": "2026-05-03"
+      }
+    ],
+    "texts": [
+      "Çok sıra var.",
+      "Dışarıda hava çok güzel.",
+      "Bileti bulamıyorum..."
+    ],
+    "websites": [
+      "www.trend-market.com",
+      "www.film-dizim.com",
+      "www.video-izle.com"
+    ],
+    "baseScore": 4,
+    "purchaseScore": 2,
+    "textScore": 2,
+    "facialScore": 6
   },
-  '14D': {
-    name: 'Dorothy Howard',
-    age: 55,
-    sex: 'F',
-    image: 'dorothy-howard-55-F.jpg',
-    height: '5\'6"',
-    eyes: 'Brown',
-    hair: 'Grey',
-    hometown: 'Annapolis, MD',
-    passport: 'United States',
-    emails: ['dorothy.h@gmail.com'],
-    socials: [{ platform: 'insta', handle: '@dorothyhoward' }],
-    purchases: [
-      {
-        vendor: 'SailingSupply',
-        item: 'Rope',
-        amount: '34.99',
-        date: '2024-03-15',
-      },
-      {
-        vendor: 'SeafoodShack',
-        item: 'Crab Cakes',
-        amount: '28.50',
-        date: '2024-03-14',
-      },
-      {
-        vendor: 'NauticalGifts',
-        item: 'Compass',
-        amount: '65.00',
-        date: '2024-03-13',
-      },
+  "14D": {
+    "name": "Elif Kara",
+    "age": 55,
+    "sex": "F",
+    "image": "dorothy-howard-55-F.jpg",
+    "height": "168 cm",
+    "eyes": "Kahverengi",
+    "hair": "Gri",
+    "hometown": "Eskişehir",
+    "passport": "Türkiye",
+    "emails": [
+      "elif.kara@tmail.com"
     ],
-    texts: ['Boat is ready!', 'Sailing Sunday', 'Bay is beautiful'],
-    websites: [
-      'www.sailingworld.com',
-      'www.weather.gov/marine',
-      'www.westmarine.com',
+    "socials": [
+      {
+        "platform": "insta",
+        "handle": "@elifkar"
+      }
     ],
-    baseScore: 6,
-    purchaseScore: 3,
-    textScore: 3,
-    facialScore: 8,
-  },
+    "purchases": [
+      {
+        "vendor": "KozmetikDünyası",
+        "item": "Sandviç",
+        "amount": "260",
+        "date": "2026-04-19"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Kahve",
+        "amount": "177",
+        "date": "2026-04-23"
+      },
+      {
+        "vendor": "YapıMarket",
+        "item": "Tişört",
+        "amount": "1216",
+        "date": "2026-04-26"
+      }
+    ],
+    "texts": [
+      "Gelince haber ver.",
+      "Gelince haber ver.",
+      "Dışarıda hava çok güzel."
+    ],
+    "websites": [
+      "www.alisveris-yap.com",
+      "www.trend-market.com",
+      "www.kisa-mesaj.com"
+    ],
+    "baseScore": 6,
+    "purchaseScore": 3,
+    "textScore": 3,
+    "facialScore": 8
+  }
 };
 
-// Note: 58M.jpg is not assigned - we have exactly 54 passengers + 1 YOU seat + 1 Alex = 56 seats
-// If needed, can add one more passenger or leave 58M unused
-
 const config = {
-  totalSeats: 56,
-  rows: 14,
-  cols: 4,
-  letters: ['A', 'B', 'C', 'D'],
-  youSeat: '13A',
-  alexSeat: '13B',
+  "totalSeats": 56,
+  "rows": 14,
+  "cols": 4,
+  "letters": [
+    "A",
+    "B",
+    "C",
+    "D"
+  ],
+  "youSeat": "13A",
+  "alexSeat": "13B"
 };

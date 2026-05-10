@@ -99,19 +99,19 @@ const platformDisplayNames = {
 
 // Render functions
 function renderEmails(emails) {
-  if (!emails || !emails.length) return '<i style="color:#aaa">None found</i>';
+  if (!emails || !emails.length) return '<i style="color:#aaa">Bulunamadı</i>';
   return emails.map(e => `<a href="#" class="email-link">✉ ${e}</a>`).join('');
 }
 
 function renderSocials(socials) {
-  if (!socials || !socials.length) return '<i style="color:#aaa">None found</i>';
+  if (!socials || !socials.length) return '<i style="color:#aaa">Bulunamadı</i>';
   return socials.map(s => 
     `<span class="tag ${s.platform}">${platformDisplayNames[s.platform]}: ${s.handle}</span>`
   ).join('');
 }
 
 function renderPurchases(purchases) {
-  if (!purchases || !purchases.length) return '<i style="color:#aaa">No data</i>';
+  if (!purchases || !purchases.length) return '<i style="color:#aaa">Veri yok</i>';
   return purchases.map(p => `
     <div class="list-item purchase">
       <div class="purchase-details">
@@ -120,23 +120,23 @@ function renderPurchases(purchases) {
           ${p.vendor}
           <div class="purchase-item">${p.item}</div>
         </div>
-        <span class="amount">$${p.amount}</span>
+        <span class="amount">₺${p.amount}</span>
       </div>
     </div>
   `).join('');
 }
 
 function renderTexts(texts) {
-  if (!texts || !texts.length) return '<i style="color:#aaa">No data</i>';
+  if (!texts || !texts.length) return '<i style="color:#aaa">Veri yok</i>';
   return texts.map((t, i) => `
     <div class="list-item text-msg">
-      <span class="meta">Message ${i + 1}</span>"${t}"
+      <span class="meta">Mesaj ${i + 1}</span>"${t}"
     </div>
   `).join('');
 }
 
 function renderWebsites(sites) {
-  if (!sites || !sites.length) return '<i style="color:#aaa">No data</i>';
+  if (!sites || !sites.length) return '<i style="color:#aaa">Veri yok</i>';
   return sites.map(s => `
     <div class="list-item website">🌐 ${s}</div>
   `).join('');
@@ -154,32 +154,32 @@ function renderPassengerProfile(container, passenger, isAlex = false) {
           <img src="passengers/${passenger.image}" alt="${passenger.name}">
         </div>
         <div class="profile-name">
-          ${isAlex ? '<span class="friend-badge">👤 YOUR FRIEND</span>' : ''}
+          ${isAlex ? '<span class="friend-badge">👤 SENİN ARKADAŞIN</span>' : ''}
           <h2>${passenger.name}</h2>
-          <span>Seat ${isAlex ? config.alexSeat : (container.dataset?.seat || '')}</span>
+          <span>Koltuk ${isAlex ? config.alexSeat : (container.dataset?.seat || '')}</span>
         </div>
       </div>
       <div class="grid-2">
         <div class="info-item">
-          <label>Hometown</label>
+          <label>Memleket</label>
           <div>${passenger.hometown}</div>
         </div>
         <div class="info-item">
-          <label>Passport</label>
+          <label>Pasaport</label>
           <div>${passenger.passport}</div>
         </div>
       </div>
       
       ${toggleState.suspect ? `
         <div class="ai-score-box ${isHighRisk ? 'high-risk' : ''}">
-          <span class="ai-score-label">AI Likely Suspect Score</span>
+          <span class="ai-score-label">Yapay Zeka Şüpheli Skoru</span>
           <div class="ai-score-value">${suspectScore}%</div>
         </div>
       ` : ''}
       
       ${toggleState.facial ? `
         <div class="confidence-box">
-          <span class="confidence-label">Facial Recognition Confidence</span>
+          <span class="confidence-label">Yüz Tanıma Eşleşme Oranı</span>
           <div class="confidence-value">${getConsistentConfidence(passenger.name)}%</div>
         </div>
       ` : ''}
@@ -187,41 +187,41 @@ function renderPassengerProfile(container, passenger, isAlex = false) {
 
     <div class="sidebar-scroll">
       <div class="data-section ${toggleState.biometrics ? '' : 'hidden'}">
-        <div class="section-title">Biometrics</div>
+        <div class="section-title">Biyometrik Veriler</div>
         <div class="grid-2">
-          <div class="info-item"><label>Sex</label><div>${passenger.sex === 'M' ? 'Male' : 'Female'}</div></div>
-          <div class="info-item"><label>Age</label><div>${passenger.age}</div></div>
-          <div class="info-item"><label>Height</label><div>${passenger.height}</div></div>
-          <div class="info-item"><label>Eye Color</label><div>${passenger.eyes}</div></div>
-          <div class="info-item"><label>Hair Color</label><div>${passenger.hair}</div></div>
-          <div class="info-item"><label>Passport</label><div>${passenger.passport}</div></div>
+          <div class="info-item"><label>Cinsiyet</label><div>${passenger.sex === 'M' ? 'Erkek' : 'Kadın'}</div></div>
+          <div class="info-item"><label>Yaş</label><div>${passenger.age}</div></div>
+          <div class="info-item"><label>Boy</label><div>${passenger.height}</div></div>
+          <div class="info-item"><label>Göz Rengi</label><div>${passenger.eyes}</div></div>
+          <div class="info-item"><label>Saç Rengi</label><div>${passenger.hair}</div></div>
+          <div class="info-item"><label>Pasaport</label><div>${passenger.passport}</div></div>
         </div>
       </div>
 
       <div class="data-section ${toggleState.digital ? '' : 'hidden'}">
-        <div class="section-title">Digital Footprint</div>
+        <div class="section-title">Dijital Profil</div>
         <div class="info-item" style="margin-bottom:10px;">
-          <label>Email Addresses</label>
+          <label>E-posta Adresleri</label>
           <div>${renderEmails(passenger.emails)}</div>
         </div>
         <div class="info-item">
-          <label>Social Media</label>
+          <label>Sosyal Medya</label>
           <div>${renderSocials(passenger.socials)}</div>
         </div>
       </div>
 
       <div class="data-section ${toggleState.purchases ? '' : 'hidden'}">
-        <div class="section-title">Recent Purchases</div>
+        <div class="section-title">Son Alışverişler</div>
         <div class="list-group">${renderPurchases(passenger.purchases)}</div>
       </div>
 
       <div class="data-section ${toggleState.texts ? '' : 'hidden'}">
-        <div class="section-title">Last 3 Text Messages</div>
+        <div class="section-title">Son 3 Kısa Mesaj</div>
         <div class="list-group">${renderTexts(passenger.texts)}</div>
       </div>
       
       <div class="data-section ${toggleState.websites ? '' : 'hidden'}">
-        <div class="section-title">Last 3 Websites Visited</div>
+        <div class="section-title">Son 3 Ziyaret Edilen Web Sitesi</div>
         <div class="list-group">${renderWebsites(passenger.websites)}</div>
       </div>
     </div>
@@ -251,7 +251,7 @@ function renderSeatMap() {
       
       if (seatId === config.youSeat) {
         seatEl.classList.add('you-seat');
-        seatEl.innerText = 'YOU';
+        seatEl.innerText = 'SEN';
       } else if (seatId === config.alexSeat) {
         seatEl.classList.add('alex-seat');
         seatEl.innerText = seatId;
@@ -316,8 +316,8 @@ function handleToggle(toggleName) {
     btn.classList.toggle('active', toggleState[toggleName]);
     btn.classList.toggle('inactive', !toggleState[toggleName]);
     btn.textContent = toggleState[toggleName] ? 
-      (toggleName === 'biometrics' ? 'ON' : btn.textContent.replace('OFF', '').trim()) : 
-      (toggleName === 'biometrics' ? 'OFF' : btn.textContent.replace('ON', '').trim());
+      (toggleName === 'biometrics' ? 'AÇIK' : btn.textContent.replace('KAPALI', '').trim()) : 
+      (toggleName === 'biometrics' ? 'KAPALI' : btn.textContent.replace('AÇIK', '').trim());
   }
   
   // Re-render profiles
