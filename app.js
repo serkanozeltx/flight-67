@@ -172,7 +172,7 @@ function renderPassengerProfile(container, passenger, isAlex = false) {
       
       ${toggleState.suspect ? `
         <div class="ai-score-box ${isHighRisk ? 'high-risk' : ''}">
-          <span class="ai-score-label">Yapay Zeka Şüpheli Skoru</span>
+          <span class="ai-score-label">Yapay Zeka Risk Skoru (Hata Payı İçerebilir)</span>
           <div class="ai-score-value">${suspectScore}%</div>
         </div>
       ` : ''}

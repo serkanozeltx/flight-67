@@ -4,53 +4,53 @@
 
 const passengerData = {
   "1A": {
-    "name": "Melis Aydın",
+    "name": "Merve Kılıç",
     "age": 16,
     "sex": "F",
     "image": "sophia-chen-16-F.jpg",
     "height": "163 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Konya",
+    "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "melis.aydın@ymail.net"
+      "sophia.chen@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@melisayd"
+        "platform": "FotoAğı",
+        "handle": "@uye_70816"
       }
     ],
     "purchases": [
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "168",
-        "date": "08-05-2026"
+        "amount": "389",
+        "date": "30-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "377",
-        "date": "23-04-2026"
+        "amount": "348",
+        "date": "24-04-2026"
       },
       {
         "vendor": "TeknoMerkez",
         "item": "Şarj Aksesuarı",
-        "amount": "690",
-        "date": "08-05-2026"
+        "amount": "714",
+        "date": "30-04-2026"
       }
     ],
     "texts": [
-      "Havaalanı çok kalabalık.",
-      "Biraz gecikebilirim.",
-      "Pasaport kontrolündeyim."
+      "Valizi teslim ettim.",
+      "Çok sıra var.",
+      "Çok sıra var."
     ],
     "websites": [
-      "www.film-dizim.com",
-      "www.ilan-bul.com",
-      "www.video-izle.com"
+      "www.sinema-perdesi.biz",
+      "www.dijital-sayfalar.info",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 12,
     "purchaseScore": 5,
@@ -58,53 +58,53 @@ const passengerData = {
     "facialScore": 15
   },
   "1B": {
-    "name": "Aslı Özdemir",
+    "name": "Aslı Arslan",
     "age": 17,
     "sex": "F",
     "image": "emma-rodriguez-17-F.jpg",
     "height": "165 cm",
     "eyes": "Kahverengi",
     "hair": "Kahverengi",
-    "hometown": "Adana",
+    "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "aslı.özdemir@hizlimail.com"
+      "emma.rod@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@aslıözd"
+        "platform": "VideoGezgini",
+        "handle": "@uye_95910"
       }
     ],
     "purchases": [
       {
         "vendor": "GiyimMağazası",
         "item": "Gözlük / Maske",
-        "amount": "1118",
-        "date": "24-04-2026"
+        "amount": "3635",
+        "date": "22-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "177",
-        "date": "25-04-2026"
+        "amount": "316",
+        "date": "22-04-2026"
       },
       {
         "vendor": "Havalimanı Büfe",
         "item": "Dergi",
-        "amount": "170",
-        "date": "27-04-2026"
+        "amount": "171",
+        "date": "05-05-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
       "Valizi teslim ettim.",
-      "Pasaport kontrolündeyim."
+      "Pasaport kontrolündeyim.",
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.yemek-iste.com",
-      "www.video-izle.com",
-      "www.trend-market.com"
+      "www.sinema-perdesi.biz",
+      "www.gunluk-haberler.net",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 8,
     "purchaseScore": 3,
@@ -112,53 +112,54 @@ const passengerData = {
     "facialScore": 10
   },
   "1C": {
-    "name": "Defne Çetin",
+    "name": "Zeynep Şahin",
     "age": 18,
     "sex": "F",
     "image": "olivia-martinez-18-F.jpg",
     "height": "168 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Mersin",
+    "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "defne.çetin@tmail.com"
+      "olivia.m@gmail.com",
+      "omartinez@university.edu"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@defneçet"
+        "platform": "VideoGezgini",
+        "handle": "@uye_90095"
       }
     ],
     "purchases": [
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "498",
-        "date": "09-05-2026"
+        "amount": "522",
+        "date": "30-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "142",
-        "date": "20-04-2026"
+        "amount": "318",
+        "date": "29-04-2026"
       },
       {
         "vendor": "Havalimanı Büfe",
         "item": "Seyahat Aksesuarı",
-        "amount": "772",
-        "date": "01-05-2026"
+        "amount": "666",
+        "date": "07-05-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
       "Umarım türbülans olmaz.",
-      "Gelince haber ver."
+      "Görüşürüz!",
+      "Seni bekliyorum."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.muzik-dinle.com",
-      "www.trend-market.com"
+      "www.gezgin-rotalar.net",
+      "www.sinema-perdesi.biz",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 10,
     "purchaseScore": 4,
@@ -173,15 +174,15 @@ const passengerData = {
     "height": "178 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "İstanbul",
+    "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "murat.y@hizlimail.com"
+      "marcus.webb@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@muratyilmaz"
+        "platform": "FotoAğı",
+        "handle": "@uye_murat"
       }
     ],
     "purchases": [
@@ -189,24 +190,24 @@ const passengerData = {
         "vendor": "SeyahatEşyaları",
         "item": "Battaniye",
         "amount": "850",
-        "date": "20-04-2026"
+        "date": "30-04-2026"
       },
       {
         "vendor": "Havalimanı Büfe",
         "item": "Şişe Su",
-        "amount": "35",
-        "date": "17-04-2026"
+        "amount": "120",
+        "date": "27-04-2026"
       }
     ],
     "texts": [
-      "Kapıya geç kaldım",
-      "Bana yer tut",
-      "Bu havaalanı dev gibi"
+      "Kapıya geç kaldım.",
+      "Bana yer tutar mısın?",
+      "Bu havaalanı dev gibi."
     ],
     "websites": [
-      "www.muzik-dinle.com",
-      "www.yemek-iste.com",
-      "www.ilan-bul.com"
+      "www.okulcantasi-dunyasi.biz",
+      "www.dijital-sayfalar.info",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 35,
     "purchaseScore": 55,
@@ -214,7 +215,7 @@ const passengerData = {
     "facialScore": 45
   },
   "2A": {
-    "name": "Nehir Öztürk",
+    "name": "Aslı Kaya",
     "age": 19,
     "sex": "F",
     "image": "isabella-kim-19-F.jpg",
@@ -224,43 +225,43 @@ const passengerData = {
     "hometown": "İstanbul",
     "passport": "Türkiye",
     "emails": [
-      "nehir.öztürk@tmail.com"
+      "bella.kim@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@nehirözt"
+        "platform": "KısaMesaj",
+        "handle": "@uye_73574"
       }
     ],
     "purchases": [
       {
         "vendor": "Havalimanı Büfe",
         "item": "Kulaklık",
-        "amount": "5954",
-        "date": "09-05-2026"
+        "amount": "7627",
+        "date": "15-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "440",
-        "date": "26-04-2026"
+        "amount": "402",
+        "date": "01-05-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "İçecek",
-        "amount": "149",
-        "date": "24-04-2026"
+        "amount": "251",
+        "date": "20-04-2026"
       }
     ],
     "texts": [
-      "Uçağa biniyorum!",
-      "Pasaport kontrolündeyim.",
-      "Gelince haber ver."
+      "Gelince haber ver.",
+      "Biraz gecikebilirim.",
+      "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.alisveris-yap.com",
-      "www.trend-market.com"
+      "www.dijital-sayfalar.info",
+      "www.bilim-ve-doga.xyz",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 11,
     "purchaseScore": 6,
@@ -268,53 +269,53 @@ const passengerData = {
     "facialScore": 14
   },
   "2B": {
-    "name": "Cem Kılıç",
+    "name": "Mert Çelik",
     "age": 19,
     "sex": "M",
     "image": "ethan-brooks-19-M.jpg",
     "height": "180 cm",
     "eyes": "Mavi",
     "hair": "Kahverengi",
-    "hometown": "Ankara",
+    "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "cem.kılıç@ymail.net"
+      "ethan.brooks@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@cemkıl"
+        "platform": "VideoGezgini",
+        "handle": "@uye_74956"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Giyim / Çanta",
-        "amount": "1531",
-        "date": "25-04-2026"
+        "amount": "1320",
+        "date": "30-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "174",
-        "date": "02-05-2026"
+        "amount": "445",
+        "date": "23-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Atıştırmalık",
-        "amount": "209",
-        "date": "15-04-2026"
+        "amount": "365",
+        "date": "21-04-2026"
       }
     ],
     "texts": [
-      "Uçağa biniyorum!",
-      "Valizi teslim ettim.",
-      "Havaalanı çok kalabalık."
+      "Pasaport kontrolündeyim.",
+      "Seni bekliyorum.",
+      "Görüşürüz!"
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.alisveris-yap.com",
-      "www.yemek-iste.com"
+      "www.bilim-ve-doga.xyz",
+      "www.dijital-sayfalar.info",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 14,
     "purchaseScore": 8,
@@ -322,53 +323,54 @@ const passengerData = {
     "facialScore": 16
   },
   "2C": {
-    "name": "Eda Çetin",
+    "name": "Eda Öztürk",
     "age": 20,
     "sex": "F",
     "image": "mia-thompson-20-F.jpg",
     "height": "165 cm",
     "eyes": "Mavi",
     "hair": "Turkuaz (Boyalı)",
-    "hometown": "Mersin",
+    "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "eda.çetin@postakutum.tr"
+      "mia.t@gmail.com",
+      "mthompson@work.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@edaçet"
+        "platform": "FotoAğı",
+        "handle": "@uye_26026"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Kitap",
-        "amount": "389",
-        "date": "29-04-2026"
+        "amount": "560",
+        "date": "20-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "İçecek",
-        "amount": "172",
-        "date": "21-04-2026"
+        "amount": "232",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Havalimanı Büfe",
         "item": "Gözlük / Maske",
-        "amount": "1808",
+        "amount": "2364",
         "date": "28-04-2026"
       }
     ],
     "texts": [
-      "Valizi teslim ettim.",
-      "Umarım türbülans olmaz.",
-      "Uçağa biniyorum!"
+      "Bileti bulamıyorum...",
+      "Havaalanı çok kalabalık.",
+      "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.kisa-mesaj.com",
-      "www.muzik-dinle.com"
+      "www.oyun-gemisi.xyz",
+      "www.sinema-perdesi.biz",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 9,
     "purchaseScore": 5,
@@ -376,53 +378,53 @@ const passengerData = {
     "facialScore": 11
   },
   "2D": {
-    "name": "Ege Demir",
+    "name": "Arda Öztürk",
     "age": 20,
     "sex": "M",
     "image": "noah-garcia-20-M.jpg",
     "height": "183 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Adana",
+    "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "ege.demir@tmail.com"
+      "noah.garcia@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@egedem"
+        "platform": "VideoGezgini",
+        "handle": "@uye_38423"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "1852",
-        "date": "09-05-2026"
+        "amount": "1373",
+        "date": "01-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "327",
+        "amount": "651",
         "date": "28-04-2026"
       },
       {
         "vendor": "TeknoMerkez",
         "item": "Şarj Aksesuarı",
-        "amount": "487",
-        "date": "17-04-2026"
+        "amount": "741",
+        "date": "04-05-2026"
       }
     ],
     "texts": [
-      "Yolculuk başlıyor!",
-      "Biraz gecikebilirim.",
-      "Havaalanı çok kalabalık."
+      "Pasaport kontrolündeyim.",
+      "Bileti bulamıyorum...",
+      "Uçağa biniyorum!"
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.film-dizim.com",
-      "www.ornek-sosyal.com"
+      "www.gezgin-rotalar.net",
+      "www.okulcantasi-dunyasi.biz",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 13,
     "purchaseScore": 7,
@@ -430,53 +432,54 @@ const passengerData = {
     "facialScore": 15
   },
   "3A": {
-    "name": "Ceren Aydın",
+    "name": "İnci Aydın",
     "age": 21,
     "sex": "F",
     "image": "ava-wilson-21-F.jpg",
     "height": "170 cm",
     "eyes": "Mavi",
     "hair": "Kahverengi",
-    "hometown": "İstanbul",
+    "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "ceren.aydın@iletinet.com"
+      "ava.wilson@gmail.com",
+      "awilson@lawfirm.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@cerenayd"
+        "platform": "FotoAğı",
+        "handle": "@uye_86513"
       }
     ],
     "purchases": [
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "307",
-        "date": "09-05-2026"
+        "amount": "324",
+        "date": "23-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "125",
-        "date": "28-04-2026"
+        "amount": "369",
+        "date": "08-05-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "1148",
-        "date": "22-04-2026"
+        "amount": "2476",
+        "date": "20-04-2026"
       }
     ],
     "texts": [
-      "Dışarıda hava çok güzel.",
-      "Dışarıda hava çok güzel.",
-      "Dışarıda hava çok güzel."
+      "Yolculuk başlıyor!",
+      "Pasaport kontrolündeyim.",
+      "Gelince haber ver."
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.ornek-sosyal.com",
-      "www.ilan-bul.com"
+      "www.sinema-perdesi.biz",
+      "www.sinema-perdesi.biz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 7,
     "purchaseScore": 4,
@@ -484,53 +487,53 @@ const passengerData = {
     "facialScore": 9
   },
   "3B": {
-    "name": "Cem Arslan",
+    "name": "Mehmet Kaya",
     "age": 21,
     "sex": "M",
     "image": "liam-anderson-21-M.jpg",
     "height": "185 cm",
     "eyes": "Yeşil",
     "hair": "Kahverengi",
-    "hometown": "Bursa",
+    "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "cem.arslan@postakutum.tr"
+      "liam.a@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@cemars"
+        "platform": "FotoAğı",
+        "handle": "@uye_78628"
       }
     ],
     "purchases": [
       {
         "vendor": "SporMağazası",
         "item": "Hediyelik Eşya",
-        "amount": "208",
-        "date": "16-04-2026"
+        "amount": "649",
+        "date": "05-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "347",
-        "date": "17-04-2026"
+        "amount": "618",
+        "date": "22-04-2026"
       },
       {
         "vendor": "Havalimanı Büfe",
         "item": "Atıştırmalık",
-        "amount": "114",
-        "date": "29-04-2026"
+        "amount": "224",
+        "date": "22-04-2026"
       }
     ],
     "texts": [
-      "Dışarıda hava çok güzel.",
+      "Valizi teslim ettim.",
       "Çok sıra var.",
-      "Uçağa biniyorum!"
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.kisa-mesaj.com",
-      "www.trend-market.com"
+      "www.okulcantasi-dunyasi.biz",
+      "www.okulcantasi-dunyasi.biz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 16,
     "purchaseScore": 9,
@@ -538,53 +541,54 @@ const passengerData = {
     "facialScore": 18
   },
   "3C": {
-    "name": "Melis Kaya",
+    "name": "İrem Doğan",
     "age": 22,
     "sex": "F",
     "image": "charlotte-davis-22-F.jpg",
     "height": "163 cm",
     "eyes": "Kahverengi",
     "hair": "Kızıl",
-    "hometown": "Trabzon",
+    "hometown": "Eskişehir",
     "passport": "Türkiye",
     "emails": [
-      "melis.kaya@hizlimail.com"
+      "charlotte.d@gmail.com",
+      "cdavis@music.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@meliskay"
+        "platform": "KısaMesaj",
+        "handle": "@uye_56743"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "817",
-        "date": "25-04-2026"
+        "amount": "1337",
+        "date": "26-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "1614",
-        "date": "06-05-2026"
+        "amount": "1851",
+        "date": "23-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "125",
-        "date": "28-04-2026"
+        "amount": "411",
+        "date": "26-04-2026"
       }
     ],
     "texts": [
-      "Dışarıda hava çok güzel.",
-      "Dışarıda hava çok güzel.",
-      "Havaalanı çok kalabalık."
+      "Seni bekliyorum.",
+      "Havaalanı çok kalabalık.",
+      "Seni bekliyorum."
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.alisveris-yap.com",
-      "www.ornek-sosyal.com"
+      "www.oyun-gemisi.xyz",
+      "www.gunluk-haberler.net",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 8,
     "purchaseScore": 3,
@@ -592,53 +596,53 @@ const passengerData = {
     "facialScore": 10
   },
   "3D": {
-    "name": "Burak Yılmaz",
+    "name": "Mehmet Özdemir",
     "age": 22,
     "sex": "M",
     "image": "james-miller-22-M.jpg",
     "height": "175 cm",
     "eyes": "Mavi",
     "hair": "Kızıl",
-    "hometown": "Ankara",
+    "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "burak.yılmaz@ymail.net"
+      "james.miller@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@burakyıl"
+        "platform": "FotoAğı",
+        "handle": "@uye_61216"
       }
     ],
     "purchases": [
       {
         "vendor": "Restoran",
         "item": "Hediyelik Eşya",
-        "amount": "305",
-        "date": "25-04-2026"
+        "amount": "752",
+        "date": "15-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Yemek Menüsü",
-        "amount": "372",
-        "date": "16-04-2026"
+        "amount": "555",
+        "date": "04-05-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Hediyelik Eşya",
-        "amount": "661",
-        "date": "19-04-2026"
+        "amount": "923",
+        "date": "04-05-2026"
       }
     ],
     "texts": [
+      "Dışarıda hava çok güzel.",
       "Pasaport kontrolündeyim.",
-      "Çok sıra var.",
-      "Bileti bulamıyorum..."
+      "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.film-dizim.com",
-      "www.trend-market.com"
+      "www.okulcantasi-dunyasi.biz",
+      "www.macera-oyunlari.biz",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 12,
     "purchaseScore": 6,
@@ -646,53 +650,54 @@ const passengerData = {
     "facialScore": 14
   },
   "4A": {
-    "name": "Ayşe Çetin",
+    "name": "Selin Aydın",
     "age": 23,
     "sex": "F",
     "image": "amelia-brown-23-F.jpg",
     "height": "168 cm",
     "eyes": "Yeşil",
     "hair": "Kahverengi",
-    "hometown": "Ankara",
+    "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "ayşe.çetin@zposta.com"
+      "amelia.brown@gmail.com",
+      "abrown@hospital.org"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@ayşeçet"
+        "platform": "VideoGezgini",
+        "handle": "@uye_87587"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "923",
-        "date": "29-04-2026"
+        "amount": "603",
+        "date": "26-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "532",
-        "date": "25-04-2026"
+        "amount": "424",
+        "date": "04-05-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "410",
-        "date": "23-04-2026"
+        "amount": "504",
+        "date": "04-05-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
-      "Pasaport kontrolündeyim.",
-      "Pasaport kontrolündeyim."
+      "Biraz gecikebilirim.",
+      "Görüşürüz!",
+      "Yolculuk başlıyor!"
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.trend-market.com",
-      "www.video-izle.com"
+      "www.oyun-gemisi.xyz",
+      "www.dijital-sayfalar.info",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -700,7 +705,7 @@ const passengerData = {
     "facialScore": 8
   },
   "4B": {
-    "name": "Deniz Yılmaz",
+    "name": "Ozan Kara",
     "age": 24,
     "sex": "M",
     "image": "benjamin-lee-24-M.jpg",
@@ -710,43 +715,44 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "deniz.yılmaz@zposta.com"
+      "ben.lee@gmail.com",
+      "blee@techcorp.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@denizyıl"
+        "platform": "VideoGezgini",
+        "handle": "@uye_52986"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Hediyelik Eşya",
-        "amount": "810",
+        "amount": "223",
         "date": "26-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "129",
-        "date": "07-05-2026"
+        "amount": "338",
+        "date": "19-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Atıştırmalık",
-        "amount": "72",
-        "date": "22-04-2026"
+        "amount": "206",
+        "date": "26-04-2026"
       }
     ],
     "texts": [
-      "Gelince haber ver.",
-      "Çok sıra var.",
-      "Dışarıda hava çok güzel."
+      "Valizi teslim ettim.",
+      "Seni bekliyorum.",
+      "Gelince haber ver."
     ],
     "websites": [
-      "www.muzik-dinle.com",
-      "www.muzik-dinle.com",
-      "www.ornek-sosyal.com"
+      "www.gezgin-rotalar.net",
+      "www.sinema-perdesi.biz",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -754,53 +760,53 @@ const passengerData = {
     "facialScore": 13
   },
   "4C": {
-    "name": "İnci Yılmaz",
+    "name": "Elif Öztürk",
     "age": 24,
     "sex": "F",
     "image": "harper-johnson-24-F.jpg",
     "height": "173 cm",
     "eyes": "Ela",
     "hair": "Sarı",
-    "hometown": "Mersin",
+    "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "i̇nci.yılmaz@hizlimail.com"
+      "harper.j@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@i̇nciyıl"
+        "platform": "VideoGezgini",
+        "handle": "@uye_60262"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Kozmetik Ürünü",
-        "amount": "1642",
-        "date": "17-04-2026"
+        "amount": "3187",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Yemek Menüsü",
-        "amount": "306",
-        "date": "23-04-2026"
+        "amount": "464",
+        "date": "21-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "1731",
-        "date": "06-05-2026"
+        "amount": "2330",
+        "date": "02-05-2026"
       }
     ],
     "texts": [
-      "Umarım türbülans olmaz.",
-      "Valizi teslim ettim.",
-      "Valizi teslim ettim."
+      "Uçağa biniyorum!",
+      "Pasaport kontrolündeyim.",
+      "Çok sıra var."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.yemek-iste.com",
-      "www.muzik-dinle.com"
+      "www.sinema-perdesi.biz",
+      "www.gunluk-haberler.net",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -808,53 +814,54 @@ const passengerData = {
     "facialScore": 11
   },
   "4D": {
-    "name": "Burak Kara",
+    "name": "Kaan Aslan",
     "age": 25,
     "sex": "M",
     "image": "daniel-martinez-25-M.jpg",
     "height": "188 cm",
     "eyes": "Kahverengi",
     "hair": "Kızıl",
-    "hometown": "Eskişehir",
+    "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "burak.kara@hizlimail.com"
+      "daniel.m@gmail.com",
+      "dmartinez@filmstudio.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@burakkar"
+        "platform": "KısaMesaj",
+        "handle": "@uye_63608"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Hediyelik Eşya",
-        "amount": "904",
-        "date": "08-05-2026"
+        "amount": "583",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "121",
-        "date": "03-05-2026"
+        "amount": "304",
+        "date": "25-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Kitap",
-        "amount": "421",
-        "date": "25-04-2026"
+        "amount": "497",
+        "date": "21-04-2026"
       }
     ],
     "texts": [
-      "Valizi teslim ettim.",
-      "Havaalanı çok kalabalık.",
+      "Dışarıda hava çok güzel.",
+      "Bileti bulamıyorum...",
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.alisveris-yap.com",
-      "www.film-dizim.com"
+      "www.gunluk-haberler.net",
+      "www.okulcantasi-dunyasi.biz",
+      "www.oyun-gemisi.xyz"
     ],
     "baseScore": 10,
     "purchaseScore": 5,
@@ -862,53 +869,54 @@ const passengerData = {
     "facialScore": 12
   },
   "5A": {
-    "name": "Ceren Çelik",
+    "name": "Büşra Çetin",
     "age": 26,
     "sex": "F",
     "image": "evelyn-taylor-26-F.jpg",
     "height": "165 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Konya",
+    "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "ceren.çelik@tmail.com"
+      "evelyn.t@gmail.com",
+      "etaylor@marketing.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@cerençel"
+        "platform": "VideoGezgini",
+        "handle": "@uye_49584"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "749",
-        "date": "28-04-2026"
+        "amount": "409",
+        "date": "01-05-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Yemek Menüsü",
-        "amount": "413",
-        "date": "23-04-2026"
+        "amount": "465",
+        "date": "01-05-2026"
       },
       {
         "vendor": "Havalimanı Büfe",
         "item": "Giyim / Çanta",
-        "amount": "1461",
-        "date": "05-05-2026"
+        "amount": "1472",
+        "date": "21-04-2026"
       }
     ],
     "texts": [
-      "Umarım türbülans olmaz.",
-      "Pasaport kontrolündeyim.",
-      "Gelince haber ver."
+      "Seni bekliyorum.",
+      "Çok sıra var.",
+      "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.alisveris-yap.com",
-      "www.alisveris-yap.com"
+      "www.dijital-sayfalar.info",
+      "www.oyun-gemisi.xyz",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -916,53 +924,53 @@ const passengerData = {
     "facialScore": 9
   },
   "5B": {
-    "name": "Berke Özdemir",
+    "name": "Arda Kaya",
     "age": 26,
     "sex": "M",
     "image": "william-thomas-26-M.jpg",
     "height": "180 cm",
     "eyes": "Yeşil",
     "hair": "Siyah",
-    "hometown": "Antalya",
+    "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "berke.özdemir@tmail.com"
+      "will.thomas@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@berkeözd"
+        "platform": "KısaMesaj",
+        "handle": "@uye_52402"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "661",
-        "date": "20-04-2026"
+        "amount": "886",
+        "date": "30-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "İçecek",
-        "amount": "185",
-        "date": "17-04-2026"
+        "amount": "335",
+        "date": "27-04-2026"
       },
       {
         "vendor": "SporMağazası",
         "item": "Giyim / Çanta",
-        "amount": "1115",
-        "date": "06-05-2026"
+        "amount": "1559",
+        "date": "28-04-2026"
       }
     ],
     "texts": [
-      "Yolculuk başlıyor!",
+      "Seni bekliyorum.",
       "Görüşürüz!",
-      "Umarım türbülans olmaz."
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.kisa-mesaj.com",
-      "www.video-izle.com"
+      "www.sinema-perdesi.biz",
+      "www.dijital-sayfalar.info",
+      "www.dijital-sayfalar.info"
     ],
     "baseScore": 15,
     "purchaseScore": 8,
@@ -970,53 +978,54 @@ const passengerData = {
     "facialScore": 17
   },
   "5C": {
-    "name": "Büşra Aydın",
+    "name": "Ayşe Çelik",
     "age": 27,
     "sex": "F",
     "image": "abigail-jackson-27-F.jpg",
     "height": "170 cm",
     "eyes": "Mavi",
     "hair": "Kızıl",
-    "hometown": "Eskişehir",
+    "hometown": "Trabzon",
     "passport": "Türkiye",
     "emails": [
-      "büşra.aydın@tmail.com"
+      "abigail.j@gmail.com",
+      "ajackson@auto.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@büşraayd"
+        "platform": "VideoGezgini",
+        "handle": "@uye_24201"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Kitap",
-        "amount": "593",
-        "date": "15-04-2026"
+        "amount": "365",
+        "date": "02-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "557",
-        "date": "19-04-2026"
+        "amount": "417",
+        "date": "05-05-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Saat",
-        "amount": "3553",
+        "amount": "2605",
         "date": "08-05-2026"
       }
     ],
     "texts": [
-      "Biraz gecikebilirim.",
-      "Pasaport kontrolündeyim.",
-      "Umarım türbülans olmaz."
+      "Valizi teslim ettim.",
+      "Görüşürüz!",
+      "Seni bekliyorum."
     ],
     "websites": [
-      "www.ornek-sosyal.com",
-      "www.muzik-dinle.com",
-      "www.video-izle.com"
+      "www.gunluk-haberler.net",
+      "www.dijital-sayfalar.info",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -1024,53 +1033,54 @@ const passengerData = {
     "facialScore": 10
   },
   "5D": {
-    "name": "Emre Kaya",
+    "name": "Tolga Çelik",
     "age": 27,
     "sex": "M",
     "image": "alexander-white-27-M.jpg",
     "height": "183 cm",
     "eyes": "Mavi",
     "hair": "Kahverengi",
-    "hometown": "İzmir",
+    "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "emre.kaya@coldmail.com"
+      "alex.white@gmail.com",
+      "awhite@finance.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@emrekay"
+        "platform": "VideoGezgini",
+        "handle": "@uye_17481"
       }
     ],
     "purchases": [
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "485",
-        "date": "25-04-2026"
+        "amount": "459",
+        "date": "06-05-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "134",
-        "date": "04-05-2026"
+        "amount": "375",
+        "date": "18-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "1264",
-        "date": "15-04-2026"
+        "amount": "1823",
+        "date": "09-05-2026"
       }
     ],
     "texts": [
-      "Uçağa biniyorum!",
-      "Gelince haber ver.",
-      "Gelince haber ver."
+      "Umarım türbülans olmaz.",
+      "Dışarıda hava çok güzel.",
+      "Seni bekliyorum."
     ],
     "websites": [
-      "www.film-dizim.com",
-      "www.film-dizim.com",
-      "www.alisveris-yap.com"
+      "www.sinema-perdesi.biz",
+      "www.okulcantasi-dunyasi.biz",
+      "www.oyun-gemisi.xyz"
     ],
     "baseScore": 12,
     "purchaseScore": 6,
@@ -1078,53 +1088,54 @@ const passengerData = {
     "facialScore": 14
   },
   "6A": {
-    "name": "Ceren Çetin",
+    "name": "Buse Çetin",
     "age": 28,
     "sex": "F",
     "image": "emily-harris-28-F.jpg",
     "height": "163 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Denizli",
+    "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "ceren.çetin@iletinet.com"
+      "emily.h@gmail.com",
+      "eharris@nonprofit.org"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@cerençet"
+        "platform": "FotoAğı",
+        "handle": "@uye_27285"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Giyim / Çanta",
-        "amount": "992",
-        "date": "20-04-2026"
+        "amount": "972",
+        "date": "25-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "525",
-        "date": "26-04-2026"
+        "amount": "627",
+        "date": "28-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "389",
-        "date": "27-04-2026"
+        "amount": "437",
+        "date": "22-04-2026"
       }
     ],
     "texts": [
-      "Çok sıra var.",
-      "Uçağa biniyorum!",
-      "Yolculuk başlıyor!"
+      "Yolculuk başlıyor!",
+      "Umarım türbülans olmaz.",
+      "Gelince haber ver."
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.video-izle.com",
-      "www.film-dizim.com"
+      "www.oyun-gemisi.xyz",
+      "www.bilim-ve-doga.xyz",
+      "www.oyun-gemisi.xyz"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -1132,53 +1143,53 @@ const passengerData = {
     "facialScore": 8
   },
   "6B": {
-    "name": "Mert Yıldız",
+    "name": "Berke Kaya",
     "age": 28,
     "sex": "M",
     "image": "michael-clark-28-M.jpg",
     "height": "178 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Gaziantep",
+    "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "mert.yıldız@hizlimail.com"
+      "michael.clark@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@mertyıl"
+        "platform": "VideoGezgini",
+        "handle": "@uye_52957"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "815",
-        "date": "03-05-2026"
+        "amount": "809",
+        "date": "24-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "503",
-        "date": "29-04-2026"
+        "amount": "479",
+        "date": "26-04-2026"
       },
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "955",
-        "date": "24-04-2026"
+        "amount": "902",
+        "date": "25-04-2026"
       }
     ],
     "texts": [
-      "Uçağa biniyorum!",
-      "Bileti bulamıyorum...",
-      "Valizi teslim ettim."
+      "Gelince haber ver.",
+      "Yolculuk başlıyor!",
+      "Uçağa biniyorum!"
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.video-izle.com",
-      "www.film-dizim.com"
+      "www.bilim-ve-doga.xyz",
+      "www.bilim-ve-doga.xyz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 13,
     "purchaseScore": 7,
@@ -1186,53 +1197,54 @@ const passengerData = {
     "facialScore": 15
   },
   "6C": {
-    "name": "Melis Özdemir",
+    "name": "Selin Çelik",
     "age": 29,
     "sex": "F",
     "image": "elizabeth-lewis-29-F.jpg",
     "height": "168 cm",
     "eyes": "Yeşil",
     "hair": "Sarı",
-    "hometown": "Trabzon",
+    "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "melis.özdemir@postakutum.tr"
+      "elizabeth.l@gmail.com",
+      "elewis@realestate.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@melisözd"
+        "platform": "KısaMesaj",
+        "handle": "@uye_90423"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "262",
-        "date": "20-04-2026"
+        "amount": "702",
+        "date": "21-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "1474",
-        "date": "30-04-2026"
+        "amount": "942",
+        "date": "26-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "152",
-        "date": "24-04-2026"
+        "amount": "326",
+        "date": "25-04-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
-      "Gelince haber ver.",
-      "Seni bekliyorum."
+      "Yolculuk başlıyor!",
+      "Çok sıra var.",
+      "Çok sıra var."
     ],
     "websites": [
-      "www.ornek-sosyal.com",
-      "www.muzik-dinle.com",
-      "www.ornek-sosyal.com"
+      "www.gunluk-haberler.net",
+      "www.dijital-sayfalar.info",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -1240,53 +1252,53 @@ const passengerData = {
     "facialScore": 11
   },
   "6D": {
-    "name": "Barış Çetin",
+    "name": "Berke Aslan",
     "age": 29,
     "sex": "M",
     "image": "david-robinson-29-M.jpg",
     "height": "185 cm",
     "eyes": "Mavi",
     "hair": "Kahverengi",
-    "hometown": "Adana",
+    "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "barış.çetin@tmail.com"
+      "david.r@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@barışçet"
+        "platform": "VideoGezgini",
+        "handle": "@uye_29592"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "925",
-        "date": "04-05-2026"
+        "amount": "741",
+        "date": "25-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "484",
-        "date": "24-04-2026"
+        "amount": "405",
+        "date": "21-04-2026"
       },
       {
         "vendor": "SporMağazası",
         "item": "Giyim / Çanta",
-        "amount": "788",
-        "date": "30-04-2026"
+        "amount": "1708",
+        "date": "29-04-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
-      "Uçağa biniyorum!",
+      "Umarım türbülans olmaz.",
+      "Çok sıra var.",
       "Uçağa biniyorum!"
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.film-dizim.com",
-      "www.ilan-bul.com"
+      "www.macera-oyunlari.biz",
+      "www.oyun-gemisi.xyz",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 14,
     "purchaseScore": 8,
@@ -1294,53 +1306,54 @@ const passengerData = {
     "facialScore": 16
   },
   "7A": {
-    "name": "Merve Aydın",
+    "name": "İrem Arslan",
     "age": 30,
     "sex": "F",
     "image": "sofia-walker-30-F.jpg",
     "height": "165 cm",
     "eyes": "Kahverengi",
     "hair": "Kahverengi",
-    "hometown": "İstanbul",
+    "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "merve.aydın@ymail.net"
+      "sofia.walker@gmail.com",
+      "swalker@school.edu"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@merveayd"
+        "platform": "VideoGezgini",
+        "handle": "@uye_59311"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "578",
-        "date": "28-04-2026"
+        "amount": "833",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "İçecek",
-        "amount": "133",
-        "date": "26-04-2026"
+        "amount": "335",
+        "date": "08-05-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "538",
-        "date": "18-04-2026"
+        "amount": "593",
+        "date": "23-04-2026"
       }
     ],
     "texts": [
+      "Valizi teslim ettim.",
       "Bileti bulamıyorum...",
-      "Pasaport kontrolündeyim.",
-      "Dışarıda hava çok güzel."
+      "Havaalanı çok kalabalık."
     ],
     "websites": [
-      "www.film-dizim.com",
-      "www.ilan-bul.com",
-      "www.ilan-bul.com"
+      "www.okulcantasi-dunyasi.biz",
+      "www.oyun-gemisi.xyz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -1348,53 +1361,54 @@ const passengerData = {
     "facialScore": 7
   },
   "7B": {
-    "name": "Berke Kaya",
+    "name": "Mehmet Doğan",
     "age": 30,
     "sex": "M",
     "image": "matthew-hall-30-M.jpg",
     "height": "175 cm",
     "eyes": "Yeşil",
     "hair": "Siyah",
-    "hometown": "Mersin",
+    "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "berke.kaya@coldmail.com"
+      "matt.hall@gmail.com",
+      "mhall@hospital.org"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@berkekay"
+        "platform": "FotoAğı",
+        "handle": "@uye_75862"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "928",
-        "date": "21-04-2026"
+        "amount": "266",
+        "date": "18-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "409",
-        "date": "30-04-2026"
+        "amount": "620",
+        "date": "17-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Hediyelik Eşya",
-        "amount": "950",
-        "date": "25-04-2026"
+        "amount": "487",
+        "date": "19-04-2026"
       }
     ],
     "texts": [
-      "Havaalanı çok kalabalık.",
-      "Umarım türbülans olmaz.",
-      "Dışarıda hava çok güzel."
+      "Dışarıda hava çok güzel.",
+      "Yolculuk başlıyor!",
+      "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.yemek-iste.com",
-      "www.trend-market.com"
+      "www.gezgin-rotalar.net",
+      "www.gunluk-haberler.net",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -1402,53 +1416,53 @@ const passengerData = {
     "facialScore": 9
   },
   "7C": {
-    "name": "Eda Doğan",
+    "name": "Defne Aslan",
     "age": 31,
     "sex": "F",
     "image": "chloe-allen-31-F.jpg",
     "height": "173 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Denizli",
+    "hometown": "Trabzon",
     "passport": "Türkiye",
     "emails": [
-      "eda.doğan@ymail.net"
+      "chloe.allen@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@edadoğ"
+        "platform": "KısaMesaj",
+        "handle": "@uye_99199"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "612",
-        "date": "27-04-2026"
+        "amount": "423",
+        "date": "01-05-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "İçecek",
-        "amount": "200",
-        "date": "25-04-2026"
+        "amount": "256",
+        "date": "05-05-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Giyim / Çanta",
-        "amount": "1514",
-        "date": "29-04-2026"
+        "amount": "1214",
+        "date": "01-05-2026"
       }
     ],
     "texts": [
-      "Valizi teslim ettim.",
-      "Pasaport kontrolündeyim.",
-      "Biraz gecikebilirim."
+      "Bileti bulamıyorum...",
+      "Gelince haber ver.",
+      "Seni bekliyorum."
     ],
     "websites": [
-      "www.trend-market.com",
-      "www.trend-market.com",
-      "www.ornek-sosyal.com"
+      "www.sinema-perdesi.biz",
+      "www.bilim-ve-doga.xyz",
+      "www.dijital-sayfalar.info"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -1456,53 +1470,54 @@ const passengerData = {
     "facialScore": 10
   },
   "7D": {
-    "name": "Can Kılıç",
+    "name": "Kerem Çelik",
     "age": 31,
     "sex": "M",
     "image": "christopher-young-31-M.jpg",
     "height": "183 cm",
     "eyes": "Kahverengi",
     "hair": "Kahverengi",
-    "hometown": "Denizli",
+    "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "can.kılıç@tmail.com"
+      "chris.young@gmail.com",
+      "cyoung@racing.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@cankıl"
+        "platform": "VideoGezgini",
+        "handle": "@uye_98456"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Hediyelik Eşya",
-        "amount": "984",
-        "date": "28-04-2026"
+        "amount": "596",
+        "date": "25-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "471",
-        "date": "21-04-2026"
+        "amount": "390",
+        "date": "04-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "İçecek",
-        "amount": "218",
+        "amount": "373",
         "date": "23-04-2026"
       }
     ],
     "texts": [
-      "Uçağa biniyorum!",
-      "Dışarıda hava çok güzel.",
-      "Seni bekliyorum."
+      "Yolculuk başlıyor!",
+      "Seni bekliyorum.",
+      "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.ornek-sosyal.com",
-      "www.yemek-iste.com"
+      "www.dijital-sayfalar.info",
+      "www.oyun-gemisi.xyz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -1510,53 +1525,54 @@ const passengerData = {
     "facialScore": 13
   },
   "8A": {
-    "name": "İrem Şahin",
+    "name": "Buse Demir",
     "age": 32,
     "sex": "F",
     "image": "grace-king-32-F.jpg",
     "height": "163 cm",
     "eyes": "Ela",
     "hair": "Kahverengi",
-    "hometown": "İstanbul",
+    "hometown": "Eskişehir",
     "passport": "Türkiye",
     "emails": [
-      "i̇rem.şahin@hizlimail.com"
+      "grace.king@gmail.com",
+      "gking@design.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@i̇remşah"
+        "platform": "KısaMesaj",
+        "handle": "@uye_10116"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "675",
-        "date": "19-04-2026"
+        "amount": "572",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Atıştırmalık",
-        "amount": "166",
-        "date": "03-05-2026"
+        "amount": "231",
+        "date": "24-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Hediyelik Eşya",
-        "amount": "519",
-        "date": "19-04-2026"
+        "amount": "743",
+        "date": "08-05-2026"
       }
     ],
     "texts": [
-      "Valizi teslim ettim.",
-      "Yolculuk başlıyor!",
-      "Çok sıra var."
+      "Bileti bulamıyorum...",
+      "Umarım türbülans olmaz.",
+      "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.video-izle.com",
-      "www.alisveris-yap.com"
+      "www.dijital-sayfalar.info",
+      "www.dijital-sayfalar.info",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -1564,53 +1580,53 @@ const passengerData = {
     "facialScore": 8
   },
   "8B": {
-    "name": "Ali Aslan",
+    "name": "Kerem Çetin",
     "age": 32,
     "sex": "M",
     "image": "andrew-scott-32-M.jpg",
     "height": "180 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Mersin",
+    "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "ali.aslan@iletinet.com"
+      "andrew.scott@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@aliasl"
+        "platform": "KısaMesaj",
+        "handle": "@uye_39458"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Giyim / Çanta",
-        "amount": "758",
-        "date": "30-04-2026"
+        "amount": "2145",
+        "date": "28-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "491",
-        "date": "22-04-2026"
+        "amount": "479",
+        "date": "23-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "392",
-        "date": "01-05-2026"
+        "amount": "220",
+        "date": "19-04-2026"
       }
     ],
     "texts": [
-      "Havaalanı çok kalabalık.",
-      "Uçağa biniyorum!",
-      "Umarım türbülans olmaz."
+      "Pasaport kontrolündeyim.",
+      "Bileti bulamıyorum...",
+      "Yolculuk başlıyor!"
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.alisveris-yap.com",
-      "www.film-dizim.com"
+      "www.gunluk-haberler.net",
+      "www.oyun-gemisi.xyz",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 10,
     "purchaseScore": 5,
@@ -1618,53 +1634,54 @@ const passengerData = {
     "facialScore": 12
   },
   "8C": {
-    "name": "Selin Özdemir",
+    "name": "Büşra Yılmaz",
     "age": 33,
     "sex": "F",
     "image": "lily-green-33-F.jpg",
     "height": "168 cm",
     "eyes": "Yeşil",
     "hair": "Kızıl",
-    "hometown": "Denizli",
+    "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "selin.özdemir@postakutum.tr"
+      "lily.green@gmail.com",
+      "lgreen@brewery.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@selinözd"
+        "platform": "KısaMesaj",
+        "handle": "@uye_10457"
       }
     ],
     "purchases": [
       {
         "vendor": "Kahvecim",
         "item": "Hediyelik Eşya",
-        "amount": "997",
-        "date": "27-04-2026"
+        "amount": "308",
+        "date": "25-04-2026"
       },
       {
         "vendor": "SüperMarket",
         "item": "Hediyelik Eşya",
-        "amount": "944",
-        "date": "08-05-2026"
+        "amount": "984",
+        "date": "21-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "988",
+        "amount": "912",
         "date": "04-05-2026"
       }
     ],
     "texts": [
-      "Gelince haber ver.",
-      "Yolculuk başlıyor!",
-      "Bileti bulamıyorum..."
+      "Havaalanı çok kalabalık.",
+      "Görüşürüz!",
+      "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.trend-market.com",
-      "www.ornek-sosyal.com",
-      "www.kisa-mesaj.com"
+      "www.bilim-ve-doga.xyz",
+      "www.macera-oyunlari.biz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -1672,53 +1689,54 @@ const passengerData = {
     "facialScore": 9
   },
   "8D": {
-    "name": "Mehmet Doğan",
+    "name": "Kerem Yılmaz",
     "age": 33,
     "sex": "M",
     "image": "joshua-adams-33-M.jpg",
     "height": "188 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Konya",
+    "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "mehmet.doğan@iletinet.com"
+      "josh.adams@gmail.com",
+      "jadams@music.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@mehmetdoğ"
+        "platform": "KısaMesaj",
+        "handle": "@uye_93874"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "541",
-        "date": "15-04-2026"
+        "amount": "1750",
+        "date": "29-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Yemek Menüsü",
-        "amount": "346",
-        "date": "03-05-2026"
+        "amount": "433",
+        "date": "07-05-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "1115",
-        "date": "09-05-2026"
+        "amount": "1082",
+        "date": "27-04-2026"
       }
     ],
     "texts": [
-      "Havaalanı çok kalabalık.",
-      "Bileti bulamıyorum...",
-      "Umarım türbülans olmaz."
+      "Çok sıra var.",
+      "Biraz gecikebilirim.",
+      "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.film-dizim.com",
-      "www.yemek-iste.com",
-      "www.video-izle.com"
+      "www.gunluk-haberler.net",
+      "www.sinema-perdesi.biz",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -1726,53 +1744,54 @@ const passengerData = {
     "facialScore": 11
   },
   "9A": {
-    "name": "Buse Kılıç",
+    "name": "Eda Doğan",
     "age": 34,
     "sex": "F",
     "image": "zoe-baker-34-F.jpg",
     "height": "165 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Samsun",
+    "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "buse.kılıç@ymail.net"
+      "zoe.baker@gmail.com",
+      "zbaker@restaurant.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@busekıl"
+        "platform": "KısaMesaj",
+        "handle": "@uye_30600"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "840",
-        "date": "08-05-2026"
+        "amount": "381",
+        "date": "23-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "458",
-        "date": "16-04-2026"
+        "amount": "294",
+        "date": "02-05-2026"
       },
       {
         "vendor": "SüperMarket",
         "item": "Yemek Menüsü",
-        "amount": "490",
-        "date": "03-05-2026"
+        "amount": "604",
+        "date": "02-05-2026"
       }
     ],
     "texts": [
-      "Biraz gecikebilirim.",
-      "Biraz gecikebilirim.",
-      "Çok sıra var."
+      "Çok sıra var.",
+      "Bileti bulamıyorum...",
+      "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.ornek-sosyal.com",
-      "www.video-izle.com"
+      "www.gunluk-haberler.net",
+      "www.dijital-sayfalar.info",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -1780,7 +1799,7 @@ const passengerData = {
     "facialScore": 10
   },
   "9B": {
-    "name": "Mert Demir",
+    "name": "Berke Çetin",
     "age": 34,
     "sex": "M",
     "image": "ryan-nelson-34-M.jpg",
@@ -1790,43 +1809,44 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "mert.demir@iletinet.com"
+      "ryan.nelson@gmail.com",
+      "rnelson@startup.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@mertdem"
+        "platform": "FotoAğı",
+        "handle": "@uye_73967"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Hediyelik Eşya",
-        "amount": "626",
-        "date": "21-04-2026"
+        "amount": "610",
+        "date": "26-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "145",
-        "date": "29-04-2026"
+        "amount": "303",
+        "date": "16-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "847",
-        "date": "04-05-2026"
+        "amount": "270",
+        "date": "30-04-2026"
       }
     ],
     "texts": [
-      "Bileti bulamıyorum...",
-      "Dışarıda hava çok güzel.",
-      "Umarım türbülans olmaz."
+      "Seni bekliyorum.",
+      "Görüşürüz!",
+      "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.alisveris-yap.com",
-      "www.ornek-sosyal.com"
+      "www.gunluk-haberler.net",
+      "www.macera-oyunlari.biz",
+      "www.oyun-gemisi.xyz"
     ],
     "baseScore": 12,
     "purchaseScore": 6,
@@ -1834,53 +1854,54 @@ const passengerData = {
     "facialScore": 14
   },
   "9C": {
-    "name": "Büşra Kılıç",
+    "name": "Büşra Şahin",
     "age": 35,
     "sex": "F",
     "image": "natalie-carter-35-F.jpg",
     "height": "170 cm",
     "eyes": "Ela",
     "hair": "Sarı",
-    "hometown": "Trabzon",
+    "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "büşra.kılıç@coldmail.com"
+      "natalie.c@gmail.com",
+      "ncarter@bank.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@büşrakıl"
+        "platform": "KısaMesaj",
+        "handle": "@uye_85839"
       }
     ],
     "purchases": [
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "2347",
-        "date": "30-04-2026"
+        "amount": "1321",
+        "date": "16-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "264",
-        "date": "26-04-2026"
+        "amount": "624",
+        "date": "09-05-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "404",
-        "date": "07-05-2026"
+        "amount": "596",
+        "date": "25-04-2026"
       }
     ],
     "texts": [
-      "Bileti bulamıyorum...",
-      "Bileti bulamıyorum...",
-      "Havaalanı çok kalabalık."
+      "Gelince haber ver.",
+      "Dışarıda hava çok güzel.",
+      "Yolculuk başlıyor!"
     ],
     "websites": [
-      "www.film-dizim.com",
-      "www.trend-market.com",
-      "www.alisveris-yap.com"
+      "www.bilim-ve-doga.xyz",
+      "www.gunluk-haberler.net",
+      "www.okulcantasi-dunyasi.biz"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -1888,53 +1909,54 @@ const passengerData = {
     "facialScore": 9
   },
   "9D": {
-    "name": "Arda Kara",
+    "name": "Barış Aydın",
     "age": 36,
     "sex": "M",
     "image": "kevin-mitchell-36-M.jpg",
     "height": "185 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Konya",
+    "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "arda.kara@iletinet.com"
+      "kevin.m@gmail.com",
+      "kmitchell@outdoors.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@ardakar"
+        "platform": "FotoAğı",
+        "handle": "@uye_17322"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "924",
-        "date": "04-05-2026"
+        "amount": "328",
+        "date": "29-04-2026"
       },
       {
         "vendor": "TeknoMerkez",
         "item": "Gözlük / Maske",
-        "amount": "2450",
-        "date": "05-05-2026"
+        "amount": "1330",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "970",
-        "date": "29-04-2026"
+        "amount": "875",
+        "date": "15-04-2026"
       }
     ],
     "texts": [
-      "Valizi teslim ettim.",
-      "Bileti bulamıyorum...",
-      "Yolculuk başlıyor!"
+      "Seni bekliyorum.",
+      "Umarım türbülans olmaz.",
+      "Gelince haber ver."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.video-izle.com",
-      "www.trend-market.com"
+      "www.dijital-sayfalar.info",
+      "www.sinema-perdesi.biz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -1942,7 +1964,7 @@ const passengerData = {
     "facialScore": 13
   },
   "10A": {
-    "name": "İrem Özdemir",
+    "name": "Büşra Arslan",
     "age": 36,
     "sex": "F",
     "image": "hannah-phillips-36-F.jpg",
@@ -1952,12 +1974,13 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "i̇rem.özdemir@zposta.com"
+      "hannah.p@gmail.com",
+      "hphillips@tech.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@i̇remözd"
+        "platform": "FotoAğı",
+        "handle": "@uye_88610"
       }
     ],
     "purchases": [
@@ -1965,30 +1988,30 @@ const passengerData = {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
         "amount": "950",
-        "date": "19-04-2026"
+        "date": "18-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "479",
-        "date": "17-04-2026"
+        "amount": "441",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "743",
-        "date": "04-05-2026"
+        "amount": "671",
+        "date": "29-04-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
-      "Gelince haber ver.",
-      "Havaalanı çok kalabalık."
+      "Dışarıda hava çok güzel.",
+      "Umarım türbülans olmaz.",
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.muzik-dinle.com",
-      "www.film-dizim.com"
+      "www.oyun-gemisi.xyz",
+      "www.macera-oyunlari.biz",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -1996,53 +2019,53 @@ const passengerData = {
     "facialScore": 7
   },
   "10B": {
-    "name": "Ege Yılmaz",
+    "name": "Mehmet Çelik",
     "age": 37,
     "sex": "M",
     "image": "brandon-evans-37-M.jpg",
     "height": "175 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Antalya",
+    "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "ege.yılmaz@ymail.net"
+      "brandon.e@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@egeyıl"
+        "platform": "KısaMesaj",
+        "handle": "@uye_98639"
       }
     ],
     "purchases": [
       {
         "vendor": "SüperMarket",
         "item": "Hediyelik Eşya",
-        "amount": "307",
-        "date": "03-05-2026"
+        "amount": "661",
+        "date": "06-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "389",
-        "date": "21-04-2026"
+        "amount": "507",
+        "date": "22-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Gözlük / Maske",
-        "amount": "2061",
+        "amount": "2991",
         "date": "08-05-2026"
       }
     ],
     "texts": [
-      "Yolculuk başlıyor!",
-      "Çok sıra var.",
-      "Pasaport kontrolündeyim."
+      "Gelince haber ver.",
+      "Seni bekliyorum.",
+      "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.film-dizim.com",
-      "www.muzik-dinle.com"
+      "www.sinema-perdesi.biz",
+      "www.sinema-perdesi.biz",
+      "www.dijital-sayfalar.info"
     ],
     "baseScore": 16,
     "purchaseScore": 9,
@@ -2050,53 +2073,54 @@ const passengerData = {
     "facialScore": 18
   },
   "10C": {
-    "name": "Derya Aydın",
+    "name": "Defne Çetin",
     "age": 38,
     "sex": "F",
     "image": "victoria-campbell-38-F.jpg",
     "height": "168 cm",
     "eyes": "Mavi",
     "hair": "Kızıl",
-    "hometown": "Trabzon",
+    "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "derya.aydın@ymail.net"
+      "victoria.c@gmail.com",
+      "vcampbell@law.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@deryaayd"
+        "platform": "FotoAğı",
+        "handle": "@uye_44360"
       }
     ],
     "purchases": [
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "573",
-        "date": "22-04-2026"
+        "amount": "481",
+        "date": "08-05-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Hediyelik Eşya",
-        "amount": "369",
-        "date": "23-04-2026"
+        "amount": "805",
+        "date": "24-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Hediyelik Eşya",
-        "amount": "659",
-        "date": "25-04-2026"
+        "amount": "604",
+        "date": "19-04-2026"
       }
     ],
     "texts": [
-      "Pasaport kontrolündeyim.",
-      "Seni bekliyorum.",
-      "Pasaport kontrolündeyim."
+      "Umarım türbülans olmaz.",
+      "Valizi teslim ettim.",
+      "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.ornek-sosyal.com",
-      "www.kisa-mesaj.com"
+      "www.sinema-perdesi.biz",
+      "www.sinema-perdesi.biz",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -2104,53 +2128,54 @@ const passengerData = {
     "facialScore": 10
   },
   "10D": {
-    "name": "Deniz Doğan",
+    "name": "Emre Doğan",
     "age": 40,
     "sex": "M",
     "image": "tyler-parker-40-M.jpg",
     "height": "183 cm",
     "eyes": "Mavi",
     "hair": "Gri",
-    "hometown": "İzmir",
+    "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "deniz.doğan@coldmail.com"
+      "tyler.parker@gmail.com",
+      "tparker@silicon.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@denizdoğ"
+        "platform": "VideoGezgini",
+        "handle": "@uye_82624"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Saat",
-        "amount": "3850",
-        "date": "06-05-2026"
+        "amount": "9908",
+        "date": "26-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "127",
-        "date": "08-05-2026"
+        "amount": "439",
+        "date": "15-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "452",
-        "date": "28-04-2026"
+        "amount": "361",
+        "date": "20-04-2026"
       }
     ],
     "texts": [
-      "Pasaport kontrolündeyim.",
-      "Yolculuk başlıyor!",
-      "Yolculuk başlıyor!"
+      "Seni bekliyorum.",
+      "Valizi teslim ettim.",
+      "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.trend-market.com",
-      "www.trend-market.com",
-      "www.ornek-sosyal.com"
+      "www.dijital-sayfalar.info",
+      "www.gezgin-rotalar.net",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 13,
     "purchaseScore": 7,
@@ -2158,53 +2183,53 @@ const passengerData = {
     "facialScore": 15
   },
   "11A": {
-    "name": "İrem Yıldız",
+    "name": "Melis Yıldız",
     "age": 39,
     "sex": "F",
     "image": "madison-murphy-39-F.jpg",
     "height": "165 cm",
     "eyes": "Ela",
     "hair": "Sarı",
-    "hometown": "Trabzon",
+    "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "i̇rem.yıldız@coldmail.com"
+      "madison.m@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@i̇remyıl"
+        "platform": "KısaMesaj",
+        "handle": "@uye_72734"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Atıştırmalık",
-        "amount": "228",
-        "date": "21-04-2026"
+        "amount": "390",
+        "date": "28-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Hediyelik Eşya",
-        "amount": "825",
-        "date": "01-05-2026"
+        "amount": "625",
+        "date": "27-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "2230",
-        "date": "17-04-2026"
+        "amount": "883",
+        "date": "26-04-2026"
       }
     ],
     "texts": [
       "Pasaport kontrolündeyim.",
       "Görüşürüz!",
-      "Uçağa biniyorum!"
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.muzik-dinle.com",
-      "www.video-izle.com",
-      "www.yemek-iste.com"
+      "www.macera-oyunlari.biz",
+      "www.macera-oyunlari.biz",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -2212,53 +2237,54 @@ const passengerData = {
     "facialScore": 8
   },
   "11B": {
-    "name": "Defne Yıldız",
+    "name": "Aslı Kaya",
     "age": 41,
     "sex": "F",
     "image": "jessica-rivera-41-F.jpg",
     "height": "170 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Denizli",
+    "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "defne.yıldız@ymail.net"
+      "jessica.r@gmail.com",
+      "jrivera@healthcare.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@defneyıl"
+        "platform": "FotoAğı",
+        "handle": "@uye_33544"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "932",
-        "date": "07-05-2026"
+        "amount": "809",
+        "date": "03-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "310",
-        "date": "26-04-2026"
+        "amount": "669",
+        "date": "15-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "450",
-        "date": "04-05-2026"
+        "amount": "569",
+        "date": "20-04-2026"
       }
     ],
     "texts": [
-      "Umarım türbülans olmaz.",
-      "Görüşürüz!",
+      "Bileti bulamıyorum...",
+      "Çok sıra var.",
       "Görüşürüz!"
     ],
     "websites": [
-      "www.trend-market.com",
-      "www.ornek-sosyal.com",
-      "www.ornek-sosyal.com"
+      "www.macera-oyunlari.biz",
+      "www.dijital-sayfalar.info",
+      "www.sinema-perdesi.biz"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -2266,53 +2292,53 @@ const passengerData = {
     "facialScore": 9
   },
   "11C": {
-    "name": "Mehmet Özdemir",
+    "name": "Mert Çelik",
     "age": 41,
     "sex": "M",
     "image": "jason-wright-41-M.jpg",
     "height": "180 cm",
     "eyes": "Yeşil",
     "hair": "Kahverengi",
-    "hometown": "Samsun",
+    "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "mehmet.özdemir@ymail.net"
+      "jason.wright@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@mehmetözd"
+        "platform": "KısaMesaj",
+        "handle": "@uye_71738"
       }
     ],
     "purchases": [
       {
         "vendor": "Kahvecim",
         "item": "Hediyelik Eşya",
-        "amount": "636",
-        "date": "29-04-2026"
+        "amount": "958",
+        "date": "21-04-2026"
       },
       {
         "vendor": "SüperMarket",
         "item": "Hediyelik Eşya",
-        "amount": "755",
-        "date": "02-05-2026"
+        "amount": "335",
+        "date": "08-05-2026"
       },
       {
         "vendor": "SporMağazası",
         "item": "Giyim / Çanta",
-        "amount": "2349",
-        "date": "25-04-2026"
+        "amount": "1468",
+        "date": "04-05-2026"
       }
     ],
     "texts": [
-      "Bileti bulamıyorum...",
-      "Biraz gecikebilirim.",
-      "Umarım türbülans olmaz."
+      "Seni bekliyorum.",
+      "Uçağa biniyorum!",
+      "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.muzik-dinle.com",
-      "www.film-dizim.com",
-      "www.kisa-mesaj.com"
+      "www.sinema-perdesi.biz",
+      "www.gunluk-haberler.net",
+      "www.dijital-sayfalar.info"
     ],
     "baseScore": 10,
     "purchaseScore": 5,
@@ -2320,53 +2346,54 @@ const passengerData = {
     "facialScore": 12
   },
   "11D": {
-    "name": "Mehmet Demir",
+    "name": "Tolga Yıldız",
     "age": 42,
     "sex": "M",
     "image": "robert-torres-42-M.jpg",
     "height": "183 cm",
     "eyes": "Kahverengi",
     "hair": "Siyah",
-    "hometown": "Gaziantep",
+    "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "mehmet.demir@coldmail.com"
+      "robert.t@gmail.com",
+      "rtorres@engineering.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@mehmetdem"
+        "platform": "KısaMesaj",
+        "handle": "@uye_33665"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Hediyelik Eşya",
-        "amount": "400",
+        "amount": "837",
         "date": "30-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "403",
-        "date": "06-05-2026"
+        "amount": "515",
+        "date": "30-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "322",
-        "date": "06-05-2026"
+        "amount": "530",
+        "date": "02-05-2026"
       }
     ],
     "texts": [
-      "Dışarıda hava çok güzel.",
-      "Biraz gecikebilirim.",
+      "Pasaport kontrolündeyim.",
+      "Çok sıra var.",
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.muzik-dinle.com",
-      "www.yemek-iste.com",
-      "www.kisa-mesaj.com"
+      "www.gunluk-haberler.net",
+      "www.bilim-ve-doga.xyz",
+      "www.gunluk-haberler.net"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -2374,53 +2401,54 @@ const passengerData = {
     "facialScore": 11
   },
   "12A": {
-    "name": "Aslı Yılmaz",
+    "name": "Aslı Kara",
     "age": 44,
     "sex": "F",
     "image": "nicole-stewart-44-F.jpg",
     "height": "168 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Ankara",
+    "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "aslı.yılmaz@postakutum.tr"
+      "nicole.s@gmail.com",
+      "nstewart@insurance.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@aslıyıl"
+        "platform": "VideoGezgini",
+        "handle": "@uye_31621"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "599",
-        "date": "16-04-2026"
+        "amount": "778",
+        "date": "30-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "414",
-        "date": "17-04-2026"
+        "amount": "557",
+        "date": "20-04-2026"
       },
       {
         "vendor": "GiyimMağazası",
         "item": "Giyim / Çanta",
-        "amount": "1564",
-        "date": "01-05-2026"
+        "amount": "1160",
+        "date": "16-04-2026"
       }
     ],
     "texts": [
       "Pasaport kontrolündeyim.",
-      "Çok sıra var.",
-      "Havaalanı çok kalabalık."
+      "Yolculuk başlıyor!",
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.ornek-sosyal.com",
-      "www.ilan-bul.com"
+      "www.gezgin-rotalar.net",
+      "www.okulcantasi-dunyasi.biz",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -2428,53 +2456,53 @@ const passengerData = {
     "facialScore": 8
   },
   "12B": {
-    "name": "İnci Kara",
+    "name": "Buse Öztürk",
     "age": 45,
     "sex": "F",
     "image": "jennifer-collins-45-F.jpg",
     "height": "163 cm",
     "eyes": "Ela",
     "hair": "Kahverengi",
-    "hometown": "Gaziantep",
+    "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "i̇nci.kara@iletinet.com"
+      "jennifer.c@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@i̇ncikar"
+        "platform": "VideoGezgini",
+        "handle": "@uye_23487"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "382",
-        "date": "26-04-2026"
+        "amount": "502",
+        "date": "09-05-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Atıştırmalık",
-        "amount": "113",
-        "date": "02-05-2026"
+        "amount": "235",
+        "date": "21-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "389",
-        "date": "22-04-2026"
+        "amount": "598",
+        "date": "18-04-2026"
       }
     ],
     "texts": [
-      "Dışarıda hava çok güzel.",
-      "Pasaport kontrolündeyim.",
-      "Biraz gecikebilirim."
+      "Uçağa biniyorum!",
+      "Yolculuk başlıyor!",
+      "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.ornek-sosyal.com",
-      "www.film-dizim.com"
+      "www.gezgin-rotalar.net",
+      "www.gunluk-haberler.net",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -2482,53 +2510,54 @@ const passengerData = {
     "facialScore": 7
   },
   "12C": {
-    "name": "Tolga Doğan",
+    "name": "Deniz Demir",
     "age": 45,
     "sex": "M",
     "image": "steven-sanchez-45-M.jpg",
     "height": "178 cm",
     "eyes": "Mavi",
     "hair": "Siyah",
-    "hometown": "Bursa",
+    "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "tolga.doğan@tmail.com"
+      "steven.s@gmail.com",
+      "ssanchez@mining.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@tolgadoğ"
+        "platform": "FotoAğı",
+        "handle": "@uye_21066"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Giyim / Çanta",
-        "amount": "2298",
-        "date": "29-04-2026"
+        "amount": "1470",
+        "date": "17-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "519",
-        "date": "07-05-2026"
+        "amount": "640",
+        "date": "05-05-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "249",
-        "date": "05-05-2026"
+        "amount": "245",
+        "date": "07-05-2026"
       }
     ],
     "texts": [
-      "Dışarıda hava çok güzel.",
-      "Seni bekliyorum.",
-      "Seni bekliyorum."
+      "Bileti bulamıyorum...",
+      "Umarım türbülans olmaz.",
+      "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.video-izle.com",
-      "www.kisa-mesaj.com",
-      "www.ilan-bul.com"
+      "www.okulcantasi-dunyasi.biz",
+      "www.gunluk-haberler.net",
+      "www.dijital-sayfalar.info"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -2536,53 +2565,54 @@ const passengerData = {
     "facialScore": 10
   },
   "12D": {
-    "name": "Can Çelik",
+    "name": "Can Kara",
     "age": 58,
     "sex": "M",
     "image": "george-patterson-58-M.jpg",
     "height": "185 cm",
     "eyes": "Kahverengi",
     "hair": "White",
-    "hometown": "Bursa",
+    "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "can.çelik@hizlimail.com"
+      "george.p@gmail.com",
+      "gpatterson@steel.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@cançel"
+        "platform": "FotoAğı",
+        "handle": "@uye_67251"
       }
     ],
     "purchases": [
       {
         "vendor": "SporMağazası",
         "item": "Giyim / Çanta",
-        "amount": "2387",
-        "date": "27-04-2026"
+        "amount": "1902",
+        "date": "02-05-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Kahve",
-        "amount": "152",
-        "date": "28-04-2026"
+        "amount": "391",
+        "date": "17-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Gözlük / Maske",
-        "amount": "1965",
-        "date": "24-04-2026"
+        "amount": "3884",
+        "date": "29-04-2026"
       }
     ],
     "texts": [
-      "Bileti bulamıyorum...",
-      "Biraz gecikebilirim.",
-      "Valizi teslim ettim."
+      "Çok sıra var.",
+      "Havaalanı çok kalabalık.",
+      "Gelince haber ver."
     ],
     "websites": [
-      "www.alisveris-yap.com",
-      "www.video-izle.com",
-      "www.ornek-sosyal.com"
+      "www.oyun-gemisi.xyz",
+      "www.gezgin-rotalar.net",
+      "www.dijital-sayfalar.info"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -2597,46 +2627,47 @@ const passengerData = {
     "height": "180 cm",
     "eyes": "Mavi",
     "hair": "Sarı",
-    "hometown": "Antalya",
+    "hometown": "Ankara",
     "passport": "Türkiye",
     "emails": [
-      "can.demir@ymail.net"
+      "alex.mercer@gmail.com",
+      "amercer@newsoutlet.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@candemir"
+        "platform": "VideoGezgini",
+        "handle": "@kullanici_cnd"
       }
     ],
     "purchases": [
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "174",
-        "date": "18-04-2026"
+        "amount": "413",
+        "date": "22-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "350",
-        "date": "06-05-2026"
+        "amount": "438",
+        "date": "15-04-2026"
       },
       {
         "vendor": "TeknoMerkez",
         "item": "Şarj Aksesuarı",
-        "amount": "428",
-        "date": "03-05-2026"
+        "amount": "748",
+        "date": "28-04-2026"
       }
     ],
     "texts": [
       "Paketi aldın mı?",
-      "Çılgın bir uçuş. Dostum, acilen tuvalete gitmem lazım!",
-      "Planı unutma"
+      "Uçuş çok sarsıntılı, midem bulandı. Hemen tuvalete gitmem lazım!",
+      "Planı unutma."
     ],
     "websites": [
-      "www.kisa-mesaj.com",
-      "www.video-izle.com",
-      "www.muzik-dinle.com"
+      "www.macera-oyunlari.biz",
+      "www.sinema-perdesi.biz",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 42,
     "purchaseScore": 8,
@@ -2645,53 +2676,53 @@ const passengerData = {
     "isAlex": true
   },
   "13C": {
-    "name": "Selin Aydın",
+    "name": "Buse Aslan",
     "age": 47,
     "sex": "F",
     "image": "karen-price-47-F.jpg",
     "height": "165 cm",
     "eyes": "Yeşil",
     "hair": "Sarı",
-    "hometown": "Trabzon",
+    "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "selin.aydın@coldmail.com"
+      "karen.price@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@selinayd"
+        "platform": "FotoAğı",
+        "handle": "@uye_96290"
       }
     ],
     "purchases": [
       {
         "vendor": "TeknoMerkez",
         "item": "Hediyelik Eşya",
-        "amount": "613",
-        "date": "01-05-2026"
+        "amount": "579",
+        "date": "22-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Hediyelik Eşya",
-        "amount": "757",
-        "date": "15-04-2026"
+        "amount": "620",
+        "date": "18-04-2026"
       },
       {
         "vendor": "SüperMarket",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "597",
-        "date": "01-05-2026"
+        "amount": "1322",
+        "date": "26-04-2026"
       }
     ],
     "texts": [
-      "Havaalanı çok kalabalık.",
-      "Çok sıra var.",
-      "Çok sıra var."
+      "Seni bekliyorum.",
+      "Uçağa biniyorum!",
+      "Valizi teslim ettim."
     ],
     "websites": [
-      "www.film-dizim.com",
-      "www.alisveris-yap.com",
-      "www.video-izle.com"
+      "www.oyun-gemisi.xyz",
+      "www.gezgin-rotalar.net",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 4,
     "purchaseScore": 1,
@@ -2699,53 +2730,54 @@ const passengerData = {
     "facialScore": 6
   },
   "13D": {
-    "name": "Deniz Şahin",
+    "name": "Burak Yılmaz",
     "age": 48,
     "sex": "M",
     "image": "mark-foster-48-M.jpg",
     "height": "175 cm",
     "eyes": "Yeşil",
     "hair": "Gri",
-    "hometown": "Samsun",
+    "hometown": "Ankara",
     "passport": "Türkiye",
     "emails": [
-      "deniz.şahin@coldmail.com"
+      "mark.foster@gmail.com",
+      "mfoster@accounting.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@denizşah"
+        "platform": "KısaMesaj",
+        "handle": "@uye_59474"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "331",
-        "date": "05-05-2026"
+        "amount": "971",
+        "date": "20-04-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "Kahve",
-        "amount": "160",
-        "date": "20-04-2026"
+        "amount": "409",
+        "date": "16-04-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "335",
-        "date": "04-05-2026"
+        "amount": "419",
+        "date": "07-05-2026"
       }
     ],
     "texts": [
-      "Yolculuk başlıyor!",
-      "Yolculuk başlıyor!",
-      "Valizi teslim ettim."
+      "Gelince haber ver.",
+      "Görüşürüz!",
+      "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.ilan-bul.com",
-      "www.trend-market.com",
-      "www.muzik-dinle.com"
+      "www.sinema-perdesi.biz",
+      "www.okulcantasi-dunyasi.biz",
+      "www.okulcantasi-dunyasi.biz"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -2753,53 +2785,53 @@ const passengerData = {
     "facialScore": 7
   },
   "14A": {
-    "name": "Ceren Aydın",
+    "name": "Selin Aslan",
     "age": 50,
     "sex": "F",
     "image": "patricia-morgan-50-F.jpg",
     "height": "163 cm",
     "eyes": "Mavi",
     "hair": "Gri",
-    "hometown": "Antalya",
+    "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "ceren.aydın@zposta.com"
+      "patricia.m@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@cerenayd"
+        "platform": "FotoAğı",
+        "handle": "@uye_24512"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Atıştırmalık",
-        "amount": "295",
-        "date": "23-04-2026"
+        "amount": "224",
+        "date": "01-05-2026"
       },
       {
         "vendor": "Kahvecim",
         "item": "İçecek",
-        "amount": "187",
-        "date": "06-05-2026"
+        "amount": "264",
+        "date": "27-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "931",
-        "date": "27-04-2026"
+        "amount": "555",
+        "date": "03-05-2026"
       }
     ],
     "texts": [
-      "Seni bekliyorum.",
-      "Pasaport kontrolündeyim.",
-      "Gelince haber ver."
+      "Valizi teslim ettim.",
+      "Yolculuk başlıyor!",
+      "Havaalanı çok kalabalık."
     ],
     "websites": [
-      "www.yemek-iste.com",
-      "www.kisa-mesaj.com",
-      "www.ornek-sosyal.com"
+      "www.sinema-perdesi.biz",
+      "www.gunluk-haberler.net",
+      "www.gezgin-rotalar.net"
     ],
     "baseScore": 3,
     "purchaseScore": 1,
@@ -2807,53 +2839,54 @@ const passengerData = {
     "facialScore": 5
   },
   "14B": {
-    "name": "Can Yılmaz",
+    "name": "Emre Yılmaz",
     "age": 50,
     "sex": "M",
     "image": "richard-hayes-50-M.jpg",
     "height": "183 cm",
     "eyes": "Kahverengi",
     "hair": "Gri",
-    "hometown": "Denizli",
+    "hometown": "Eskişehir",
     "passport": "Türkiye",
     "emails": [
-      "can.yılmaz@tmail.com"
+      "richard.h@gmail.com",
+      "rhayes@music.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@canyıl"
+        "platform": "KısaMesaj",
+        "handle": "@uye_48829"
       }
     ],
     "purchases": [
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "1219",
-        "date": "29-04-2026"
+        "amount": "909",
+        "date": "30-04-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "264",
-        "date": "23-04-2026"
+        "amount": "391",
+        "date": "07-05-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hobi / Müzik Eşyası",
-        "amount": "1425",
-        "date": "18-04-2026"
+        "amount": "1710",
+        "date": "05-05-2026"
       }
     ],
     "texts": [
-      "Valizi teslim ettim.",
-      "Valizi teslim ettim.",
+      "Pasaport kontrolündeyim.",
+      "Dışarıda hava çok güzel.",
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.trend-market.com",
-      "www.yemek-iste.com",
-      "www.ilan-bul.com"
+      "www.gezgin-rotalar.net",
+      "www.macera-oyunlari.biz",
+      "www.bilim-ve-doga.xyz"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -2861,53 +2894,53 @@ const passengerData = {
     "facialScore": 9
   },
   "14C": {
-    "name": "İnci Kaya",
+    "name": "Nehir Çetin",
     "age": 52,
     "sex": "F",
     "image": "linda-russell-52-F.jpg",
     "height": "165 cm",
     "eyes": "Ela",
     "hair": "Kahverengi",
-    "hometown": "Antalya",
+    "hometown": "Trabzon",
     "passport": "Türkiye",
     "emails": [
-      "i̇nci.kaya@postakutum.tr"
+      "linda.r@gmail.com"
     ],
     "socials": [
       {
-        "platform": "tiktok",
-        "handle": "@i̇ncikay"
+        "platform": "FotoAğı",
+        "handle": "@uye_26825"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Atıştırmalık",
-        "amount": "121",
-        "date": "23-04-2026"
+        "amount": "301",
+        "date": "21-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Hediyelik Eşya",
-        "amount": "320",
-        "date": "15-04-2026"
+        "amount": "447",
+        "date": "09-05-2026"
       },
       {
         "vendor": "KitapDünyası",
         "item": "Kitap",
-        "amount": "511",
-        "date": "04-05-2026"
+        "amount": "376",
+        "date": "22-04-2026"
       }
     ],
     "texts": [
-      "Umarım türbülans olmaz.",
-      "Pasaport kontrolündeyim.",
-      "Çok sıra var."
+      "Seni bekliyorum.",
+      "Biraz gecikebilirim.",
+      "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.trend-market.com",
-      "www.yemek-iste.com",
-      "www.trend-market.com"
+      "www.sinema-perdesi.biz",
+      "www.gunluk-haberler.net",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 4,
     "purchaseScore": 2,
@@ -2915,53 +2948,53 @@ const passengerData = {
     "facialScore": 6
   },
   "14D": {
-    "name": "Derya Doğan",
+    "name": "Nehir Çelik",
     "age": 55,
     "sex": "F",
     "image": "dorothy-howard-55-F.jpg",
     "height": "168 cm",
     "eyes": "Kahverengi",
     "hair": "Gri",
-    "hometown": "Bursa",
+    "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "derya.doğan@iletinet.com"
+      "dorothy.h@gmail.com"
     ],
     "socials": [
       {
-        "platform": "insta",
-        "handle": "@deryadoğ"
+        "platform": "FotoAğı",
+        "handle": "@uye_83799"
       }
     ],
     "purchases": [
       {
         "vendor": "Eczane",
         "item": "Hediyelik Eşya",
-        "amount": "627",
-        "date": "06-05-2026"
+        "amount": "581",
+        "date": "30-04-2026"
       },
       {
         "vendor": "Restoran",
         "item": "Yemek Menüsü",
-        "amount": "276",
-        "date": "24-04-2026"
+        "amount": "613",
+        "date": "07-05-2026"
       },
       {
         "vendor": "Yerel Mağaza",
         "item": "Hediyelik Eşya",
-        "amount": "516",
-        "date": "09-05-2026"
+        "amount": "309",
+        "date": "08-05-2026"
       }
     ],
     "texts": [
-      "Biraz gecikebilirim.",
-      "Yolculuk başlıyor!",
-      "Pasaport kontrolündeyim."
+      "Pasaport kontrolündeyim.",
+      "Bileti bulamıyorum...",
+      "Seni bekliyorum."
     ],
     "websites": [
-      "www.ornek-sosyal.com",
-      "www.alisveris-yap.com",
-      "www.alisveris-yap.com"
+      "www.bilim-ve-doga.xyz",
+      "www.bilim-ve-doga.xyz",
+      "www.macera-oyunlari.biz"
     ],
     "baseScore": 6,
     "purchaseScore": 3,
