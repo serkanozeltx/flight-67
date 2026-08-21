@@ -106,7 +106,7 @@ function renderEmails(emails) {
 function renderSocials(socials) {
   if (!socials || !socials.length) return '<i style="color:#aaa">Bulunamadı</i>';
   return socials.map(s => 
-    `<span class="tag ${s.platform}">${platformDisplayNames[s.platform]}: ${s.handle}</span>`
+    `<span class="tag ${s.platform}">${platformDisplayNames[s.platform] || s.platform}: ${s.handle}</span>`
   ).join('');
 }
 
