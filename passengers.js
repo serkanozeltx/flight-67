@@ -14,12 +14,12 @@ const passengerData = {
     "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "sophia.chen@gmail.com"
+      "merve_kilic@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_70816"
+        "platform": "OyunÇemberi",
+        "handle": "@merve_kilic67"
       }
     ],
     "purchases": [
@@ -48,9 +48,8 @@ const passengerData = {
       "Çok sıra var."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.dijital-sayfalar.info",
-      "www.gezgin-rotalar.net"
+      "www.dijital-sayfalar.example",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 12,
     "purchaseScore": 5,
@@ -68,12 +67,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "emma.rod@gmail.com"
+      "asli_arslan@example.com"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_95910"
+        "platform": "KısaVideoApp",
+        "handle": "@asli_arslan63"
       }
     ],
     "purchases": [
@@ -102,9 +101,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.gunluk-haberler.net",
-      "www.gunluk-haberler.net"
+      "www.bilim-ve-doga.example.net",
+      "www.macera-oyunlari.example.org"
     ],
     "baseScore": 8,
     "purchaseScore": 3,
@@ -122,13 +120,12 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "olivia.m@gmail.com",
-      "omartinez@university.edu"
+      "zeynep_sahin@example.com"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_90095"
+        "platform": "FotoKare",
+        "handle": "@zeynep_sahin79"
       }
     ],
     "purchases": [
@@ -157,9 +154,8 @@ const passengerData = {
       "Seni bekliyorum."
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.sinema-perdesi.biz",
-      "www.macera-oyunlari.biz"
+      "www.gezgin-rotalar.test",
+      "www.dijital-sayfalar.example"
     ],
     "baseScore": 10,
     "purchaseScore": 4,
@@ -177,12 +173,12 @@ const passengerData = {
     "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "marcus.webb@gmail.com"
+      "murat_yilmaz@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_murat"
+        "platform": "FotoKare",
+        "handle": "@murat_yilmaz47"
       }
     ],
     "purchases": [
@@ -205,9 +201,8 @@ const passengerData = {
       "Bu havaalanı dev gibi."
     ],
     "websites": [
-      "www.okulcantasi-dunyasi.biz",
-      "www.dijital-sayfalar.info",
-      "www.gunluk-haberler.net"
+      "www.oyun-gemisi.test",
+      "www.macera-oyunlari.example.org"
     ],
     "baseScore": 35,
     "purchaseScore": 55,
@@ -225,12 +220,12 @@ const passengerData = {
     "hometown": "İstanbul",
     "passport": "Türkiye",
     "emails": [
-      "bella.kim@gmail.com"
+      "asli_kaya@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_73574"
+        "platform": "KısaVideoApp",
+        "handle": "@asli_kaya52"
       }
     ],
     "purchases": [
@@ -259,9 +254,8 @@ const passengerData = {
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.dijital-sayfalar.info",
-      "www.bilim-ve-doga.xyz",
-      "www.macera-oyunlari.biz"
+      "www.sinema-perdesi.example.com",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 11,
     "purchaseScore": 6,
@@ -279,12 +273,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "ethan.brooks@gmail.com"
+      "mert_celik@test"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_74956"
+        "platform": "FotoKare",
+        "handle": "@mert_celik15"
       }
     ],
     "purchases": [
@@ -313,9 +307,8 @@ const passengerData = {
       "Görüşürüz!"
     ],
     "websites": [
-      "www.bilim-ve-doga.xyz",
-      "www.dijital-sayfalar.info",
-      "www.gunluk-haberler.net"
+      "www.macera-oyunlari.example.org",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 14,
     "purchaseScore": 8,
@@ -333,13 +326,12 @@ const passengerData = {
     "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "mia.t@gmail.com",
-      "mthompson@work.com"
+      "eda_ozturk@example.org"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_26026"
+        "platform": "KısaVideoApp",
+        "handle": "@eda_ozturk57"
       }
     ],
     "purchases": [
@@ -368,9 +360,8 @@ const passengerData = {
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.sinema-perdesi.biz",
-      "www.bilim-ve-doga.xyz"
+      "www.gezgin-rotalar.test",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 9,
     "purchaseScore": 5,
@@ -388,12 +379,12 @@ const passengerData = {
     "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "noah.garcia@gmail.com"
+      "arda_ozturk@example.com"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_38423"
+        "platform": "KısaVideoApp",
+        "handle": "@arda_ozturk80"
       }
     ],
     "purchases": [
@@ -422,9 +413,8 @@ const passengerData = {
       "Uçağa biniyorum!"
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.okulcantasi-dunyasi.biz",
-      "www.macera-oyunlari.biz"
+      "www.dijital-sayfalar.example",
+      "www.dijital-sayfalar.example"
     ],
     "baseScore": 13,
     "purchaseScore": 7,
@@ -442,13 +432,12 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "ava.wilson@gmail.com",
-      "awilson@lawfirm.com"
+      "inci_aydin@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_86513"
+        "platform": "OyunÇemberi",
+        "handle": "@inci_aydin50"
       }
     ],
     "purchases": [
@@ -477,9 +466,8 @@ const passengerData = {
       "Gelince haber ver."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.sinema-perdesi.biz",
-      "www.sinema-perdesi.biz"
+      "www.sinema-perdesi.example.com",
+      "www.gunluk-haberler.example.net"
     ],
     "baseScore": 7,
     "purchaseScore": 4,
@@ -497,12 +485,12 @@ const passengerData = {
     "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "liam.a@gmail.com"
+      "mehmet_kaya@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_78628"
+        "platform": "KısaVideoApp",
+        "handle": "@mehmet_kaya23"
       }
     ],
     "purchases": [
@@ -531,9 +519,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.okulcantasi-dunyasi.biz",
-      "www.okulcantasi-dunyasi.biz",
-      "www.sinema-perdesi.biz"
+      "www.gunluk-haberler.example.net",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 16,
     "purchaseScore": 9,
@@ -551,13 +538,12 @@ const passengerData = {
     "hometown": "Eskişehir",
     "passport": "Türkiye",
     "emails": [
-      "charlotte.d@gmail.com",
-      "cdavis@music.com"
+      "irem_dogan@example.net"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_56743"
+        "platform": "KısaVideoApp",
+        "handle": "@irem_dogan26"
       }
     ],
     "purchases": [
@@ -586,9 +572,8 @@ const passengerData = {
       "Seni bekliyorum."
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.gunluk-haberler.net",
-      "www.sinema-perdesi.biz"
+      "www.sinema-perdesi.example.com",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 8,
     "purchaseScore": 3,
@@ -606,12 +591,12 @@ const passengerData = {
     "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "james.miller@gmail.com"
+      "mehmet_ozdemir@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_61216"
+        "platform": "FikirAğı",
+        "handle": "@mehmet_ozdemir92"
       }
     ],
     "purchases": [
@@ -640,9 +625,8 @@ const passengerData = {
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.okulcantasi-dunyasi.biz",
-      "www.macera-oyunlari.biz",
-      "www.bilim-ve-doga.xyz"
+      "www.gunluk-haberler.example.net",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 12,
     "purchaseScore": 6,
@@ -660,13 +644,12 @@ const passengerData = {
     "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "amelia.brown@gmail.com",
-      "abrown@hospital.org"
+      "selin_aydin@example.com"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_87587"
+        "platform": "KısaVideoApp",
+        "handle": "@selin_aydin26"
       }
     ],
     "purchases": [
@@ -695,9 +678,8 @@ const passengerData = {
       "Yolculuk başlıyor!"
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.dijital-sayfalar.info",
-      "www.sinema-perdesi.biz"
+      "www.bilim-ve-doga.example.net",
+      "www.gunluk-haberler.example.net"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -715,13 +697,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "ben.lee@gmail.com",
-      "blee@techcorp.com"
+      "ozan_kara@test"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_52986"
+        "platform": "OyunÇemberi",
+        "handle": "@ozan_kara54"
       }
     ],
     "purchases": [
@@ -750,9 +731,8 @@ const passengerData = {
       "Gelince haber ver."
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.sinema-perdesi.biz",
-      "www.gezgin-rotalar.net"
+      "www.oyun-gemisi.test",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -770,12 +750,12 @@ const passengerData = {
     "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "harper.j@gmail.com"
+      "elif_ozturk@example.org"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_60262"
+        "platform": "KısaVideoApp",
+        "handle": "@elif_ozturk59"
       }
     ],
     "purchases": [
@@ -804,9 +784,8 @@ const passengerData = {
       "Çok sıra var."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.gunluk-haberler.net",
-      "www.gezgin-rotalar.net"
+      "www.gezgin-rotalar.test",
+      "www.dijital-sayfalar.example"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -824,13 +803,12 @@ const passengerData = {
     "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "daniel.m@gmail.com",
-      "dmartinez@filmstudio.com"
+      "kaan_aslan@example.net"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_63608"
+        "platform": "OyunÇemberi",
+        "handle": "@kaan_aslan75"
       }
     ],
     "purchases": [
@@ -859,9 +837,8 @@ const passengerData = {
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.okulcantasi-dunyasi.biz",
-      "www.oyun-gemisi.xyz"
+      "www.bilim-ve-doga.example.net",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 10,
     "purchaseScore": 5,
@@ -879,13 +856,12 @@ const passengerData = {
     "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "evelyn.t@gmail.com",
-      "etaylor@marketing.com"
+      "busra_cetin@example.com"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_49584"
+        "platform": "KısaVideoApp",
+        "handle": "@busra_cetin59"
       }
     ],
     "purchases": [
@@ -914,9 +890,8 @@ const passengerData = {
       "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.dijital-sayfalar.info",
-      "www.oyun-gemisi.xyz",
-      "www.bilim-ve-doga.xyz"
+      "www.macera-oyunlari.example.org",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -934,12 +909,12 @@ const passengerData = {
     "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "will.thomas@gmail.com"
+      "arda_kaya@example.com"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_52402"
+        "platform": "KısaVideoApp",
+        "handle": "@arda_kaya1"
       }
     ],
     "purchases": [
@@ -968,9 +943,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.dijital-sayfalar.info",
-      "www.dijital-sayfalar.info"
+      "www.okulcantasi-dunyasi.example.com",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 15,
     "purchaseScore": 8,
@@ -988,13 +962,12 @@ const passengerData = {
     "hometown": "Trabzon",
     "passport": "Türkiye",
     "emails": [
-      "abigail.j@gmail.com",
-      "ajackson@auto.com"
+      "ayse_celik@example.net"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_24201"
+        "platform": "FotoKare",
+        "handle": "@ayse_celik52"
       }
     ],
     "purchases": [
@@ -1023,9 +996,8 @@ const passengerData = {
       "Seni bekliyorum."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.dijital-sayfalar.info",
-      "www.bilim-ve-doga.xyz"
+      "www.gunluk-haberler.example.net",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -1043,13 +1015,12 @@ const passengerData = {
     "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "alex.white@gmail.com",
-      "awhite@finance.com"
+      "tolga_celik@example.net"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_17481"
+        "platform": "FotoKare",
+        "handle": "@tolga_celik39"
       }
     ],
     "purchases": [
@@ -1078,9 +1049,8 @@ const passengerData = {
       "Seni bekliyorum."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.okulcantasi-dunyasi.biz",
-      "www.oyun-gemisi.xyz"
+      "www.oyun-gemisi.test",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 12,
     "purchaseScore": 6,
@@ -1098,13 +1068,12 @@ const passengerData = {
     "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "emily.h@gmail.com",
-      "eharris@nonprofit.org"
+      "buse_cetin@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_27285"
+        "platform": "FotoKare",
+        "handle": "@buse_cetin80"
       }
     ],
     "purchases": [
@@ -1133,9 +1102,8 @@ const passengerData = {
       "Gelince haber ver."
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.bilim-ve-doga.xyz",
-      "www.oyun-gemisi.xyz"
+      "www.gezgin-rotalar.test",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -1153,12 +1121,12 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "michael.clark@gmail.com"
+      "berke_kaya@example.org"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_52957"
+        "platform": "KısaVideoApp",
+        "handle": "@berke_kaya93"
       }
     ],
     "purchases": [
@@ -1187,9 +1155,8 @@ const passengerData = {
       "Uçağa biniyorum!"
     ],
     "websites": [
-      "www.bilim-ve-doga.xyz",
-      "www.bilim-ve-doga.xyz",
-      "www.sinema-perdesi.biz"
+      "www.oyun-gemisi.test",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 13,
     "purchaseScore": 7,
@@ -1207,13 +1174,12 @@ const passengerData = {
     "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "elizabeth.l@gmail.com",
-      "elewis@realestate.com"
+      "selin_celik@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_90423"
+        "platform": "KısaVideoApp",
+        "handle": "@selin_celik36"
       }
     ],
     "purchases": [
@@ -1242,9 +1208,8 @@ const passengerData = {
       "Çok sıra var."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.dijital-sayfalar.info",
-      "www.macera-oyunlari.biz"
+      "www.gunluk-haberler.example.net",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -1262,12 +1227,12 @@ const passengerData = {
     "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "david.r@gmail.com"
+      "berke_aslan@example.net"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_29592"
+        "platform": "FotoKare",
+        "handle": "@berke_aslan28"
       }
     ],
     "purchases": [
@@ -1296,9 +1261,8 @@ const passengerData = {
       "Uçağa biniyorum!"
     ],
     "websites": [
-      "www.macera-oyunlari.biz",
-      "www.oyun-gemisi.xyz",
-      "www.gunluk-haberler.net"
+      "www.gezgin-rotalar.test",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 14,
     "purchaseScore": 8,
@@ -1316,13 +1280,12 @@ const passengerData = {
     "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "sofia.walker@gmail.com",
-      "swalker@school.edu"
+      "irem_arslan@example.org"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_59311"
+        "platform": "FikirAğı",
+        "handle": "@irem_arslan89"
       }
     ],
     "purchases": [
@@ -1351,9 +1314,8 @@ const passengerData = {
       "Havaalanı çok kalabalık."
     ],
     "websites": [
-      "www.okulcantasi-dunyasi.biz",
-      "www.oyun-gemisi.xyz",
-      "www.sinema-perdesi.biz"
+      "www.oyun-gemisi.test",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -1371,13 +1333,12 @@ const passengerData = {
     "hometown": "Samsun",
     "passport": "Türkiye",
     "emails": [
-      "matt.hall@gmail.com",
-      "mhall@hospital.org"
+      "mehmet_dogan@example.net"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_75862"
+        "platform": "OyunÇemberi",
+        "handle": "@mehmet_dogan60"
       }
     ],
     "purchases": [
@@ -1406,9 +1367,8 @@ const passengerData = {
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.gunluk-haberler.net",
-      "www.gezgin-rotalar.net"
+      "www.bilim-ve-doga.example.net",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -1426,12 +1386,12 @@ const passengerData = {
     "hometown": "Trabzon",
     "passport": "Türkiye",
     "emails": [
-      "chloe.allen@gmail.com"
+      "defne_aslan@test"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_99199"
+        "platform": "OyunÇemberi",
+        "handle": "@defne_aslan87"
       }
     ],
     "purchases": [
@@ -1460,9 +1420,8 @@ const passengerData = {
       "Seni bekliyorum."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.bilim-ve-doga.xyz",
-      "www.dijital-sayfalar.info"
+      "www.gunluk-haberler.example.net",
+      "www.gunluk-haberler.example.net"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -1480,13 +1439,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "chris.young@gmail.com",
-      "cyoung@racing.com"
+      "kerem_celik@example.net"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_98456"
+        "platform": "FotoKare",
+        "handle": "@kerem_celik70"
       }
     ],
     "purchases": [
@@ -1515,9 +1473,8 @@ const passengerData = {
       "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.dijital-sayfalar.info",
-      "www.oyun-gemisi.xyz",
-      "www.sinema-perdesi.biz"
+      "www.macera-oyunlari.example.org",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -1535,13 +1492,12 @@ const passengerData = {
     "hometown": "Eskişehir",
     "passport": "Türkiye",
     "emails": [
-      "grace.king@gmail.com",
-      "gking@design.com"
+      "buse_demir@test"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_10116"
+        "platform": "KısaVideoApp",
+        "handle": "@buse_demir29"
       }
     ],
     "purchases": [
@@ -1570,9 +1526,8 @@ const passengerData = {
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.dijital-sayfalar.info",
-      "www.dijital-sayfalar.info",
-      "www.gezgin-rotalar.net"
+      "www.okulcantasi-dunyasi.example.com",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -1590,12 +1545,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "andrew.scott@gmail.com"
+      "kerem_cetin@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_39458"
+        "platform": "FotoKare",
+        "handle": "@kerem_cetin26"
       }
     ],
     "purchases": [
@@ -1624,9 +1579,8 @@ const passengerData = {
       "Yolculuk başlıyor!"
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.oyun-gemisi.xyz",
-      "www.gunluk-haberler.net"
+      "www.dijital-sayfalar.example",
+      "www.dijital-sayfalar.example"
     ],
     "baseScore": 10,
     "purchaseScore": 5,
@@ -1644,13 +1598,12 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "lily.green@gmail.com",
-      "lgreen@brewery.com"
+      "busra_yilmaz@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_10457"
+        "platform": "OyunÇemberi",
+        "handle": "@busra_yilmaz18"
       }
     ],
     "purchases": [
@@ -1679,9 +1632,8 @@ const passengerData = {
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.bilim-ve-doga.xyz",
-      "www.macera-oyunlari.biz",
-      "www.sinema-perdesi.biz"
+      "www.okulcantasi-dunyasi.example.com",
+      "www.dijital-sayfalar.example"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -1699,13 +1651,12 @@ const passengerData = {
     "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "josh.adams@gmail.com",
-      "jadams@music.com"
+      "kerem_yilmaz@example.com"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_93874"
+        "platform": "KısaVideoApp",
+        "handle": "@kerem_yilmaz52"
       }
     ],
     "purchases": [
@@ -1734,9 +1685,8 @@ const passengerData = {
       "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.sinema-perdesi.biz",
-      "www.gunluk-haberler.net"
+      "www.gezgin-rotalar.test",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -1754,13 +1704,12 @@ const passengerData = {
     "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "zoe.baker@gmail.com",
-      "zbaker@restaurant.com"
+      "eda_dogan@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_30600"
+        "platform": "FotoKare",
+        "handle": "@eda_dogan66"
       }
     ],
     "purchases": [
@@ -1789,9 +1738,8 @@ const passengerData = {
       "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.dijital-sayfalar.info",
-      "www.bilim-ve-doga.xyz"
+      "www.gunluk-haberler.example.net",
+      "www.dijital-sayfalar.example"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -1809,13 +1757,12 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "ryan.nelson@gmail.com",
-      "rnelson@startup.com"
+      "berke_cetin@test"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_73967"
+        "platform": "KısaVideoApp",
+        "handle": "@berke_cetin42"
       }
     ],
     "purchases": [
@@ -1844,9 +1791,8 @@ const passengerData = {
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.macera-oyunlari.biz",
-      "www.oyun-gemisi.xyz"
+      "www.gezgin-rotalar.test",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 12,
     "purchaseScore": 6,
@@ -1864,13 +1810,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "natalie.c@gmail.com",
-      "ncarter@bank.com"
+      "busra_sahin@test"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_85839"
+        "platform": "OyunÇemberi",
+        "handle": "@busra_sahin6"
       }
     ],
     "purchases": [
@@ -1899,9 +1844,8 @@ const passengerData = {
       "Yolculuk başlıyor!"
     ],
     "websites": [
-      "www.bilim-ve-doga.xyz",
-      "www.gunluk-haberler.net",
-      "www.okulcantasi-dunyasi.biz"
+      "www.macera-oyunlari.example.org",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -1919,13 +1863,12 @@ const passengerData = {
     "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "kevin.m@gmail.com",
-      "kmitchell@outdoors.com"
+      "baris_aydin@example.com"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_17322"
+        "platform": "FotoKare",
+        "handle": "@baris_aydin55"
       }
     ],
     "purchases": [
@@ -1954,9 +1897,8 @@ const passengerData = {
       "Gelince haber ver."
     ],
     "websites": [
-      "www.dijital-sayfalar.info",
-      "www.sinema-perdesi.biz",
-      "www.sinema-perdesi.biz"
+      "www.sinema-perdesi.example.com",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -1974,13 +1916,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "hannah.p@gmail.com",
-      "hphillips@tech.com"
+      "busra_arslan@example.org"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_88610"
+        "platform": "FikirAğı",
+        "handle": "@busra_arslan97"
       }
     ],
     "purchases": [
@@ -2009,9 +1950,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.macera-oyunlari.biz",
-      "www.gezgin-rotalar.net"
+      "www.oyun-gemisi.test",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -2029,12 +1969,12 @@ const passengerData = {
     "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "brandon.e@gmail.com"
+      "mehmet_celik@example.net"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_98639"
+        "platform": "OyunÇemberi",
+        "handle": "@mehmet_celik61"
       }
     ],
     "purchases": [
@@ -2063,9 +2003,8 @@ const passengerData = {
       "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.sinema-perdesi.biz",
-      "www.dijital-sayfalar.info"
+      "www.gunluk-haberler.example.net",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 16,
     "purchaseScore": 9,
@@ -2083,13 +2022,12 @@ const passengerData = {
     "hometown": "Antalya",
     "passport": "Türkiye",
     "emails": [
-      "victoria.c@gmail.com",
-      "vcampbell@law.com"
+      "defne_cetin@example.org"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_44360"
+        "platform": "OyunÇemberi",
+        "handle": "@defne_cetin61"
       }
     ],
     "purchases": [
@@ -2118,9 +2056,8 @@ const passengerData = {
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.sinema-perdesi.biz",
-      "www.sinema-perdesi.biz"
+      "www.dijital-sayfalar.example",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -2138,13 +2075,12 @@ const passengerData = {
     "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "tyler.parker@gmail.com",
-      "tparker@silicon.com"
+      "emre_dogan@example.org"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_82624"
+        "platform": "FotoKare",
+        "handle": "@emre_dogan37"
       }
     ],
     "purchases": [
@@ -2173,9 +2109,8 @@ const passengerData = {
       "Bileti bulamıyorum..."
     ],
     "websites": [
-      "www.dijital-sayfalar.info",
-      "www.gezgin-rotalar.net",
-      "www.sinema-perdesi.biz"
+      "www.okulcantasi-dunyasi.example.com",
+      "www.okulcantasi-dunyasi.example.com"
     ],
     "baseScore": 13,
     "purchaseScore": 7,
@@ -2193,12 +2128,12 @@ const passengerData = {
     "hometown": "Denizli",
     "passport": "Türkiye",
     "emails": [
-      "madison.m@gmail.com"
+      "melis_yildiz@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_72734"
+        "platform": "FikirAğı",
+        "handle": "@melis_yildiz43"
       }
     ],
     "purchases": [
@@ -2227,9 +2162,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.macera-oyunlari.biz",
-      "www.macera-oyunlari.biz",
-      "www.gunluk-haberler.net"
+      "www.gezgin-rotalar.test",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -2247,13 +2181,12 @@ const passengerData = {
     "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "jessica.r@gmail.com",
-      "jrivera@healthcare.com"
+      "asli_kaya@example.org"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_33544"
+        "platform": "KısaVideoApp",
+        "handle": "@asli_kaya75"
       }
     ],
     "purchases": [
@@ -2282,9 +2215,8 @@ const passengerData = {
       "Görüşürüz!"
     ],
     "websites": [
-      "www.macera-oyunlari.biz",
-      "www.dijital-sayfalar.info",
-      "www.sinema-perdesi.biz"
+      "www.sinema-perdesi.example.com",
+      "www.gunluk-haberler.example.net"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -2302,12 +2234,12 @@ const passengerData = {
     "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "jason.wright@gmail.com"
+      "mert_celik@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_71738"
+        "platform": "KısaVideoApp",
+        "handle": "@mert_celik50"
       }
     ],
     "purchases": [
@@ -2336,9 +2268,8 @@ const passengerData = {
       "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.gunluk-haberler.net",
-      "www.dijital-sayfalar.info"
+      "www.bilim-ve-doga.example.net",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 10,
     "purchaseScore": 5,
@@ -2356,13 +2287,12 @@ const passengerData = {
     "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "robert.t@gmail.com",
-      "rtorres@engineering.com"
+      "tolga_yildiz@test"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_33665"
+        "platform": "FikirAğı",
+        "handle": "@tolga_yildiz11"
       }
     ],
     "purchases": [
@@ -2391,9 +2321,8 @@ const passengerData = {
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.gunluk-haberler.net",
-      "www.bilim-ve-doga.xyz",
-      "www.gunluk-haberler.net"
+      "www.dijital-sayfalar.example",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 9,
     "purchaseScore": 4,
@@ -2411,13 +2340,12 @@ const passengerData = {
     "hometown": "Bursa",
     "passport": "Türkiye",
     "emails": [
-      "nicole.s@gmail.com",
-      "nstewart@insurance.com"
+      "asli_kara@example.net"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_31621"
+        "platform": "KısaVideoApp",
+        "handle": "@asli_kara29"
       }
     ],
     "purchases": [
@@ -2446,9 +2374,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.okulcantasi-dunyasi.biz",
-      "www.gezgin-rotalar.net"
+      "www.dijital-sayfalar.example",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 6,
     "purchaseScore": 2,
@@ -2466,12 +2393,12 @@ const passengerData = {
     "hometown": "İzmir",
     "passport": "Türkiye",
     "emails": [
-      "jennifer.c@gmail.com"
+      "buse_ozturk@example.org"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@uye_23487"
+        "platform": "FikirAğı",
+        "handle": "@buse_ozturk60"
       }
     ],
     "purchases": [
@@ -2500,9 +2427,8 @@ const passengerData = {
       "Pasaport kontrolündeyim."
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.gunluk-haberler.net",
-      "www.bilim-ve-doga.xyz"
+      "www.gunluk-haberler.example.net",
+      "www.oyun-gemisi.test"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -2520,13 +2446,12 @@ const passengerData = {
     "hometown": "Konya",
     "passport": "Türkiye",
     "emails": [
-      "steven.s@gmail.com",
-      "ssanchez@mining.com"
+      "deniz_demir@example.com"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_21066"
+        "platform": "FikirAğı",
+        "handle": "@deniz_demir18"
       }
     ],
     "purchases": [
@@ -2555,9 +2480,8 @@ const passengerData = {
       "Umarım türbülans olmaz."
     ],
     "websites": [
-      "www.okulcantasi-dunyasi.biz",
-      "www.gunluk-haberler.net",
-      "www.dijital-sayfalar.info"
+      "www.macera-oyunlari.example.org",
+      "www.bilim-ve-doga.example.net"
     ],
     "baseScore": 8,
     "purchaseScore": 4,
@@ -2575,13 +2499,12 @@ const passengerData = {
     "hometown": "Mersin",
     "passport": "Türkiye",
     "emails": [
-      "george.p@gmail.com",
-      "gpatterson@steel.com"
+      "can_kara@example.org"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_67251"
+        "platform": "FikirAğı",
+        "handle": "@can_kara77"
       }
     ],
     "purchases": [
@@ -2610,9 +2533,8 @@ const passengerData = {
       "Gelince haber ver."
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.gezgin-rotalar.net",
-      "www.dijital-sayfalar.info"
+      "www.dijital-sayfalar.example",
+      "www.sinema-perdesi.example.com"
     ],
     "baseScore": 11,
     "purchaseScore": 5,
@@ -2630,13 +2552,12 @@ const passengerData = {
     "hometown": "Ankara",
     "passport": "Türkiye",
     "emails": [
-      "alex.mercer@gmail.com",
-      "amercer@newsoutlet.com"
+      "can_demir@example.net"
     ],
     "socials": [
       {
-        "platform": "VideoGezgini",
-        "handle": "@kullanici_cnd"
+        "platform": "KısaVideoApp",
+        "handle": "@can_demir56"
       }
     ],
     "purchases": [
@@ -2665,9 +2586,8 @@ const passengerData = {
       "Planı unutma."
     ],
     "websites": [
-      "www.macera-oyunlari.biz",
-      "www.sinema-perdesi.biz",
-      "www.macera-oyunlari.biz"
+      "www.oyun-gemisi.test",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 42,
     "purchaseScore": 8,
@@ -2686,12 +2606,12 @@ const passengerData = {
     "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "karen.price@gmail.com"
+      "buse_aslan@test"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_96290"
+        "platform": "FotoKare",
+        "handle": "@buse_aslan51"
       }
     ],
     "purchases": [
@@ -2720,9 +2640,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.oyun-gemisi.xyz",
-      "www.gezgin-rotalar.net",
-      "www.macera-oyunlari.biz"
+      "www.gunluk-haberler.example.net",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 4,
     "purchaseScore": 1,
@@ -2740,13 +2659,12 @@ const passengerData = {
     "hometown": "Ankara",
     "passport": "Türkiye",
     "emails": [
-      "mark.foster@gmail.com",
-      "mfoster@accounting.com"
+      "burak_yilmaz@example.org"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_59474"
+        "platform": "FikirAğı",
+        "handle": "@burak_yilmaz14"
       }
     ],
     "purchases": [
@@ -2775,9 +2693,8 @@ const passengerData = {
       "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.okulcantasi-dunyasi.biz",
-      "www.okulcantasi-dunyasi.biz"
+      "www.macera-oyunlari.example.org",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 5,
     "purchaseScore": 2,
@@ -2795,12 +2712,12 @@ const passengerData = {
     "hometown": "Adana",
     "passport": "Türkiye",
     "emails": [
-      "patricia.m@gmail.com"
+      "selin_aslan@test"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_24512"
+        "platform": "OyunÇemberi",
+        "handle": "@selin_aslan52"
       }
     ],
     "purchases": [
@@ -2829,9 +2746,8 @@ const passengerData = {
       "Havaalanı çok kalabalık."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.gunluk-haberler.net",
-      "www.gezgin-rotalar.net"
+      "www.okulcantasi-dunyasi.example.com",
+      "www.macera-oyunlari.example.org"
     ],
     "baseScore": 3,
     "purchaseScore": 1,
@@ -2849,13 +2765,12 @@ const passengerData = {
     "hometown": "Eskişehir",
     "passport": "Türkiye",
     "emails": [
-      "richard.h@gmail.com",
-      "rhayes@music.com"
+      "emre_yilmaz@test"
     ],
     "socials": [
       {
-        "platform": "KısaMesaj",
-        "handle": "@uye_48829"
+        "platform": "FikirAğı",
+        "handle": "@emre_yilmaz8"
       }
     ],
     "purchases": [
@@ -2884,9 +2799,8 @@ const passengerData = {
       "Valizi teslim ettim."
     ],
     "websites": [
-      "www.gezgin-rotalar.net",
-      "www.macera-oyunlari.biz",
-      "www.bilim-ve-doga.xyz"
+      "www.gezgin-rotalar.test",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 7,
     "purchaseScore": 3,
@@ -2904,12 +2818,12 @@ const passengerData = {
     "hometown": "Trabzon",
     "passport": "Türkiye",
     "emails": [
-      "linda.r@gmail.com"
+      "nehir_cetin@example.com"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_26825"
+        "platform": "FotoKare",
+        "handle": "@nehir_cetin73"
       }
     ],
     "purchases": [
@@ -2938,9 +2852,8 @@ const passengerData = {
       "Biraz gecikebilirim."
     ],
     "websites": [
-      "www.sinema-perdesi.biz",
-      "www.gunluk-haberler.net",
-      "www.macera-oyunlari.biz"
+      "www.bilim-ve-doga.example.net",
+      "www.macera-oyunlari.example.org"
     ],
     "baseScore": 4,
     "purchaseScore": 2,
@@ -2958,12 +2871,12 @@ const passengerData = {
     "hometown": "Gaziantep",
     "passport": "Türkiye",
     "emails": [
-      "dorothy.h@gmail.com"
+      "nehir_celik@example.org"
     ],
     "socials": [
       {
-        "platform": "FotoAğı",
-        "handle": "@uye_83799"
+        "platform": "KısaVideoApp",
+        "handle": "@nehir_celik58"
       }
     ],
     "purchases": [
@@ -2992,9 +2905,8 @@ const passengerData = {
       "Seni bekliyorum."
     ],
     "websites": [
-      "www.bilim-ve-doga.xyz",
-      "www.bilim-ve-doga.xyz",
-      "www.macera-oyunlari.biz"
+      "www.bilim-ve-doga.example.net",
+      "www.gezgin-rotalar.test"
     ],
     "baseScore": 6,
     "purchaseScore": 3,

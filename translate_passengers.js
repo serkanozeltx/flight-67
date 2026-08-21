@@ -22,7 +22,16 @@ const texts = [
   "Dışarıda hava çok güzel.", "Umarım türbülans olmaz.", "Görüşürüz!",
   "Havaalanı çok kalabalık."
 ];
-const websites = ['www.okulcantasi-dunyasi.biz', 'www.bilim-ve-doga.xyz', 'www.gezgin-rotalar.net', 'www.dijital-sayfalar.info', 'www.macera-oyunlari.biz', 'www.gunluk-haberler.net', 'www.oyun-gemisi.xyz', 'www.sinema-perdesi.biz'];
+const websites = [
+  'www.okulcantasi-dunyasi.example.com',
+  'www.bilim-ve-doga.example.net',
+  'www.gezgin-rotalar.test',
+  'www.dijital-sayfalar.example',
+  'www.macera-oyunlari.example.org',
+  'www.gunluk-haberler.example.net',
+  'www.oyun-gemisi.test',
+  'www.sinema-perdesi.example.com'
+];
 
 function getRandomItem(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
@@ -129,7 +138,7 @@ Object.keys(passengerData).forEach(seat => {
     const first = isMale ? getRandomItem(trMaleNames) : getRandomItem(trFemaleNames);
     const last = getRandomItem(trSurnames);
     p.name = `${first} ${last}`;
-    p.socials = [{ platform: getRandomItem(['FotoAğı', 'VideoGezgini', 'KısaMesaj']), handle: `@uye_${Math.floor(Math.random() * 90000 + 10000)}` }];
+    p.socials = [{ platform: getRandomItem(['FotoKare', 'FikirAğı', 'KısaVideoApp', 'OyunÇemberi']), handle: `@uye_${Math.floor(Math.random() * 90000 + 10000)}` }];
     
     // Purchases (translate existing purchases)
     p.purchases = p.purchases.map(oldP => {
